@@ -1,0 +1,3326 @@
+{
+  "https://kmt.vander-lingen.nl/data/reaction/doi/10.1021/jacsau.4c01276/start/0": [
+    {
+      "reaction_page_link": "https://kmt.vander-lingen.nl/data/reaction/profile/4c6dc9f75848c01b386e4356ef4f8019",
+      "reaction_smiles": "C(C)(=O)OC\\C=C(/C)\\CC\\C=C(/C)\\CCC=C(C)C>ClCCl.C(C)(C)(C)OO.[Se](=O)=O.[O-]S(=O)(=S)[O-].[Na+].[Na+]>C(C)(=O)OC\\C=C(\\CC\\C=C(\\CC\\C=C(\\C=O)/C)/C)/C",
+      "molecules": [
+        {
+          "role": "reactant",
+          "smiles": "C(C)(=O)OC\\C=C(/C)\\CC\\C=C(/C)\\CCC=C(C)C",
+          "name": "(2E,6E)-Farnesyl Acetate"
+        },
+        {
+          "role": "solvent",
+          "smiles": "ClCCl",
+          "name": "dichloromethane"
+        },
+        {
+          "role": "oxidizing agent",
+          "smiles": "C(C)(C)(C)OO",
+          "name": "tert-butyl hydroperoxide"
+        },
+        {
+          "role": "reagent",
+          "smiles": "[Se](=O)=O",
+          "name": "selenium dioxide"
+        },
+        {
+          "role": "quench",
+          "smiles": "[O-]S(=O)(=S)[O-].[Na+].[Na+]",
+          "name": "sodium thiosulfate"
+        },
+        {
+          "role": "product",
+          "smiles": "C(C)(=O)OC\\C=C(\\CC\\C=C(\\CC\\C=C(\\C=O)/C)/C)/C",
+          "name": "(2E,6E,10E)-12-oxo-3,7,11-trimethyldodeca-2,6,10-trien-1-yl acetate"
+        }
+      ]
+    },
+    {
+      "reaction_page_link": "https://kmt.vander-lingen.nl/data/reaction/profile/bdd4a1e5f509dbac291ee6f77bf3a955",
+      "reaction_smiles": "C(C)(=O)OC\\C=C(\\CC\\C=C(\\CC\\C=C(\\C=O)/C)/C)/C>CO[H].[Na+].[BH4-]>C(C)(=O)OC\\C=C(\\CC\\C=C(\\CC\\C=C(\\CO)/C)/C)/C",
+      "molecules": [
+        {
+          "role": "reactant",
+          "smiles": "C(C)(=O)OC\\C=C(\\CC\\C=C(\\CC\\C=C(\\C=O)/C)/C)/C",
+          "name": "(2E,6E,10E)-12-oxo-3,7,11-trimethyldodeca-2,6,10-trien-1-yl acetate"
+        },
+        {
+          "role": "solvent",
+          "smiles": "CO[H]",
+          "name": "methanol"
+        },
+        {
+          "role": "reducing agent",
+          "smiles": "[Na+].[BH4-]",
+          "name": "sodium borohydride"
+        },
+        {
+          "role": "product",
+          "smiles": "C(C)(=O)OC\\C=C(\\CC\\C=C(\\CC\\C=C(\\CO)/C)/C)/C",
+          "name": "(2E,6E,10E)-12-Hydroxy-3,7,11-trimethyldodeca-2,6,10-trien-1-yl acetate"
+        }
+      ]
+    },
+    {
+      "reaction_page_link": "https://kmt.vander-lingen.nl/data/reaction/profile/d6af14307ac9a657751becf37f7c7569",
+      "reaction_smiles": "C(C)(=O)OC\\C=C(\\CC\\C=C(\\CC\\C=C(\\CO)/C)/C)/C>ClCCl.ClC=1C=C(C(=O)OO)C=CC1.C(O)([O-])=O.[Na+]>C(C)(=O)OC\\C=C(\\CC\\C=C(\\CCC1OC1(C)CO)/C)/C",
+      "molecules": [
+        {
+          "role": "reactant",
+          "smiles": "C(C)(=O)OC\\C=C(\\CC\\C=C(\\CC\\C=C(\\CO)/C)/C)/C",
+          "name": "(2E,6E,10E)-12-Hydroxy-3,7,11-trimethyldodeca-2,6,10-trien-1-yl acetate"
+        },
+        {
+          "role": "solvent",
+          "smiles": "ClCCl",
+          "name": "dichloromethane"
+        },
+        {
+          "role": "oxidizing agent",
+          "smiles": "ClC=1C=C(C(=O)OO)C=CC1",
+          "name": "meta-chloroperoxybenzoic acid"
+        },
+        {
+          "role": "quench",
+          "smiles": "C(O)([O-])=O.[Na+]",
+          "name": "sodium hydrogen carbonate"
+        },
+        {
+          "role": "product",
+          "smiles": "C(C)(=O)OC\\C=C(\\CC\\C=C(\\CCC1OC1(C)CO)/C)/C",
+          "name": "(2E,6E)-9-(3-(Hydroxymethyl)-3-methyloxiran-2-yl)-3,7-dimethylnona-2,6-dien-1-yl acetate"
+        }
+      ]
+    },
+    {
+      "reaction_page_link": "https://kmt.vander-lingen.nl/data/reaction/profile/7492b8e3c3f2b9f21ea192d6b1df603c",
+      "reaction_smiles": "C(C1=CC=CC=C1)(=O)Cl.C(C)(=O)OC\\C=C(\\CC\\C=C(\\CC[C@@H]1O[C@@]1(C)CO)/C)/C>C1(=CC=NC=C1)N(C)C.ClCCl.CCN(CC)CC>C(C1=CC=CC=C1)(=O)OC[C@@]1(O[C@H]1CC\\C(=C\\CC\\C(=C\\COC(C)=O)\\C)\\C)C",
+      "molecules": [
+        {
+          "role": "reactant",
+          "smiles": "C(C)(=O)OC\\C=C(\\CC\\C=C(\\CC[C@@H]1O[C@@]1(C)CO)/C)/C",
+          "name": "(2E,6E)-9-((2S,3S)-3-(Hydroxymethyl)-3-methyloxiran-2-yl)-3,7-dimethylnona-2,6-dien-1-yl acetate"
+        },
+        {
+          "role": "catalyst",
+          "smiles": "C1(=CC=NC=C1)N(C)C",
+          "name": "4-dimethylaminopyridine"
+        },
+        {
+          "role": "solvent",
+          "smiles": "ClCCl",
+          "name": "dichloromethane"
+        },
+        {
+          "role": "base",
+          "smiles": "CCN(CC)CC",
+          "name": "triethylamine"
+        },
+        {
+          "role": "building block",
+          "smiles": "C(C1=CC=CC=C1)(=O)Cl",
+          "name": "benzoyl chloride"
+        },
+        {
+          "role": "product",
+          "smiles": "C(C1=CC=CC=C1)(=O)OC[C@@]1(O[C@H]1CC\\C(=C\\CC\\C(=C\\COC(C)=O)\\C)\\C)C",
+          "name": "((2S,3S)-3-((3E,7E)-9-Acetoxy-3,7-dimethylnona-3,7-dien-1-yl)-2-methyloxiran-2-yl)methyl benzoate"
+        }
+      ]
+    },
+    {
+      "reaction_page_link": "https://kmt.vander-lingen.nl/data/reaction/profile/c771722dd1fb3f306669bd9d15601987",
+      "reaction_smiles": "C(C)(=O)OC\\C=C(\\CC\\C=C(\\CC[C@@H]1O[C@@]1(C)CO)/C)/C>ClCCl.C(C)(=O)OI1(OC(C2=C1C=CC=C2)=O)(OC(C)=O)OC(C)=O>C(C)(=O)OC\\C=C(\\CC\\C=C(\\CC[C@@H]1O[C@]1(C)C=O)/C)/C",
+      "molecules": [
+        {
+          "role": "reactant",
+          "smiles": "C(C)(=O)OC\\C=C(\\CC\\C=C(\\CC[C@@H]1O[C@@]1(C)CO)/C)/C",
+          "name": "(2E,6E)-9-((2S,3S)-3-(Hydroxymethyl)-3-methyloxiran-2-yl)-3,7-dimethylnona-2,6-dien-1-yl acetate"
+        },
+        {
+          "role": "solvent",
+          "smiles": "ClCCl",
+          "name": "dichloromethane"
+        },
+        {
+          "role": "oxidizing agent",
+          "smiles": "C(C)(=O)OI1(OC(C2=C1C=CC=C2)=O)(OC(C)=O)OC(C)=O",
+          "name": "3-Oxo-1,3-dihydro-1λ5,2-benziodoxole-1,1,1-triyl triacetate"
+        },
+        {
+          "role": "product",
+          "smiles": "C(C)(=O)OC\\C=C(\\CC\\C=C(\\CC[C@@H]1O[C@]1(C)C=O)/C)/C",
+          "name": "(2E,6E)-9-((2S,3S)-3-(oxomethyl)-3-methyloxiran-2-yl)-3,7-dimethylnona-2,6-dien-1-yl acetate"
+        }
+      ]
+    },
+    {
+      "reaction_page_link": "https://kmt.vander-lingen.nl/data/reaction/profile/cc23e4631d50c7edc0c349109253f70a",
+      "reaction_smiles": "C(C)(=O)OC\\C=C(\\CC\\C=C(\\CC[C@@H]1O[C@]1(C)C=O)/C)/C>O.C1CCCO1.CC(C)(C)O.Cl(=O)[O-].[Na+].CC(C)=CC>C(C)(=O)OC\\C=C(\\CC\\C=C(\\CC[C@@H]1O[C@]1(C)C(=O)O)/C)/C",
+      "molecules": [
+        {
+          "role": "reactant",
+          "smiles": "C(C)(=O)OC\\C=C(\\CC\\C=C(\\CC[C@@H]1O[C@]1(C)C=O)/C)/C",
+          "name": "(2E,6E)-9-((2S,3S)-3-(oxomethyl)-3-methyloxiran-2-yl)-3,7-dimethylnona-2,6-dien-1-yl acetate"
+        },
+        {
+          "role": "solvent",
+          "smiles": "O",
+          "name": "water"
+        },
+        {
+          "role": "solvent",
+          "smiles": "C1CCCO1",
+          "name": "tetrahydrofuran"
+        },
+        {
+          "role": "solvent",
+          "smiles": "CC(C)(C)O",
+          "name": "tert-Butyl alcohol"
+        },
+        {
+          "role": "oxidizing agent",
+          "smiles": "Cl(=O)[O-].[Na+]",
+          "name": "sodium chlorite"
+        },
+        {
+          "role": "reagent",
+          "smiles": "CC(C)=CC",
+          "name": "2-methylbut-2-ene"
+        },
+        {
+          "role": "buffer",
+          "smiles": "P(=O)(O)(O)[O-].[K+]",
+          "name": "monopotassium phosphate"
+        },
+        {
+          "role": "product",
+          "smiles": "C(C)(=O)OC\\C=C(\\CC\\C=C(\\CC[C@@H]1O[C@]1(C)C(=O)O)/C)/C",
+          "name": "(2E,6E)-9-((2S,3S)-3-(hydroxyoxomethyl)-3-methyloxiran-2-yl)-3,7-dimethylnona-2,6-dien-1-yl acetate"
+        }
+      ]
+    },
+    {
+      "reaction_page_link": "https://kmt.vander-lingen.nl/data/reaction/profile/d2a7624757841db6e86256f09356c828",
+      "reaction_smiles": "S(=O)(=O)(OC)OC.C(C)(=O)OC\\C=C(\\CC\\C=C(\\CC[C@@H]1O[C@]1(C)C(=O)O)/C)/C>C([O-])([O-])=O.[K+].[K+].CC(=O)C>C(C)(=O)OC/C=C(/CC/C=C(/CC[C@H]1[C@@](O1)(C(=O)OC)C)\\C)\\C",
+      "molecules": [
+        {
+          "role": "C1 synthon",
+          "smiles": "S(=O)(=O)(OC)OC",
+          "name": "dimethyl sulfate"
+        },
+        {
+          "role": "reactant",
+          "smiles": "C(C)(=O)OC\\C=C(\\CC\\C=C(\\CC[C@@H]1O[C@]1(C)C(=O)O)/C)/C",
+          "name": "(2E,6E)-9-((2S,3S)-3-(hydroxyoxomethyl)-3-methyloxiran-2-yl)-3,7-dimethylnona-2,6-dien-1-yl acetate"
+        },
+        {
+          "role": "base",
+          "smiles": "C([O-])([O-])=O.[K+].[K+]",
+          "name": "potassium carbonate"
+        },
+        {
+          "role": "solvent",
+          "smiles": "CC(=O)C",
+          "name": "acetone"
+        },
+        {
+          "role": "product",
+          "smiles": "C(C)(=O)OC/C=C(/CC/C=C(/CC[C@H]1[C@@](O1)(C(=O)OC)C)\\C)\\C",
+          "name": "methyl (2R,3S)-3-((3E,7E)-9-acetoxy-3,7-dimethylnona-3,7-dien-1-yl)-2-methyloxirane-2-carboxylate"
+        }
+      ]
+    },
+    {
+      "reaction_page_link": "https://kmt.vander-lingen.nl/data/reaction/profile/41a703446cf2b050807560d37510b81f",
+      "reaction_smiles": "C[Si](C)(C)Cl.C(C)(=O)OC/C=C(/CC/C=C(/CC[C@H]1[C@@](O1)(C(=O)OC)C)\\C)\\C>C1CCCO1.Cl.N1=C(C=C(C=C1C)C)C.[cH-]1cccc1.[cH-]1cccc1.Cl[Ti+2]Cl.[Mn]>C(C)(=O)OC[C@@H]1[C@]2(CC[C@@H]([C@]([C@@H]2CCC1=C)(C(=O)OC)C)O)C",
+      "molecules": [
+        {
+          "role": "reactant",
+          "smiles": "C(C)(=O)OC/C=C(/CC/C=C(/CC[C@H]1[C@@](O1)(C(=O)OC)C)\\C)\\C",
+          "name": "methyl (2R,3S)-3-((3E,7E)-9-acetoxy-3,7-dimethylnona-3,7-dien-1-yl)-2-methyloxirane-2-carboxylate"
+        },
+        {
+          "role": "solvent",
+          "smiles": "C1CCCO1",
+          "name": "tetrahydrofuran"
+        },
+        {
+          "role": "quench",
+          "smiles": "Cl",
+          "name": "hydrogen chloride"
+        },
+        {
+          "role": "protective group reagent",
+          "smiles": "C[Si](C)(C)Cl",
+          "name": "Trimethylsilyl chloride"
+        },
+        {
+          "role": "non-nucleophilic base",
+          "smiles": "N1=C(C=C(C=C1C)C)C",
+          "name": "2,4,6-Trimethylpyridine"
+        },
+        {
+          "role": "element",
+          "smiles": "[Mn]",
+          "name": "manganese"
+        },
+        {
+          "role": "catalyst",
+          "smiles": "[Cl-].C1(C=CC=C1)[Ti+2]C1C=CC=C1.[Cl-]",
+          "name": "bis(cyclopentadienyl)titanium chloride"
+        },
+        {
+          "role": "product",
+          "smiles": "C(C)(=O)OC[C@@H]1[C@]2(CC[C@@H]([C@]([C@@H]2CCC1=C)(C(=O)OC)C)O)C",
+          "name": "methyl (1S,2S,4aS,5S,8aR)-5-(acetoxymethyl)-2-hydroxy-1,4a-dimethyl-6-methylenedecahydronaphthalene-1-carboxylate"
+        }
+      ]
+    },
+    {
+      "reaction_page_link": "https://kmt.vander-lingen.nl/data/reaction/profile/4f53d9bebe89fa37f05852cc4b386e87",
+      "reaction_smiles": "C(C)(=O)OC[C@@H]2[C@]1(CC[C@@H]([C@]([C@@H]1CCC2=C)(C(=O)[O-])C)OC(=S)S[Na])C>C1(=CC=CC=C1)C.CC(C)(C#N)/N=N/C(C)(C)C#N.C(CCC)[SnH](CCCC)CCCC>C(C)(=O)OC[C@@H]1[C@]2(CCC[C@]([C@@H]2CCC1=C)(C(=O)OC)C)C",
+      "molecules": [
+        {
+          "role": "reactant",
+          "smiles": "C(C)(=O)OC[C@@H]2[C@]1(CC[C@@H]([C@]([C@@H]1CCC2=C)(C(=O)[O-])C)OC(=S)S[Na])C",
+          "name": "WWARLXVILQHNCE-GDLXNQLUSA-L"
+        },
+        {
+          "role": "solvent",
+          "smiles": "C1(=CC=CC=C1)C",
+          "name": "toluene"
+        },
+        {
+          "role": "radical initiator",
+          "smiles": "CC(C)(C#N)/N=N/C(C)(C)C#N",
+          "name": "Azobisisobutyronitrile"
+        },
+        {
+          "role": "reagent",
+          "smiles": "C(CCC)[SnH](CCCC)CCCC",
+          "name": "tri-n-butyltin hydride"
+        },
+        {
+          "role": "product",
+          "smiles": "C(C)(=O)OC[C@@H]1[C@]2(CCC[C@]([C@@H]2CCC1=C)(C(=O)OC)C)C",
+          "name": "methyl (1R,4aS,5S,8aR)-5-(acetoxymethyl)-1,4a-dimethyl-6-methylenedecahydronaphthalene-1-carboxylate"
+        }
+      ]
+    },
+    {
+      "reaction_page_link": "https://kmt.vander-lingen.nl/data/reaction/profile/72f4e27f2e8a3b51ae9cd9a6493f381b",
+      "reaction_smiles": "C(C)(=O)OC[C@@H]1[C@]2(CCC[C@]([C@@H]2CCC1=C)(C(=O)OC)C)C>C(Cl)(Cl)(Cl)[H].CO[H].C([O-])([O-])=O.[K+].[K+]>OC[C@@H]1[C@]2(CCC[C@]([C@@H]2CCC1=C)(C(=O)OC)C)C",
+      "molecules": [
+        {
+          "role": "reactant",
+          "smiles": "C(C)(=O)OC[C@@H]1[C@]2(CCC[C@]([C@@H]2CCC1=C)(C(=O)OC)C)C",
+          "name": "methyl (1R,4aS,5S,8aR)-5-(acetoxymethyl)-1,4a-dimethyl-6-methylenedecahydronaphthalene-1-carboxylate"
+        },
+        {
+          "role": "solvent",
+          "smiles": "C(Cl)(Cl)(Cl)[H]",
+          "name": "chloroform"
+        },
+        {
+          "role": "solvent",
+          "smiles": "CO[H]",
+          "name": "methanol"
+        },
+        {
+          "role": "base",
+          "smiles": "C([O-])([O-])=O.[K+].[K+]",
+          "name": "potassium carbonate"
+        },
+        {
+          "role": "product",
+          "smiles": "OC[C@@H]1[C@]2(CCC[C@]([C@@H]2CCC1=C)(C(=O)OC)C)C",
+          "name": "methyl (1R,4aS,5S,8aR)-5-(hydroxymethyl)-1,4a-dimethyl-6-methylenedecahydronaphthalene-1-carboxylate"
+        }
+      ]
+    },
+    {
+      "reaction_page_link": "https://kmt.vander-lingen.nl/data/reaction/profile/09deb73e7229f9ea29e8697340dd9848",
+      "reaction_smiles": "OC[C@@H]1[C@]2(CCC[C@]([C@@H]2CCC1=C)(C(=O)OC)C)C>ClCCl.C(C)(=O)OI1(OC(C2=C1C=CC=C2)=O)(OC(C)=O)OC(C)=O.C(O)([O-])=O.[Na+]>O=C[C@@H]1[C@]2(CCC[C@]([C@@H]2CCC1=C)(C(=O)OC)C)C",
+      "molecules": [
+        {
+          "role": "reactant",
+          "smiles": "OC[C@@H]1[C@]2(CCC[C@]([C@@H]2CCC1=C)(C(=O)OC)C)C",
+          "name": "methyl (1R,4aS,5S,8aR)-5-(hydroxymethyl)-1,4a-dimethyl-6-methylenedecahydronaphthalene-1-carboxylate"
+        },
+        {
+          "role": "solvent",
+          "smiles": "ClCCl",
+          "name": "dichloromethane"
+        },
+        {
+          "role": "oxidizing agent",
+          "smiles": "C(C)(=O)OI1(OC(C2=C1C=CC=C2)=O)(OC(C)=O)OC(C)=O",
+          "name": "3-Oxo-1,3-dihydro-1λ5,2-benziodoxole-1,1,1-triyl triacetate"
+        },
+        {
+          "role": "quench",
+          "smiles": "C(O)([O-])=O.[Na+]",
+          "name": "sodium hydrogen carbonate"
+        },
+        {
+          "role": "product",
+          "smiles": "O=C[C@@H]1[C@]2(CCC[C@]([C@@H]2CCC1=C)(C(=O)OC)C)C",
+          "name": "methyl (1R,4aS,5S,8aR)-5-(oxomethyl)-1,4a-dimethyl-6-methylenedecahydronaphthalene-1-carboxylate"
+        }
+      ]
+    },
+    {
+      "reaction_page_link": "https://kmt.vander-lingen.nl/data/reaction/profile/1766d1b54f4f9eebfc426ee76556c6de",
+      "reaction_smiles": "[Cl-].COC[P+](C1=CC=CC=C1)(C1=CC=CC=C1)C1=CC=CC=C1.O=C[C@@H]1[C@]2(CCC[C@]([C@@H]2CCC1=C)(C(=O)OC)C)C>C1CCCO1.Cl.C[Si](C)(C)[N-][Si](C)(C)C.[Li+]>C[C@]1(CCC[C@@]2([C@H](C(CC[C@@H]12)=C)CC=O)C)C(=O)OC",
+      "molecules": [
+        {
+          "role": "reactant",
+          "smiles": "[Cl-].COC[P+](C1=CC=CC=C1)(C1=CC=CC=C1)C1=CC=CC=C1",
+          "name": "(methoxymethyl)triphenylphosphonium chloride"
+        },
+        {
+          "role": "reactant",
+          "smiles": "O=C[C@@H]1[C@]2(CCC[C@]([C@@H]2CCC1=C)(C(=O)OC)C)C",
+          "name": "methyl (1R,4aS,5S,8aR)-5-(oxomethyl)-1,4a-dimethyl-6-methylenedecahydronaphthalene-1-carboxylate"
+        },
+        {
+          "role": "solvent",
+          "smiles": "C1CCCO1",
+          "name": "tetrahydrofuran"
+        },
+        {
+          "role": "quench",
+          "smiles": "Cl",
+          "name": "hydrogen chloride"
+        },
+        {
+          "role": "non-nucleophilic base",
+          "smiles": "C[Si](C)(C)[N-][Si](C)(C)C.[Li+]",
+          "name": "lithium bis(trimethylsilyl)amide"
+        },
+        {
+          "role": "product",
+          "smiles": "C[C@]1(CCC[C@@]2([C@H](C(CC[C@@H]12)=C)CC=O)C)C(=O)OC",
+          "name": "methyl (1R,4aR,5S,8aR)-1,4a-dimethyl-6-methylene-5-(2-oxoethyl)decahydronaphthalene-1-carboxylate"
+        }
+      ]
+    },
+    {
+      "reaction_page_link": "https://kmt.vander-lingen.nl/data/reaction/profile/9b54a2465c6ce18e76f8402e546841c0",
+      "reaction_smiles": "C1(=CC=CC=C1)P(=C(C=O)C)(C1=CC=CC=C1)C1=CC=CC=C1.C[C@]1(CCC[C@@]2([C@H](C(CC[C@@H]12)=C)CC=O)C)C(=O)OC>C1(=CC=CC=C1)C>C[C@]1(CCC[C@@]2([C@H](C(CC[C@@H]12)=C)C\\C=C(\\C=O)/C)C)C(=O)OC",
+      "molecules": [
+        {
+          "role": "reactant",
+          "smiles": "C1(=CC=CC=C1)P(=C(C=O)C)(C1=CC=CC=C1)C1=CC=CC=C1",
+          "name": "2-(triphenylphosphoranylidene)propionaldehyde"
+        },
+        {
+          "role": "reactant",
+          "smiles": "C[C@]1(CCC[C@@]2([C@H](C(CC[C@@H]12)=C)CC=O)C)C(=O)OC",
+          "name": "methyl (1R,4aR,5S,8aR)-1,4a-dimethyl-6-methylene-5-(2-oxoethyl)decahydronaphthalene-1-carboxylate"
+        },
+        {
+          "role": "solvent",
+          "smiles": "C1(=CC=CC=C1)C",
+          "name": "toluene"
+        },
+        {
+          "role": "product",
+          "smiles": "C[C@]1(CCC[C@@]2([C@H](C(CC[C@@H]12)=C)C\\C=C(\\C=O)/C)C)C(=O)OC",
+          "name": "methyl (1R,4aR,5S,8aR)-1,4a-dimethyl-5-((E)-3-methyl-4-oxobut-2-en-1-yl)-6-methylenedecahydronaphthalene-1-carboxylate"
+        }
+      ]
+    },
+    {
+      "reaction_page_link": "https://kmt.vander-lingen.nl/data/reaction/profile/ed75874bf5d2a30bce3d5f54ef5aa9ac",
+      "reaction_smiles": "[Br-].C[P+](C1=CC=CC=C1)(C1=CC=CC=C1)C1=CC=CC=C1.C[C@]1(CCC[C@@]2([C@H](C(CC[C@@H]12)=C)C\\C=C(\\C=O)/C)C)C(=O)OC>CC(C)(C)[O-].[K+].C1CCCO1.[Cl-].[NH4+]>COC(=O)[C@@]1(CCC[C@@]2([C@H](C(CC[C@@H]12)=C)C\\C=C(\\C=C)/C)C)C",
+      "molecules": [
+        {
+          "role": "C1 synthon",
+          "smiles": "[Br-].C[P+](C1=CC=CC=C1)(C1=CC=CC=C1)C1=CC=CC=C1",
+          "name": "methyltriphenylphosphonium bromide"
+        },
+        {
+          "role": "reactant",
+          "smiles": "C[C@]1(CCC[C@@]2([C@H](C(CC[C@@H]12)=C)C\\C=C(\\C=O)/C)C)C(=O)OC",
+          "name": "methyl (1R,4aR,5S,8aR)-1,4a-dimethyl-5-((E)-3-methyl-4-oxobut-2-en-1-yl)-6-methylenedecahydronaphthalene-1-carboxylate"
+        },
+        {
+          "role": "non-nucleophilic base",
+          "smiles": "CC(C)(C)[O-].[K+]",
+          "name": "potassium tert-butoxide"
+        },
+        {
+          "role": "solvent",
+          "smiles": "C1CCCO1",
+          "name": "tetrahydrofuran"
+        },
+        {
+          "role": "quench",
+          "smiles": "[Cl-].[NH4+]",
+          "name": "ammonium chloride"
+        },
+        {
+          "role": "product",
+          "smiles": "COC(=O)[C@@]1(CCC[C@@]2([C@H](C(CC[C@@H]12)=C)C\\C=C(\\C=C)/C)C)C",
+          "name": "(1R,4aR,5S,8aR)-1,4a-Dimethyl-6-methylene-5-[(2E)-3-methyl-2,4-pentadien-1-yl]decahydro-1-naphthalenecarboxylic acid methyl ester"
+        }
+      ]
+    },
+    {
+      "reaction_page_link": "https://kmt.vander-lingen.nl/data/reaction/profile/97a3c4296365fd622aa65acd68218a80",
+      "reaction_smiles": "C(C)(C)C=1C(=CC=C(C1OC)OC)OC>ClCCl.C1(=CC=C(C=C1)S(=O)(=O)O)C.IN1C(CCC1=O)=O.[O-]S(=O)(=S)[O-].[Na+].[Na+]>IC1=C(C(=C(C(=C1)OC)OC)C(C)C)OC",
+      "molecules": [
+        {
+          "role": "reactant",
+          "smiles": "C(C)(C)C=1C(=CC=C(C1OC)OC)OC",
+          "name": "3-isopropyl-2,4,5-trimethoxybenzene"
+        },
+        {
+          "role": "solvent",
+          "smiles": "ClCCl",
+          "name": "dichloromethane"
+        },
+        {
+          "role": "catalyst",
+          "smiles": "C1(=CC=C(C=C1)S(=O)(=O)O)C",
+          "name": "p-toluenesulfonic acid"
+        },
+        {
+          "role": "halogenation reagent",
+          "smiles": "IN1C(CCC1=O)=O",
+          "name": "N-iodosuccinimide"
+        },
+        {
+          "role": "quench",
+          "smiles": "[O-]S(=O)(=S)[O-].[Na+].[Na+]",
+          "name": "sodium thiosulfate"
+        },
+        {
+          "role": "product",
+          "smiles": "IC1=C(C(=C(C(=C1)OC)OC)C(C)C)OC",
+          "name": "1-Iodo-3-isopropyl-2,4,5-trimethoxybenzene"
+        }
+      ]
+    },
+    {
+      "reaction_page_link": "https://kmt.vander-lingen.nl/data/reaction/profile/4d28c56776eb4d94565a6ef0fe49d653",
+      "reaction_smiles": "C(C1=CC=CC=C1)OC[C@@]1(O[C@H]1CC\\C(=C\\C=C)\\C)C.IC1=C(C(=C(C(=C1)OC)OC)C(C)C)OC>C1CCCO1.[OH-].[Na+].B1C2CCCC1CCC2.ClCCl.[Pd](Cl)Cl.C1(=CC=CC=C1)P(C1=CC=CC=C1)[C-]1C=CC=C1.[CH-]1C=CC=C1.[Fe+2].C1(=CC=CC=C1)P(C1=CC=CC=C1)[C-]1C=CC=C1.[CH-]1C=CC=C1.[Fe+2]>C(C1=CC=CC=C1)OC[C@@]1(O[C@H]1CC\\C(=C\\CCC1=C(C(=C(C(=C1)OC)OC)C(C)C)OC)\\C)C",
+      "molecules": [
+        {
+          "role": "reactant",
+          "smiles": "C(C1=CC=CC=C1)OC[C@@]1(O[C@H]1CC\\C(=C\\C=C)\\C)C",
+          "name": "(2S,3S)-2-((Benzyloxy)methyl)-2-methyl-3-((E)-3-methylhexa-3,5-dien-1-yl)oxirane"
+        },
+        {
+          "role": "reactant",
+          "smiles": "IC1=C(C(=C(C(=C1)OC)OC)C(C)C)OC",
+          "name": "1-Iodo-3-isopropyl-2,4,5-trimethoxybenzene"
+        },
+        {
+          "role": "solvent",
+          "smiles": "C1CCCO1",
+          "name": "tetrahydrofuran"
+        },
+        {
+          "role": "base",
+          "smiles": "[OH-].[Na+]",
+          "name": "sodium hydroxide"
+        },
+        {
+          "role": "reagent",
+          "smiles": "B1C2CCCC1CCC2",
+          "name": "9-borabicyclo[3.3.1]nonane"
+        },
+        {
+          "role": "catalyst",
+          "smiles": "ClCCl.[Pd](Cl)Cl.C1(=CC=CC=C1)P(C1=CC=CC=C1)[C-]1C=CC=C1.[CH-]1C=CC=C1.[Fe+2].C1(=CC=CC=C1)P(C1=CC=CC=C1)[C-]1C=CC=C1.[CH-]1C=CC=C1.[Fe+2]",
+          "name": "bis-(diphenylphosphinoferrocene) palladium dichloride dichloromethane"
+        },
+        {
+          "role": "product",
+          "smiles": "C(C1=CC=CC=C1)OC[C@@]1(O[C@H]1CC\\C(=C\\CCC1=C(C(=C(C(=C1)OC)OC)C(C)C)OC)\\C)C",
+          "name": "(2S,3S)-2-((Benzyloxy)methyl)-3-((E)-6-(3-isopropyl-2,4,5-trimethoxyphenyl)-3-methylhex-3-en-1-yl)-2-methyloxirane"
+        }
+      ]
+    },
+    {
+      "reaction_page_link": "https://kmt.vander-lingen.nl/data/reaction/profile/84bbc5faa4ecea46c820442b89eff562",
+      "reaction_smiles": "C(C1=CC=CC=C1)OC[C@@]1(O[C@H]1CC\\C(=C\\CCC1=C(C(=C(C(=C1)OC)OC)C(C)C)OC)\\C)C>ClCCl.C(O)([O-])=O.[Na+].B(F)(F)F.CCOCC>C(C1=CC=CC=C1)OC[C@@]1([C@H](CC[C@@]2(C3=C(C(=C(C(=C3CC[C@@H]12)OC)C(C)C)OC)OC)C)O)C.C(C1=CC=CC=C1)OC[C@@]1([C@H](CCC(=C1CCC1=C(C(=C(C(=C1)OC)OC)C(C)C)OC)C)O)C",
+      "molecules": [
+        {
+          "role": "reactant",
+          "smiles": "C(C1=CC=CC=C1)OC[C@@]1(O[C@H]1CC\\C(=C\\CCC1=C(C(=C(C(=C1)OC)OC)C(C)C)OC)\\C)C",
+          "name": "(2S,3S)-2-((Benzyloxy)methyl)-3-((E)-6-(3-isopropyl-2,4,5-trimethoxyphenyl)-3-methylhex-3-en-1-yl)-2-methyloxirane"
+        },
+        {
+          "role": "solvent",
+          "smiles": "ClCCl",
+          "name": "dichloromethane"
+        },
+        {
+          "role": "quench",
+          "smiles": "C(O)([O-])=O.[Na+]",
+          "name": "sodium hydrogen carbonate"
+        },
+        {
+          "role": "reagent",
+          "smiles": "B(F)(F)F.CCOCC",
+          "name": "boron trifluoride diethyl etherate"
+        },
+        {
+          "role": "product",
+          "smiles": "C(C1=CC=CC=C1)OC[C@@]1([C@H](CC[C@@]2(C3=C(C(=C(C(=C3CC[C@@H]12)OC)C(C)C)OC)OC)C)O)C",
+          "name": "(1R,2S,4aS,10aR)-1-((Benzyloxy)methyl)-7-isopropyl-5,6,8-trimethoxy-1,4a-dimethyl-1,2,3,4,4a,9,10,10a-octahydrophenanthren-2-ol"
+        },
+        {
+          "role": "product",
+          "smiles": "C(C1=CC=CC=C1)OC[C@@]1([C@H](CCC(=C1CCC1=C(C(=C(C(=C1)OC)OC)C(C)C)OC)C)O)C",
+          "name": "(1S,2R)-2-((Benzyloxy)methyl)-3-(3-isopropyl-2,4,5-trimethoxyphenethyl)-2,4-dimethylcyclohex-3-en-1-ol"
+        }
+      ]
+    },
+    {
+      "reaction_page_link": "https://kmt.vander-lingen.nl/data/reaction/profile/5ed4b08b7d0b7b6f82f2992f1aac9195",
+      "reaction_smiles": "C(C1=CC=CC=C1)OC[C@@]1([C@H](CC[C@@]2(C3=C(C(=C(C(=C3CC[C@@H]12)OC)C(C)C)OC)OC)C)O)C>CO[H].[Pd]C>OC[C@@]1([C@H](CC[C@@]2(C3=C(C(=C(C(=C3CC[C@@H]12)OC)C(C)C)OC)OC)C)O)C",
+      "molecules": [
+        {
+          "role": "reactant",
+          "smiles": "C(C1=CC=CC=C1)OC[C@@]1([C@H](CC[C@@]2(C3=C(C(=C(C(=C3CC[C@@H]12)OC)C(C)C)OC)OC)C)O)C",
+          "name": "(1R,2S,4aS,10aR)-1-((Benzyloxy)methyl)-7-isopropyl-5,6,8-trimethoxy-1,4a-dimethyl-1,2,3,4,4a,9,10,10a-octahydrophenanthren-2-ol"
+        },
+        {
+          "role": "solvent",
+          "smiles": "CO[H]",
+          "name": "methanol"
+        },
+        {
+          "role": "catalyst",
+          "smiles": "[Pd]C",
+          "name": "palladium on carbon"
+        },
+        {
+          "role": "product",
+          "smiles": "OC[C@@]1([C@H](CC[C@@]2(C3=C(C(=C(C(=C3CC[C@@H]12)OC)C(C)C)OC)OC)C)O)C",
+          "name": "(1R,2S,4aS,10aR)-1-(Hydroxymethyl)-7-isopropyl-5,6,8-trimethoxy-1,4a-dimethyl-1,2,3,4,4a,9,10,10a-octahydrophenanthren-2-ol"
+        }
+      ]
+    },
+    {
+      "reaction_page_link": "https://kmt.vander-lingen.nl/data/reaction/profile/141a5151beaf66b8ae390745accc4838",
+      "reaction_smiles": "CI.C(=S)=S.OC[C@@]1([C@H](CC[C@@]2(C3=C(C(=C(C(=C3CC[C@@H]12)OC)C(C)C)OC)OC)C)O)C>C1CCCO1.[H-].[Na+]>C(OC[C@@]1([C@H](CC[C@@]2(C3=C(C(=C(C(=C3CC[C@@H]12)OC)C(C)C)OC)OC)C)OC(=S)SC)C)(=S)SC",
+      "molecules": [
+        {
+          "role": "C1 synthon",
+          "smiles": "CI",
+          "name": "methyl iodide"
+        },
+        {
+          "role": "reactant",
+          "smiles": "OC[C@@]1([C@H](CC[C@@]2(C3=C(C(=C(C(=C3CC[C@@H]12)OC)C(C)C)OC)OC)C)O)C",
+          "name": "(1R,2S,4aS,10aR)-1-(Hydroxymethyl)-7-isopropyl-5,6,8-trimethoxy-1,4a-dimethyl-1,2,3,4,4a,9,10,10a-octahydrophenanthren-2-ol"
+        },
+        {
+          "role": "solvent",
+          "smiles": "C1CCCO1",
+          "name": "tetrahydrofuran"
+        },
+        {
+          "role": "base",
+          "smiles": "[H-].[Na+]",
+          "name": "sodium hydride"
+        },
+        {
+          "role": "building block",
+          "smiles": "C(=S)=S",
+          "name": "carbon disulfide"
+        },
+        {
+          "role": "product",
+          "smiles": "C(OC[C@@]1([C@H](CC[C@@]2(C3=C(C(=C(C(=C3CC[C@@H]12)OC)C(C)C)OC)OC)C)OC(=S)SC)C)(=S)SC",
+          "name": "O-(((1R,2S,4aS,10aR)-7-Isopropyl-5,6,8-trimethoxy-1,4a-dimethyl-2-(((methylthio)carbonothioyl)oxy)-1,2,3,4,4a,9,10,10a-octahydrophenanthren-1-yl)methyl) S-methyl carbonodithioate"
+        }
+      ]
+    },
+    {
+      "reaction_page_link": "https://kmt.vander-lingen.nl/data/reaction/profile/983114d9e174bb55a57f8b228058c0e7",
+      "reaction_smiles": "C(OC[C@@]1([C@H](CC[C@@]2(C3=C(C(=C(C(=C3CC[C@@H]12)OC)C(C)C)OC)OC)C)OC(=S)SC)C)(=S)SC>C1(=CC=CC=C1)C.CC(C)(C#N)/N=N/C(C)(C)C#N.C(CCC)[SnH](CCCC)CCCC>C(C)(C)C1=C(C(=C2[C@]3(CCCC([C@@H]3CCC2=C1OC)(C)C)C)OC)OC",
+      "molecules": [
+        {
+          "role": "reactant",
+          "smiles": "C(OC[C@@]1([C@H](CC[C@@]2(C3=C(C(=C(C(=C3CC[C@@H]12)OC)C(C)C)OC)OC)C)OC(=S)SC)C)(=S)SC",
+          "name": "O-(((1R,2S,4aS,10aR)-7-Isopropyl-5,6,8-trimethoxy-1,4a-dimethyl-2-(((methylthio)carbonothioyl)oxy)-1,2,3,4,4a,9,10,10a-octahydrophenanthren-1-yl)methyl) S-methyl carbonodithioate"
+        },
+        {
+          "role": "solvent",
+          "smiles": "C1(=CC=CC=C1)C",
+          "name": "toluene"
+        },
+        {
+          "role": "radical initiator",
+          "smiles": "CC(C)(C#N)/N=N/C(C)(C)C#N",
+          "name": "Azobisisobutyronitrile"
+        },
+        {
+          "role": "reagent",
+          "smiles": "C(CCC)[SnH](CCCC)CCCC",
+          "name": "tri-n-butyltin hydride"
+        },
+        {
+          "role": "product",
+          "smiles": "C(C)(C)C1=C(C(=C2[C@]3(CCCC([C@@H]3CCC2=C1OC)(C)C)C)OC)OC",
+          "name": "(4aS,10aS)-7-Isopropyl-5,6,8-trimethoxy-1,1,4a-trimethyl-1,2,3,4,4a,9,10,10a-octahydrophenanthrene"
+        }
+      ]
+    },
+    {
+      "reaction_page_link": "https://kmt.vander-lingen.nl/data/reaction/profile/471090f8d0faafe3cd1302ac41de8613",
+      "reaction_smiles": "C(C)(C)C1=C(C(=C2[C@]3(CCCC([C@@H]3CCC2=C1OC)(C)C)C)OC)OC>ClCCl.[O-2].[O-2].[O-2].[Cr+6].CC1=NNC(=C1)C>C(C)(C)C1=C(C=C2[C@]3(CCCC([C@@H]3CC(C2=C1)=O)(C)C)C)OC",
+      "molecules": [
+        {
+          "role": "reactant",
+          "smiles": "C(C)(C)C1=C(C(=C2[C@]3(CCCC([C@@H]3CCC2=C1OC)(C)C)C)OC)OC",
+          "name": "(4aS,10aS)-7-Isopropyl-5,6,8-trimethoxy-1,1,4a-trimethyl-1,2,3,4,4a,9,10,10a-octahydrophenanthrene"
+        },
+        {
+          "role": "solvent",
+          "smiles": "ClCCl",
+          "name": "dichloromethane"
+        },
+        {
+          "role": "oxidizing agent",
+          "smiles": "[O-2].[O-2].[O-2].[Cr+6]",
+          "name": "chromium trioxide"
+        },
+        {
+          "role": "reagent",
+          "smiles": "CC1=NNC(=C1)C",
+          "name": "3,5-dimethylpyrazole"
+        },
+        {
+          "role": "product",
+          "smiles": "C(C)(C)C1=C(C=C2[C@]3(CCCC([C@@H]3CC(C2=C1)=O)(C)C)C)OC",
+          "name": "(4aS,10aS)-7-Isopropyl-6-methoxy-1,1,4a-trimethyl-2,3,4,4a,10,10a-hexahydrophenanthren-9(1H)-one"
+        }
+      ]
+    },
+    {
+      "reaction_page_link": "https://kmt.vander-lingen.nl/data/reaction/profile/adfd49f0eaf4709e3bc49ce9fcbf8111",
+      "reaction_smiles": "C(C)(C)C1=C(C=C2[C@]3(CCCC([C@@H]3CC(C2=C1)=O)(C)C)C)OC>CC#N.C1CCC2=NCCCN2CC1.C(C)(=O)NC1=CC=C(C=C1)S(=O)(=O)N=[N+]=[N-]>[N+](=[N-])=C1C(C2=C(C(=C(C(=C2[C@]2(CCCC([C@H]12)(C)C)C)OC)OC)C(C)C)OC)=O",
+      "molecules": [
+        {
+          "role": "reactant",
+          "smiles": "C(C)(C)C1=C(C=C2[C@]3(CCCC([C@@H]3CC(C2=C1)=O)(C)C)C)OC",
+          "name": "(4aS,10aS)-7-Isopropyl-6-methoxy-1,1,4a-trimethyl-2,3,4,4a,10,10a-hexahydrophenanthren-9(1H)-one"
+        },
+        {
+          "role": "solvent",
+          "smiles": "CC#N",
+          "name": "acetonitrile"
+        },
+        {
+          "role": "non-nucleophilic base",
+          "smiles": "C1CCC2=NCCCN2CC1",
+          "name": "1,8-Diazabicyclo[5.4.0]undec-7-ene"
+        },
+        {
+          "role": "reagent",
+          "smiles": "C(C)(=O)NC1=CC=C(C=C1)S(=O)(=O)N=[N+]=[N-]",
+          "name": "4-acetamidobenzenesulphonyl azide"
+        },
+        {
+          "role": "product",
+          "smiles": "[N+](=[N-])=C1C(C2=C(C(=C(C(=C2[C@]2(CCCC([C@H]12)(C)C)C)OC)OC)C(C)C)OC)=O",
+          "name": "(4aS,10aS)-10-Diazo-7-isopropyl-5,6,8-trimethoxy-1,1,4a-trimethyl-2,3,4,4a,10,10a-hexahydrophenanthren-9(1H)-one"
+        }
+      ]
+    },
+    {
+      "reaction_page_link": "https://kmt.vander-lingen.nl/data/reaction/profile/8397fe3b9ac2fd44c03759eea4af82c0",
+      "reaction_smiles": "C(C1=CC=CC=C1)O.[N+](=[N-])=C1C(C2=C(C(=C(C(=C2[C@]2(CCCC([C@H]12)(C)C)C)OC)OC)C(C)C)OC)=O>N1=C(C=C(C=C1C)C)C>C(C)(C)C1=C(C(=C2[C@]3(CCCC([C@@H]3[C@@H](C2=C1OC)C(=O)OCC1=CC=CC=C1)(C)C)C)OC)OC",
+      "molecules": [
+        {
+          "role": "reactant",
+          "smiles": "[N+](=[N-])=C1C(C2=C(C(=C(C(=C2[C@]2(CCCC([C@H]12)(C)C)C)OC)OC)C(C)C)OC)=O",
+          "name": "(4aS,10aS)-10-Diazo-7-isopropyl-5,6,8-trimethoxy-1,1,4a-trimethyl-2,3,4,4a,10,10a-hexahydrophenanthren-9(1H)-one"
+        },
+        {
+          "role": "non-nucleophilic base",
+          "smiles": "N1=C(C=C(C=C1C)C)C",
+          "name": "2,4,6-Trimethylpyridine"
+        },
+        {
+          "role": "building block",
+          "smiles": "C(C1=CC=CC=C1)O",
+          "name": "benzyl alcohol"
+        },
+        {
+          "role": "product",
+          "smiles": "C(C)(C)C1=C(C(=C2[C@]3(CCCC([C@@H]3[C@@H](C2=C1OC)C(=O)OCC1=CC=CC=C1)(C)C)C)OC)OC",
+          "name": "Benzyl (4aS,9S,9aS)-7-isopropyl-5,6,8-trimethoxy-1,1,4a-trimethyl-2,3,4,4a,9,9a-hexahydro-1H-fluorene-9-carboxylate"
+        }
+      ]
+    },
+    {
+      "reaction_page_link": "https://kmt.vander-lingen.nl/data/reaction/profile/14e1de795379c2c2324c30a0b101d950",
+      "reaction_smiles": "C(C)(C)C1=C(C(=C2[C@]3(CCCC([C@@H]3[C@@H](C2=C1OC)C=O)(C)C)C)OC)OC>ClCCl.ClC=1C=C(C(=O)OO)C=CC1.C(O)([O-])=O.[Na+]>C(=O)O[C@@H]1C2=C(C(=C(C(=C2[C@]2(CCCC([C@H]12)(C)C)C)OC)OC)C(C)C)OC",
+      "molecules": [
+        {
+          "role": "reactant",
+          "smiles": "C(C)(C)C1=C(C(=C2[C@]3(CCCC([C@@H]3[C@@H](C2=C1OC)C=O)(C)C)C)OC)OC",
+          "name": "(4aS,9S,9aS)-7-Isopropyl-5,6,8-trimethoxy-1,1,4a-trimethyl-2,3,4,4a,9,9a-hexahydro-1H-fluorene-9-carbaldehyde"
+        },
+        {
+          "role": "solvent",
+          "smiles": "ClCCl",
+          "name": "dichloromethane"
+        },
+        {
+          "role": "oxidizing agent",
+          "smiles": "ClC=1C=C(C(=O)OO)C=CC1",
+          "name": "meta-chloroperoxybenzoic acid"
+        },
+        {
+          "role": "base",
+          "smiles": "C(O)([O-])=O.[Na+]",
+          "name": "sodium hydrogen carbonate"
+        },
+        {
+          "role": "product",
+          "smiles": "C(=O)O[C@@H]1C2=C(C(=C(C(=C2[C@]2(CCCC([C@H]12)(C)C)C)OC)OC)C(C)C)OC",
+          "name": "((4aS,9S,9aS)-7-Isopropyl-5,6,8-trimethoxy-1,1,4a-trimethyl-2,3,4,4a,9,9a-hexahydro-1H-fluorene-9-yl) formate"
+        }
+      ]
+    },
+    {
+      "reaction_page_link": "https://kmt.vander-lingen.nl/data/reaction/profile/35ac874a63d20a10ac3cf02ed2391dad",
+      "reaction_smiles": "C(C)(C)C1=C(C(=C2[C@]3(CCCC([C@@H]3[C@@H](C2=C1OC)O)(C)C)C)OC)OC>CC#N.O.[N+](=O)([O-])[O-].[NH4+].[Ce+4].[N+](=O)([O-])[O-].[N+](=O)([O-])[O-].[N+](=O)([O-])[O-].[N+](=O)([O-])[O-]>O[C@H]1[C@H]2C(CCC[C@@]2(C=2C(C(=C(C(C12)=O)C(C)C)OC)=O)C)(C)C",
+      "molecules": [
+        {
+          "role": "reactant",
+          "smiles": "C(C)(C)C1=C(C(=C2[C@]3(CCCC([C@@H]3[C@@H](C2=C1OC)O)(C)C)C)OC)OC",
+          "name": "(4aS,9S,9aS)-7-Isopropyl-5,6,8-trimethoxy-1,1,4a-trimethyl-2,3,4,4a,9,9a-hexahydro-1H-fluoren-9-ol"
+        },
+        {
+          "role": "solvent",
+          "smiles": "CC#N",
+          "name": "acetonitrile"
+        },
+        {
+          "role": "solvent",
+          "smiles": "O",
+          "name": "water"
+        },
+        {
+          "role": "oxidizing agent",
+          "smiles": "[N+](=O)([O-])[O-].[NH4+].[Ce+4].[N+](=O)([O-])[O-].[N+](=O)([O-])[O-].[N+](=O)([O-])[O-].[N+](=O)([O-])[O-]",
+          "name": "ceric ammonium nitrate"
+        },
+        {
+          "role": "product",
+          "smiles": "O[C@H]1[C@H]2C(CCC[C@@]2(C=2C(C(=C(C(C12)=O)C(C)C)OC)=O)C)(C)C",
+          "name": "(4bS,8aS,9S)-9-Hydroxy-2-isopropyl-3-methoxy-4b,8,8-trimethyl-5,6,7,8,8a,9-hexahydro-1H-fluorene-1,4(4bH)-dione"
+        }
+      ]
+    },
+    {
+      "reaction_page_link": "https://kmt.vander-lingen.nl/data/reaction/profile/387df8a576d39a725b42bfce9cac05ae",
+      "reaction_smiles": "C(C)(C)C1=C(C([C@]23CC=C([C@H]([C@@]3([C@H]([C@H]3C(CCC[C@]23C)(C)C)O)C1=O)C[C@@H]1[C@]2(CCC[C@]([C@@H]2CCC1=C)(C(=O)OC)C)C)C)=O)OC>ClCCl.C(C)(=O)OI1(OC(C2=C1C=CC=C2)=O)(OC(C)=O)OC(C)=O>C(C)(C)C1=C(C([C@]23CC=C([C@H]([C@@]3(C([C@H]3C(CCC[C@]23C)(C)C)=O)C1=O)C[C@@H]1[C@]2(CCC[C@]([C@@H]2CCC1=C)(C(=O)OC)C)C)C)=O)OC",
+      "molecules": [
+        {
+          "role": "reactant",
+          "smiles": "C(C)(C)C1=C(C([C@]23CC=C([C@H]([C@@]3([C@H]([C@H]3C(CCC[C@]23C)(C)C)O)C1=O)C[C@@H]1[C@]2(CCC[C@]([C@@H]2CCC1=C)(C(=O)OC)C)C)C)=O)OC",
+          "name": "methyl (1R,4aR,5S,8aR,9S)-5-(((1R,4aR,4bS,8aS,9aR)-11-isopropyl-12-methoxy-2,4b,8,8-tetramethyl-9-hydroxy-10,13-dioxo-1,4,4b,5,7,8,8a,9-octahydro-6H-4a,9a-but[2]enofluoren-1-yl)methyl)-1,4a-dimethyl-6-methylenedecahydronaphthalene-1-carboxylate"
+        },
+        {
+          "role": "solvent",
+          "smiles": "ClCCl",
+          "name": "dichloromethane"
+        },
+        {
+          "role": "oxidizing agent",
+          "smiles": "C(C)(=O)OI1(OC(C2=C1C=CC=C2)=O)(OC(C)=O)OC(C)=O",
+          "name": "3-Oxo-1,3-dihydro-1λ5,2-benziodoxole-1,1,1-triyl triacetate"
+        },
+        {
+          "role": "product",
+          "smiles": "C(C)(C)C1=C(C([C@]23CC=C([C@H]([C@@]3(C([C@H]3C(CCC[C@]23C)(C)C)=O)C1=O)C[C@@H]1[C@]2(CCC[C@]([C@@H]2CCC1=C)(C(=O)OC)C)C)C)=O)OC",
+          "name": "methyl (1R,4aR,5S,8aR)-5-(((1R,4aR,4bS,8aS,9aR)-11-isopropyl-12-methoxy-2,4b,8,8-tetramethyl-9,10,13-trioxo-1,4,4b,5,7,8,8a,9-octahydro-6H-4a,9a-but[2]enofluoren-1-yl)methyl)-1,4a-dimethyl-6-methylenedecahydronaphthalene-1-carboxylate"
+        }
+      ]
+    },
+    {
+      "reaction_page_link": "https://kmt.vander-lingen.nl/data/reaction/profile/11020db16d8305594a927da27efd0b29",
+      "reaction_smiles": "COC(=O)[C@@]1(CCC[C@@]2([C@H](C(CC[C@@H]12)=C)C\\C=C(\\C=C)/C)C)C.O[C@H]1[C@H]2C(CCC[C@@]2(C=2C(C(=C(C(C12)=O)C(C)C)OC)=O)C)(C)C>ClCCl.FC(C(C(C(CC(C(C)(C)C)=O)=O)(F)F)(F)F)(F)F.FC(C(C(C(CC(C(C)(C)C)=O)=O)(F)F)(F)F)(F)F.FC(C(C(C(CC(C(C)(C)C)=O)=O)(F)F)(F)F)(F)F.[Eu]>C(C)(C)C1=C(C([C@]23CC=C([C@H]([C@@]3(C([C@H]3C(CCC[C@]23C)(C)C)=O)C1=O)C[C@@H]1[C@]2(CCC[C@]([C@@H]2CCC1=C)(C(=O)OC)C)C)C)=O)OC",
+      "molecules": [
+        {
+          "role": "reactant",
+          "smiles": "COC(=O)[C@@]1(CCC[C@@]2([C@H](C(CC[C@@H]12)=C)C\\C=C(\\C=C)/C)C)C",
+          "name": "(1R,4aR,5S,8aR)-1,4a-Dimethyl-6-methylene-5-[(2E)-3-methyl-2,4-pentadien-1-yl]decahydro-1-naphthalenecarboxylic acid methyl ester"
+        },
+        {
+          "role": "reactant",
+          "smiles": "O[C@H]1[C@H]2C(CCC[C@@]2(C=2C(C(=C(C(C12)=O)C(C)C)OC)=O)C)(C)C",
+          "name": "(4bS,8aS,9S)-9-Hydroxy-2-isopropyl-3-methoxy-4b,8,8-trimethyl-5,6,7,8,8a,9-hexahydro-1H-fluorene-1,4(4bH)-dione"
+        },
+        {
+          "role": "solvent",
+          "smiles": "ClCCl",
+          "name": "dichloromethane"
+        },
+        {
+          "role": "Lewis acid",
+          "smiles": "FC(C(C(C(CC(C(C)(C)C)=O)=O)(F)F)(F)F)(F)F.FC(C(C(C(CC(C(C)(C)C)=O)=O)(F)F)(F)F)(F)F.FC(C(C(C(CC(C(C)(C)C)=O)=O)(F)F)(F)F)(F)F.[Eu]",
+          "name": "europium Tris(1,1,1,2,2,3,3-heptafluoro-7,7-dimethyl-4,6-octanedione)"
+        },
+        {
+          "role": "product",
+          "smiles": "C(C)(C)C1=C(C([C@]23CC=C([C@H]([C@@]3(C([C@H]3C(CCC[C@]23C)(C)C)=O)C1=O)C[C@@H]1[C@]2(CCC[C@]([C@@H]2CCC1=C)(C(=O)OC)C)C)C)=O)OC",
+          "name": "methyl (1R,4aR,5S,8aR)-5-(((1R,4aR,4bS,8aS,9aR)-11-isopropyl-12-methoxy-2,4b,8,8-tetramethyl-9,10,13-trioxo-1,4,4b,5,7,8,8a,9-octahydro-6H-4a,9a-but[2]enofluoren-1-yl)methyl)-1,4a-dimethyl-6-methylenedecahydronaphthalene-1-carboxylate"
+        }
+      ]
+    },
+    {
+      "reaction_page_link": "https://kmt.vander-lingen.nl/data/reaction/profile/cc10a9e997898a29d7d2c54f9dbf52b4",
+      "reaction_smiles": "C(C)(C)C1=C(C([C@]23CC=C([C@H]([C@@]3(C([C@H]3C(CCC[C@]23C)(C)C)=O)C1=O)C[C@@H]1[C@]2(CCC[C@]([C@@H]2CCC1=C)(C(=O)OC)C)C)C)=O)OC>[Cl-].[NH4+].N1=C(C=C(C=C1C)C)C.[I-].[Li+]>OC=1C([C@]23CC=C([C@H]([C@@]3(C([C@H]3C(CCC[C@]23C)(C)C)=O)C(C1C(C)C)=O)C[C@@H]1[C@]2(CCC[C@]([C@@H]2CCC1=C)(C(=O)O)C)C)C)=O",
+      "molecules": [
+        {
+          "role": "reactant",
+          "smiles": "C(C)(C)C1=C(C([C@]23CC=C([C@H]([C@@]3(C([C@H]3C(CCC[C@]23C)(C)C)=O)C1=O)C[C@@H]1[C@]2(CCC[C@]([C@@H]2CCC1=C)(C(=O)OC)C)C)C)=O)OC",
+          "name": "methyl (1R,4aR,5S,8aR)-5-(((1R,4aR,4bS,8aS,9aR)-11-isopropyl-12-methoxy-2,4b,8,8-tetramethyl-9,10,13-trioxo-1,4,4b,5,7,8,8a,9-octahydro-6H-4a,9a-but[2]enofluoren-1-yl)methyl)-1,4a-dimethyl-6-methylenedecahydronaphthalene-1-carboxylate"
+        },
+        {
+          "role": "quench",
+          "smiles": "[Cl-].[NH4+]",
+          "name": "ammonium chloride"
+        },
+        {
+          "role": "non-nucleophilic base",
+          "smiles": "N1=C(C=C(C=C1C)C)C",
+          "name": "2,4,6-Trimethylpyridine"
+        },
+        {
+          "role": "catalyst",
+          "smiles": "[I-].[Li+]",
+          "name": "lithium iodide"
+        },
+        {
+          "role": "product",
+          "smiles": "OC=1C([C@]23CC=C([C@H]([C@@]3(C([C@H]3C(CCC[C@]23C)(C)C)=O)C(C1C(C)C)=O)C[C@@H]1[C@]2(CCC[C@]([C@@H]2CCC1=C)(C(=O)O)C)C)C)=O",
+          "name": "(1R,4aR,5S,8aR)-5-(((1R,4aR,4bS,8aS,9aR)-12-hydroxy-11-isopropyl-2,4b,8,8-tetramethyl-9,10,13-trioxo-1,4,4b,5,7,8,8a,9-octahydro-6H-4a,9a-but[2]enofluoren-1-yl)methyl)-1,4a-dimethyl-6-methylenedecahydronaphthalene-1-carboxylic acid"
+        }
+      ]
+    },
+    {
+      "reaction_page_link": "https://kmt.vander-lingen.nl/data/reaction/profile/f60676b87fb3fb15cb93c2260301e683",
+      "reaction_smiles": "C(C)(=O)OC\\C=C(\\CC\\C=C(\\CC\\C=C(\\CO)/C)/C)/C>ClCCl.[OH-].[Na+].C(C)(C)(C)OO.CC([O-])C.[Ti+4].CC([O-])C.CC([O-])C.CC([O-])C.O[C@@H](C(=O)OCC)[C@@H](C(=O)OCC)O>C(C)(=O)OC\\C=C(\\CC\\C=C(\\CC[C@@H]1O[C@@]1(C)CO)/C)/C",
+      "molecules": [
+        {
+          "role": "reactant",
+          "smiles": "C(C)(=O)OC\\C=C(\\CC\\C=C(\\CC\\C=C(\\CO)/C)/C)/C",
+          "name": "(2E,6E,10E)-12-Hydroxy-3,7,11-trimethyldodeca-2,6,10-trien-1-yl acetate"
+        },
+        {
+          "role": "solvent",
+          "smiles": "ClCCl",
+          "name": "dichloromethane"
+        },
+        {
+          "role": "quench",
+          "smiles": "[OH-].[Na+]",
+          "name": "sodium hydroxide"
+        },
+        {
+          "role": "oxidizing agent",
+          "smiles": "C(C)(C)(C)OO",
+          "name": "tert-butyl hydroperoxide"
+        },
+        {
+          "role": "Lewis acid",
+          "smiles": "CC([O-])C.[Ti+4].CC([O-])C.CC([O-])C.CC([O-])C",
+          "name": "Titanium isopropoxide"
+        },
+        {
+          "role": "desiccant",
+          "smiles": "*4A molsieves",
+          "name": "4A molsieves"
+        },
+        {
+          "role": "ligand",
+          "smiles": "O[C@@H](C(=O)OCC)[C@@H](C(=O)OCC)O",
+          "name": "Diethyl (2R,3S)-2,3-dihydroxysuccinate"
+        },
+        {
+          "role": "product",
+          "smiles": "C(C)(=O)OC\\C=C(\\CC\\C=C(\\CC[C@@H]1O[C@@]1(C)CO)/C)/C",
+          "name": "(2E,6E)-9-((2S,3S)-3-(Hydroxymethyl)-3-methyloxiran-2-yl)-3,7-dimethylnona-2,6-dien-1-yl acetate"
+        }
+      ]
+    },
+    {
+      "reaction_page_link": "https://kmt.vander-lingen.nl/data/reaction/profile/a7b0495c238337a66893d82eb3f9d73d",
+      "reaction_smiles": "CI.C(=S)=S.C(C)(=O)OC[C@@H]1[C@]2(CC[C@@H]([C@]([C@@H]2CCC1=C)(C(=O)OC)C)O)C>C1CCCO1.[H-].[Na+].[Cl-].[NH4+]>C(C)(=O)OC[C@@H]2[C@]1(CC[C@@H]([C@]([C@@H]1CCC2=C)(C(=O)[O-])C)OC(=S)S[Na])C",
+      "molecules": [
+        {
+          "role": "C1 synthon",
+          "smiles": "CI",
+          "name": "methyl iodide"
+        },
+        {
+          "role": "reactant",
+          "smiles": "C(C)(=O)OC[C@@H]1[C@]2(CC[C@@H]([C@]([C@@H]2CCC1=C)(C(=O)OC)C)O)C",
+          "name": "methyl (1S,2S,4aS,5S,8aR)-5-(acetoxymethyl)-2-hydroxy-1,4a-dimethyl-6-methylenedecahydronaphthalene-1-carboxylate"
+        },
+        {
+          "role": "solvent",
+          "smiles": "C1CCCO1",
+          "name": "tetrahydrofuran"
+        },
+        {
+          "role": "base",
+          "smiles": "[H-].[Na+]",
+          "name": "sodium hydride"
+        },
+        {
+          "role": "quench",
+          "smiles": "[Cl-].[NH4+]",
+          "name": "ammonium chloride"
+        },
+        {
+          "role": "building block",
+          "smiles": "C(=S)=S",
+          "name": "carbon disulfide"
+        },
+        {
+          "role": "solvent",
+          "smiles": "*mineral oil",
+          "name": "mineral oil"
+        },
+        {
+          "role": "product",
+          "smiles": "C(C)(=O)OC[C@@H]2[C@]1(CC[C@@H]([C@]([C@@H]1CCC2=C)(C(=O)[O-])C)OC(=S)S[Na])C",
+          "name": "WWARLXVILQHNCE-GDLXNQLUSA-L"
+        }
+      ]
+    },
+    {
+      "reaction_page_link": "https://kmt.vander-lingen.nl/data/reaction/profile/84fdb7aa5444134e1188cd0cd2b391d9",
+      "reaction_smiles": "C(C)(C)C1=C(C(=C2[C@]3(CCCC([C@@H]3[C@@H](C2=C1OC)C(=O)OCC1=CC=CC=C1)(C)C)C)OC)OC>C1CCCO1.[H-].[Al+3].[Li+].[H-].[H-].[H-]>C(C)(C)C1=C(C(=C2[C@]3(CCCC([C@@H]3[C@@H](C2=C1OC)CO)(C)C)C)OC)OC",
+      "molecules": [
+        {
+          "role": "reactant",
+          "smiles": "C(C)(C)C1=C(C(=C2[C@]3(CCCC([C@@H]3[C@@H](C2=C1OC)C(=O)OCC1=CC=CC=C1)(C)C)C)OC)OC",
+          "name": "Benzyl (4aS,9S,9aS)-7-isopropyl-5,6,8-trimethoxy-1,1,4a-trimethyl-2,3,4,4a,9,9a-hexahydro-1H-fluorene-9-carboxylate"
+        },
+        {
+          "role": "solvent",
+          "smiles": "C1CCCO1",
+          "name": "tetrahydrofuran"
+        },
+        {
+          "role": "reducing agent",
+          "smiles": "[H-].[Al+3].[Li+].[H-].[H-].[H-]",
+          "name": "lithium aluminum hydride"
+        },
+        {
+          "role": "product",
+          "smiles": "C(C)(C)C1=C(C(=C2[C@]3(CCCC([C@@H]3[C@@H](C2=C1OC)CO)(C)C)C)OC)OC",
+          "name": "((4aS,9S,9aS)-7-Isopropyl-5,6,8-trimethoxy-1,1,4a-trimethyl-2,3,4,4a,9,9a-hexahydro-1H-fluoren-9-yl)methanol"
+        }
+      ]
+    },
+    {
+      "reaction_page_link": "https://kmt.vander-lingen.nl/data/reaction/profile/d4ead019feed7366aabaee1889dc682c",
+      "reaction_smiles": "C(C)(C)C1=C(C(=C2[C@]3(CCCC([C@@H]3[C@@H](C2=C1OC)CO)(C)C)C)OC)OC>ClCCl.C(C)(=O)OI1(OC(C2=C1C=CC=C2)=O)(OC(C)=O)OC(C)=O>C(C)(C)C1=C(C(=C2[C@]3(CCCC([C@@H]3[C@@H](C2=C1OC)C=O)(C)C)C)OC)OC",
+      "molecules": [
+        {
+          "role": "reactant",
+          "smiles": "C(C)(C)C1=C(C(=C2[C@]3(CCCC([C@@H]3[C@@H](C2=C1OC)CO)(C)C)C)OC)OC",
+          "name": "((4aS,9S,9aS)-7-Isopropyl-5,6,8-trimethoxy-1,1,4a-trimethyl-2,3,4,4a,9,9a-hexahydro-1H-fluoren-9-yl)methanol"
+        },
+        {
+          "role": "solvent",
+          "smiles": "ClCCl",
+          "name": "dichloromethane"
+        },
+        {
+          "role": "oxidizing agent",
+          "smiles": "C(C)(=O)OI1(OC(C2=C1C=CC=C2)=O)(OC(C)=O)OC(C)=O",
+          "name": "3-Oxo-1,3-dihydro-1λ5,2-benziodoxole-1,1,1-triyl triacetate"
+        },
+        {
+          "role": "product",
+          "smiles": "C(C)(C)C1=C(C(=C2[C@]3(CCCC([C@@H]3[C@@H](C2=C1OC)C=O)(C)C)C)OC)OC",
+          "name": "(4aS,9S,9aS)-7-Isopropyl-5,6,8-trimethoxy-1,1,4a-trimethyl-2,3,4,4a,9,9a-hexahydro-1H-fluorene-9-carbaldehyde"
+        }
+      ]
+    },
+    {
+      "reaction_page_link": "https://kmt.vander-lingen.nl/data/reaction/profile/9811687a8ec7e73ffbcd2832114cc666",
+      "reaction_smiles": "C(=O)O[C@@H]1C2=C(C(=C(C(=C2[C@]2(CCCC([C@H]12)(C)C)C)OC)OC)C(C)C)OC>C(Cl)(Cl)(Cl)[H].CO[H].C([O-])([O-])=O.[K+].[K+]>C(C)(C)C1=C(C(=C2[C@]3(CCCC([C@@H]3[C@@H](C2=C1OC)O)(C)C)C)OC)OC",
+      "molecules": [
+        {
+          "role": "reactant",
+          "smiles": "C(=O)O[C@@H]1C2=C(C(=C(C(=C2[C@]2(CCCC([C@H]12)(C)C)C)OC)OC)C(C)C)OC",
+          "name": "((4aS,9S,9aS)-7-Isopropyl-5,6,8-trimethoxy-1,1,4a-trimethyl-2,3,4,4a,9,9a-hexahydro-1H-fluorene-9-yl) formate"
+        },
+        {
+          "role": "solvent",
+          "smiles": "C(Cl)(Cl)(Cl)[H]",
+          "name": "chloroform"
+        },
+        {
+          "role": "solvent",
+          "smiles": "CO[H]",
+          "name": "methanol"
+        },
+        {
+          "role": "base",
+          "smiles": "C([O-])([O-])=O.[K+].[K+]",
+          "name": "potassium carbonate"
+        },
+        {
+          "role": "product",
+          "smiles": "C(C)(C)C1=C(C(=C2[C@]3(CCCC([C@@H]3[C@@H](C2=C1OC)O)(C)C)C)OC)OC",
+          "name": "(4aS,9S,9aS)-7-Isopropyl-5,6,8-trimethoxy-1,1,4a-trimethyl-2,3,4,4a,9,9a-hexahydro-1H-fluoren-9-ol"
+        }
+      ]
+    }
+  ],
+  "https://kmt.vander-lingen.nl/data/reaction/doi/10.1021/acs.orglett.5c00120/start/0": [
+    {
+      "reaction_page_link": "https://kmt.vander-lingen.nl/data/reaction/profile/b6638b93d4981615c2b0319e269cd78e",
+      "reaction_smiles": "ClC(=O)OCC1=CC=CC=C1.N[C@@H](CSC(C1=CC=CC=C1)(C1=CC=CC=C1)C1=CC=CC=C1)C(=O)O>[OH-].[Na+].O1CCOCC1>OC(=O)N[C@@H](CS)C(=O)OCC1=CC=CC=C1",
+      "molecules": [
+        {
+          "role": "reactant",
+          "smiles": "N[C@@H](CSC(C1=CC=CC=C1)(C1=CC=CC=C1)C1=CC=CC=C1)C(=O)O",
+          "name": "H-Cys(Trt)-OH"
+        },
+        {
+          "role": "base",
+          "smiles": "[OH-].[Na+]",
+          "name": "sodium hydroxide"
+        },
+        {
+          "role": "solvent",
+          "smiles": "O1CCOCC1",
+          "name": "dioxane"
+        },
+        {
+          "role": "protective group reagent",
+          "smiles": "ClC(=O)OCC1=CC=CC=C1",
+          "name": "Benzyl chloroformate"
+        },
+        {
+          "role": "product",
+          "smiles": "OC(=O)N[C@@H](CS)C(=O)OCC1=CC=CC=C1",
+          "name": "Benzyl ((hydroxy)carbonyl)-L-cysteinate"
+        }
+      ]
+    },
+    {
+      "reaction_page_link": "https://kmt.vander-lingen.nl/data/reaction/profile/bc690f7de017e25716574dcf8e292f22",
+      "reaction_smiles": "C(C1=CC=CC=C1)O.OC(=O)N[C@@H](CS)C(=O)OCC1=CC=CC=C1>C1(=CC=NC=C1)N(C)C.ClCCl.Cl.CN(CCCN=C=NCC)C>OC(=O)N[C@@H](CSC(C1=CC=CC=C1)(C1=CC=CC=C1)C1=CC=CC=C1)C(=O)OCC1=CC=CC=C1",
+      "molecules": [
+        {
+          "role": "reactant",
+          "smiles": "OC(=O)N[C@@H](CS)C(=O)OCC1=CC=CC=C1",
+          "name": "Benzyl ((hydroxy)carbonyl)-L-cysteinate"
+        },
+        {
+          "role": "catalyst",
+          "smiles": "C1(=CC=NC=C1)N(C)C",
+          "name": "4-dimethylaminopyridine"
+        },
+        {
+          "role": "solvent",
+          "smiles": "ClCCl",
+          "name": "dichloromethane"
+        },
+        {
+          "role": "coupling reagent",
+          "smiles": "Cl.CN(CCCN=C=NCC)C",
+          "name": "1-(3-dimethylaminopropyl)-3-ethylcarbodiimide hydrochloride"
+        },
+        {
+          "role": "building block",
+          "smiles": "C(C1=CC=CC=C1)O",
+          "name": "benzyl alcohol"
+        },
+        {
+          "role": "product",
+          "smiles": "OC(=O)N[C@@H](CSC(C1=CC=CC=C1)(C1=CC=CC=C1)C1=CC=CC=C1)C(=O)OCC1=CC=CC=C1",
+          "name": "Benzyl ((hydroxy)carbonyl)-S-trityl-L-cysteinate"
+        }
+      ]
+    },
+    {
+      "reaction_page_link": "https://kmt.vander-lingen.nl/data/reaction/profile/3bfdc110742af4fd345c86ac0d722364",
+      "reaction_smiles": "OC(=O)N[C@@H](CSC(C1=CC=CC=C1)(C1=CC=CC=C1)C1=CC=CC=C1)C(=O)OCC1=CC=CC=C1>ClCCl.C(=O)(C(F)(F)F)O.C(C)[SiH](CC)CC>C(C1=CC=CC=C1)OC(=O)N[C@@H](CS)C(=O)OCC1=CC=CC=C1",
+      "molecules": [
+        {
+          "role": "reactant",
+          "smiles": "OC(=O)N[C@@H](CSC(C1=CC=CC=C1)(C1=CC=CC=C1)C1=CC=CC=C1)C(=O)OCC1=CC=CC=C1",
+          "name": "Benzyl ((hydroxy)carbonyl)-S-trityl-L-cysteinate"
+        },
+        {
+          "role": "solvent",
+          "smiles": "ClCCl",
+          "name": "dichloromethane"
+        },
+        {
+          "role": "acid",
+          "smiles": "C(=O)(C(F)(F)F)O",
+          "name": "trifluoroacetic acid"
+        },
+        {
+          "role": "reducing agent",
+          "smiles": "C(C)[SiH](CC)CC",
+          "name": "triethylsilane"
+        },
+        {
+          "role": "product",
+          "smiles": "C(C1=CC=CC=C1)OC(=O)N[C@@H](CS)C(=O)OCC1=CC=CC=C1",
+          "name": "Benzyl ((benzyloxy)carbonyl)-L-cysteinate"
+        }
+      ]
+    },
+    {
+      "reaction_page_link": "https://kmt.vander-lingen.nl/data/reaction/profile/2b6ffbc283db4113a925cd8105c16dc5",
+      "reaction_smiles": "C(C1=CC=CC=C1)O.N1[C@@H](CCC1=O)C(=O)O>ClS(Cl)=O.C(O)([O-])=O.[Na+]>C(C1=CC=CC=C1)OC(=O)[C@H]1NC(CC1)=O",
+      "molecules": [
+        {
+          "role": "reactant",
+          "smiles": "N1[C@@H](CCC1=O)C(=O)O",
+          "name": "L-pyroglutamic acid"
+        },
+        {
+          "role": "halogenation reagent",
+          "smiles": "ClS(Cl)=O",
+          "name": "thionyl chloride"
+        },
+        {
+          "role": "base",
+          "smiles": "C(O)([O-])=O.[Na+]",
+          "name": "sodium hydrogen carbonate"
+        },
+        {
+          "role": "building block",
+          "smiles": "C(C1=CC=CC=C1)O",
+          "name": "benzyl alcohol"
+        },
+        {
+          "role": "product",
+          "smiles": "C(C1=CC=CC=C1)OC(=O)[C@H]1NC(CC1)=O",
+          "name": "(S)-5-oxo-pyrrolidine-2-carboxylic acid benzyl ester"
+        }
+      ]
+    },
+    {
+      "reaction_page_link": "https://kmt.vander-lingen.nl/data/reaction/profile/f1a88f56640824c54c1122cf1130ebb9",
+      "reaction_smiles": "C(=O)(OC(C)(C)C)OC(=O)OC(C)(C)C.C(C1=CC=CC=C1)OC(=O)[C@H]1NC(CC1)=O>C1(=CC=NC=C1)N(C)C.ClCCl.CCN(CC)CC>C(C)(C)(C)OC(=O)N1[C@@H](CCC1=O)C(=O)OCC1=CC=CC=C1",
+      "molecules": [
+        {
+          "role": "reactant",
+          "smiles": "C(C1=CC=CC=C1)OC(=O)[C@H]1NC(CC1)=O",
+          "name": "(S)-5-oxo-pyrrolidine-2-carboxylic acid benzyl ester"
+        },
+        {
+          "role": "catalyst",
+          "smiles": "C1(=CC=NC=C1)N(C)C",
+          "name": "4-dimethylaminopyridine"
+        },
+        {
+          "role": "solvent",
+          "smiles": "ClCCl",
+          "name": "dichloromethane"
+        },
+        {
+          "role": "base",
+          "smiles": "CCN(CC)CC",
+          "name": "triethylamine"
+        },
+        {
+          "role": "protective group reagent",
+          "smiles": "C(=O)(OC(C)(C)C)OC(=O)OC(C)(C)C",
+          "name": "di-tert-butyl dicarbonate"
+        },
+        {
+          "role": "product",
+          "smiles": "C(C)(C)(C)OC(=O)N1[C@@H](CCC1=O)C(=O)OCC1=CC=CC=C1",
+          "name": "Benzyl N-tert-butoxycarbonyl-(2S)-pyroglutamate"
+        }
+      ]
+    },
+    {
+      "reaction_page_link": "https://kmt.vander-lingen.nl/data/reaction/profile/136c3fc7794f29411f87477134ff801e",
+      "reaction_smiles": "C[N+](=C)C.[I-].C(C)(C)(C)OC(=O)N1[C@@H](CCC1=O)C(=O)OCC1=CC=CC=C1>C1CCCO1.C[Si](C)(C)[N-][Si](C)(C)C.[Li+]>CN(C)CC1C[C@H](N(C1=O)C(=O)OC(C)(C)C)C(=O)OCC1=CC=CC=C1",
+      "molecules": [
+        {
+          "role": "reactant",
+          "smiles": "C(C)(C)(C)OC(=O)N1[C@@H](CCC1=O)C(=O)OCC1=CC=CC=C1",
+          "name": "Benzyl N-tert-butoxycarbonyl-(2S)-pyroglutamate"
+        },
+        {
+          "role": "solvent",
+          "smiles": "C1CCCO1",
+          "name": "tetrahydrofuran"
+        },
+        {
+          "role": "non-nucleophilic base",
+          "smiles": "C[Si](C)(C)[N-][Si](C)(C)C.[Li+]",
+          "name": "lithium bis(trimethylsilyl)amide"
+        },
+        {
+          "role": "building block",
+          "smiles": "C[N+](=C)C.[I-]",
+          "name": "N,N-Dimethylmethaniminium iodide"
+        },
+        {
+          "role": "product",
+          "smiles": "CN(C)CC1C[C@H](N(C1=O)C(=O)OC(C)(C)C)C(=O)OCC1=CC=CC=C1",
+          "name": "2-Benzyl 1-(tert-butyl) (S)-4-(N,N-dimethylaminomethyl)-5-oxopyrrolidine-1,2-dicarboxylate"
+        }
+      ]
+    },
+    {
+      "reaction_page_link": "https://kmt.vander-lingen.nl/data/reaction/profile/cd72fef860bb3997f60bd3de5734c38c",
+      "reaction_smiles": "CI.CN(C)CC1C[C@H](N(C1=O)C(=O)OC(C)(C)C)C(=O)OCC1=CC=CC=C1>CO[H]>C=C1C[C@H](N(C1=O)C(=O)OC(C)(C)C)C(=O)OCC1=CC=CC=C1",
+      "molecules": [
+        {
+          "role": "C1 synthon",
+          "smiles": "CI",
+          "name": "methyl iodide"
+        },
+        {
+          "role": "reactant",
+          "smiles": "CN(C)CC1C[C@H](N(C1=O)C(=O)OC(C)(C)C)C(=O)OCC1=CC=CC=C1",
+          "name": "2-Benzyl 1-(tert-butyl) (S)-4-(N,N-dimethylaminomethyl)-5-oxopyrrolidine-1,2-dicarboxylate"
+        },
+        {
+          "role": "solvent",
+          "smiles": "CO[H]",
+          "name": "methanol"
+        },
+        {
+          "role": "product",
+          "smiles": "C=C1C[C@H](N(C1=O)C(=O)OC(C)(C)C)C(=O)OCC1=CC=CC=C1",
+          "name": "2-Benzyl 1-(tert-butyl) (S)-4-methylene-5-oxopyrrolidine-1,2-dicarboxylate"
+        }
+      ]
+    },
+    {
+      "reaction_page_link": "https://kmt.vander-lingen.nl/data/reaction/profile/dd0e307b7d7e0157f6182ed940cee5be",
+      "reaction_smiles": "C1(=CC=C(C=C1)S(=O)(=O)N)C.C(C)(=O)O[IH]C1=C(C=CC=C1)[IH]OC(C)=O>CO[H].[OH-].[K+]>CC1=CC=C(C=C1)S(=O)(=O)N=IC1=CC=CC=C1",
+      "molecules": [
+        {
+          "role": "reactant",
+          "smiles": "C1(=CC=C(C=C1)S(=O)(=O)N)C",
+          "name": "p-toluenesulfonamide"
+        },
+        {
+          "role": "reactant",
+          "smiles": "C(C)(=O)O[IH]C1=C(C=CC=C1)[IH]OC(C)=O",
+          "name": "(diacetoxyiodo)benzene"
+        },
+        {
+          "role": "solvent",
+          "smiles": "CO[H]",
+          "name": "methanol"
+        },
+        {
+          "role": "base",
+          "smiles": "[OH-].[K+]",
+          "name": "potassium hydroxide"
+        },
+        {
+          "role": "product",
+          "smiles": "CC1=CC=C(C=C1)S(=O)(=O)N=IC1=CC=CC=C1",
+          "name": "4-methyl-N-(phenyl-λ3-iodaneylidene)benzenesulfonamide"
+        }
+      ]
+    },
+    {
+      "reaction_page_link": "https://kmt.vander-lingen.nl/data/reaction/profile/a96c7a8a1e0582c038d9c0013ee66476",
+      "reaction_smiles": "C(C1=CC=CC=C1)Br.C(C1=CC=CC=C1)OC(=O)N1[C@@H](CCC1=O)C(=O)O>N(C)(C)C=O.C([O-])([O-])=O.[K+].[K+]>O=C1CC[C@H](N1C(=O)OCC1=CC=CC=C1)C(=O)OCC1=CC=CC=C1",
+      "molecules": [
+        {
+          "role": "reactant",
+          "smiles": "C(C1=CC=CC=C1)OC(=O)N1[C@@H](CCC1=O)C(=O)O",
+          "name": "(S)-5-Oxo-pyrrolidine-1,2-dicarboxylic acid 1-benzyl ester"
+        },
+        {
+          "role": "solvent",
+          "smiles": "N(C)(C)C=O",
+          "name": "dimethylformamide"
+        },
+        {
+          "role": "base",
+          "smiles": "C([O-])([O-])=O.[K+].[K+]",
+          "name": "potassium carbonate"
+        },
+        {
+          "role": "building block",
+          "smiles": "C(C1=CC=CC=C1)Br",
+          "name": "benzyl bromide"
+        },
+        {
+          "role": "product",
+          "smiles": "O=C1CC[C@H](N1C(=O)OCC1=CC=CC=C1)C(=O)OCC1=CC=CC=C1",
+          "name": "Dibenzyl (S)-5-oxopyrrolidine-1,2-dicarboxylate"
+        }
+      ]
+    },
+    {
+      "reaction_page_link": "https://kmt.vander-lingen.nl/data/reaction/profile/3d62222e27e1df80c90a51e05fefca60",
+      "reaction_smiles": "C[N+](=C)C.[I-].O=C1CC[C@H](N1C(=O)OCC1=CC=CC=C1)C(=O)OCC1=CC=CC=C1>C1CCCO1.C[Si](C)(C)[N-][Si](C)(C)C.[Na+]>CN(C)CC1C[C@H](N(C1=O)C(=O)OCC1=CC=CC=C1)C(=O)OCC1=CC=CC=C1",
+      "molecules": [
+        {
+          "role": "reactant",
+          "smiles": "O=C1CC[C@H](N1C(=O)OCC1=CC=CC=C1)C(=O)OCC1=CC=CC=C1",
+          "name": "Dibenzyl (S)-5-oxopyrrolidine-1,2-dicarboxylate"
+        },
+        {
+          "role": "solvent",
+          "smiles": "C1CCCO1",
+          "name": "tetrahydrofuran"
+        },
+        {
+          "role": "non-nucleophilic base",
+          "smiles": "C[Si](C)(C)[N-][Si](C)(C)C.[Na+]",
+          "name": "Sodium bis(trimethylsilyl)amide"
+        },
+        {
+          "role": "building block",
+          "smiles": "C[N+](=C)C.[I-]",
+          "name": "N,N-Dimethylmethaniminium iodide"
+        },
+        {
+          "role": "product",
+          "smiles": "CN(C)CC1C[C@H](N(C1=O)C(=O)OCC1=CC=CC=C1)C(=O)OCC1=CC=CC=C1",
+          "name": "Dibenzyl (S)-4-(N,N-dimethylaminomethyl)-5-oxopyrrolidine-1,2-dicarboxylate"
+        }
+      ]
+    },
+    {
+      "reaction_page_link": "https://kmt.vander-lingen.nl/data/reaction/profile/f2f5ea52b6c4e21460b5c17ec5e3ae8f",
+      "reaction_smiles": "CI.CN(C)CC1C[C@H](N(C1=O)C(=O)OCC1=CC=CC=C1)C(=O)OCC1=CC=CC=C1>CO[H]>C=C1C[C@H](N(C1=O)C(=O)OCC1=CC=CC=C1)C(=O)OCC1=CC=CC=C1",
+      "molecules": [
+        {
+          "role": "C1 synthon",
+          "smiles": "CI",
+          "name": "methyl iodide"
+        },
+        {
+          "role": "reactant",
+          "smiles": "CN(C)CC1C[C@H](N(C1=O)C(=O)OCC1=CC=CC=C1)C(=O)OCC1=CC=CC=C1",
+          "name": "Dibenzyl (S)-4-(N,N-dimethylaminomethyl)-5-oxopyrrolidine-1,2-dicarboxylate"
+        },
+        {
+          "role": "solvent",
+          "smiles": "CO[H]",
+          "name": "methanol"
+        },
+        {
+          "role": "product",
+          "smiles": "C=C1C[C@H](N(C1=O)C(=O)OCC1=CC=CC=C1)C(=O)OCC1=CC=CC=C1",
+          "name": "Dibenzyl (S)-4-methylene-5-oxopyrrolidine-1,2-dicarboxylate"
+        }
+      ]
+    },
+    {
+      "reaction_page_link": "https://kmt.vander-lingen.nl/data/reaction/profile/2243254e9e7ae0096e5ed47d6ac0a254",
+      "reaction_smiles": "C(C1=CC=CC=C1)OC(N)=O>C(C)OCC.CO[H].[OH-].[Na+].ClOC(C)(C)C>ClNC(OCC1=CC=CC=C1)=O.[Na]",
+      "molecules": [
+        {
+          "role": "reactant",
+          "smiles": "C(C1=CC=CC=C1)OC(N)=O",
+          "name": "carbamic acid benzyl ester"
+        },
+        {
+          "role": "solvent",
+          "smiles": "C(C)OCC",
+          "name": "diethyl ether"
+        },
+        {
+          "role": "solvent",
+          "smiles": "CO[H]",
+          "name": "methanol"
+        },
+        {
+          "role": "base",
+          "smiles": "[OH-].[Na+]",
+          "name": "sodium hydroxide"
+        },
+        {
+          "role": "reagent",
+          "smiles": "ClOC(C)(C)C",
+          "name": "tert-Butyl hypochlorite"
+        },
+        {
+          "role": "product",
+          "smiles": "ClNC(OCC1=CC=CC=C1)=O.[Na]",
+          "name": "sodium O-benzyl N-(chloro)carbamate"
+        }
+      ]
+    },
+    {
+      "reaction_page_link": "https://kmt.vander-lingen.nl/data/reaction/profile/0de47010c9390b1a5505559c246383dd",
+      "reaction_smiles": "C(C1=CC=CC=C1)OC([C@H](CSC[C@@]1(C[C@H](N(C1=O)C(=O)OCC1=CC=CC=C1)C(=O)OCC1=CC=CC=C1)NC(=O)OCC1=CC=CC=C1)NC(=O)OCC1=CC=CC=C1)=O>CO[H].Cl.[OH-].[Li+]>N[C@@H](C[C@](N)(C(=O)O)CSC[C@@H](C(=O)O)N)C(=O)O",
+      "molecules": [
+        {
+          "role": "reactant",
+          "smiles": "C(C1=CC=CC=C1)OC([C@H](CSC[C@@]1(C[C@H](N(C1=O)C(=O)OCC1=CC=CC=C1)C(=O)OCC1=CC=CC=C1)NC(=O)OCC1=CC=CC=C1)NC(=O)OCC1=CC=CC=C1)=O",
+          "name": "Dibenzyl (2S,4S)-4-((((R)-3-(benzyloxy)-2-(((benzyloxy)carbonyl)amino)-3-oxopropyl)thio)methyl)-4-(((benzyloxy)carbonyl)amino)-5-oxopyrrolidine-1,2-dicarboxylate"
+        },
+        {
+          "role": "solvent",
+          "smiles": "CO[H]",
+          "name": "methanol"
+        },
+        {
+          "role": "quench",
+          "smiles": "Cl",
+          "name": "hydrogen chloride"
+        },
+        {
+          "role": "base",
+          "smiles": "[OH-].[Li+]",
+          "name": "lithium hydroxide"
+        },
+        {
+          "role": "product",
+          "smiles": "N[C@@H](C[C@](N)(C(=O)O)CSC[C@@H](C(=O)O)N)C(=O)O",
+          "name": "(4S)-4-amino-2-[[[(2R)-2-amino-2-carboxyethyl]thio]methyl]-L-glutamic acid"
+        }
+      ]
+    },
+    {
+      "reaction_page_link": "https://kmt.vander-lingen.nl/data/reaction/profile/479618b6095f59f00c82381497d62c94",
+      "reaction_smiles": "C=C1C[C@H](N(C1=O)C(=O)OC(C)(C)C)C(=O)OCC1=CC=CC=C1.CC1=CC=C(C=C1)S(=O)(=O)N=IC1=CC=CC=C1>CC(=CC(=O)C)O.CC(=CC(=O)C)O.[Cu]>O=C1[C@@]2(CN2S(=O)(=O)C2=CC=C(C)C=C2)C[C@H](N1C(=O)OC(C)(C)C)C(=O)OCC1=CC=CC=C1",
+      "molecules": [
+        {
+          "role": "reactant",
+          "smiles": "C=C1C[C@H](N(C1=O)C(=O)OC(C)(C)C)C(=O)OCC1=CC=CC=C1",
+          "name": "2-Benzyl 1-(tert-butyl) (S)-4-methylene-5-oxopyrrolidine-1,2-dicarboxylate"
+        },
+        {
+          "role": "reactant",
+          "smiles": "CC1=CC=C(C=C1)S(=O)(=O)N=IC1=CC=CC=C1",
+          "name": "4-methyl-N-(phenyl-λ3-iodaneylidene)benzenesulfonamide"
+        },
+        {
+          "role": "desiccant",
+          "smiles": "*4A molsieves",
+          "name": "4A molsieves"
+        },
+        {
+          "role": "reagent",
+          "smiles": "CC(=CC(=O)C)O.CC(=CC(=O)C)O.[Cu]",
+          "name": "copper acetylacetonate"
+        },
+        {
+          "role": "product",
+          "smiles": "O=C1[C@@]2(CN2S(=O)(=O)C2=CC=C(C)C=C2)C[C@H](N1C(=O)OC(C)(C)C)C(=O)OCC1=CC=CC=C1",
+          "name": "6-Benzyl 5-(tert-butyl) (3S,6S)-4-oxo-1-tosyl-1,5-diazaspiro[2.4]heptane-5,6-dicarboxylate"
+        }
+      ]
+    },
+    {
+      "reaction_page_link": "https://kmt.vander-lingen.nl/data/reaction/profile/b733fe5c14483d938de25959f353c904",
+      "reaction_smiles": "C(C=C)Br.ClCC=1C2=CC=CC=C2C=C2C=CC=CC12.S(O)(O)(=O)=O.C(=C)[C@@H]1[C@@H]2C[C@@H](N(C1)CC2)[C@@H](O)C2=CC=NC1=CC=CC=C21>C1(=CC=CC=C1)C.ClCCl.[OH-].[Na+].C(O)([O-])=O.[Na+]>C=CCO[C@@H]([C@@H]1C[C@@H]2CC[N+]1(C[C@@H]2C=C)CC3=C4C=CC=CC4=CC5=CC=CC=C53)C6=CC=NC7=CC=CC=C67.[Br-]",
+      "molecules": [
+        {
+          "role": "reactant",
+          "smiles": "ClCC=1C2=CC=CC=C2C=C2C=CC=CC12",
+          "name": "9-chloromethyl anthracene"
+        },
+        {
+          "role": "reactant",
+          "smiles": "S(O)(O)(=O)=O.C(=C)[C@@H]1[C@@H]2C[C@@H](N(C1)CC2)[C@@H](O)C2=CC=NC1=CC=CC=C21",
+          "name": "(S)-[(2R,4S,5R)-5-ethenyl-1-azabicyclo[2.2.2]octan-2-yl]-quinolin-4-ylmethanol sulfuric acid"
+        },
+        {
+          "role": "solvent",
+          "smiles": "C1(=CC=CC=C1)C",
+          "name": "toluene"
+        },
+        {
+          "role": "solvent",
+          "smiles": "ClCCl",
+          "name": "dichloromethane"
+        },
+        {
+          "role": "base",
+          "smiles": "[OH-].[Na+]",
+          "name": "sodium hydroxide"
+        },
+        {
+          "role": "building block",
+          "smiles": "C(C=C)Br",
+          "name": "allyl bromide"
+        },
+        {
+          "role": "base",
+          "smiles": "C(O)([O-])=O.[Na+]",
+          "name": "sodium hydrogen carbonate"
+        },
+        {
+          "role": "product",
+          "smiles": "C=CCO[C@@H]([C@@H]1C[C@@H]2CC[N+]1(C[C@@H]2C=C)CC3=C4C=CC=CC4=CC5=CC=CC=C53)C6=CC=NC7=CC=CC=C67.[Br-]",
+          "name": "O-allyl-N-(9-anthracenylmethyl)cinchonidinium bromide"
+        }
+      ]
+    },
+    {
+      "reaction_page_link": "https://kmt.vander-lingen.nl/data/reaction/profile/539556ca0305e0546d458d086106c8ca",
+      "reaction_smiles": "Cl[O-].[Na+].CC(C)(C)O>C(C)(=O)O>ClOC(C)(C)C",
+      "molecules": [
+        {
+          "role": "reactant",
+          "smiles": "Cl[O-].[Na+]",
+          "name": "sodium hypochlorite"
+        },
+        {
+          "role": "reactant",
+          "smiles": "CC(C)(C)O",
+          "name": "tert-Butyl alcohol"
+        },
+        {
+          "role": "acid",
+          "smiles": "C(C)(=O)O",
+          "name": "acetic acid"
+        },
+        {
+          "role": "product",
+          "smiles": "ClOC(C)(C)C",
+          "name": "tert-Butyl hypochlorite"
+        }
+      ]
+    },
+    {
+      "reaction_page_link": "https://kmt.vander-lingen.nl/data/reaction/profile/799842eb79ba985ca8a990a1b8327609",
+      "reaction_smiles": "C=C1C[C@H](N(C1=O)C(=O)OC(C)(C)C)C(=O)OCC1=CC=CC=C1.ClNC(OCC1=CC=CC=C1)=O.[Na]>ClCCl.C=CCO[C@@H]([C@@H]1C[C@@H]2CC[N+]1(C[C@@H]2C=C)CC3=C4C=CC=CC4=CC5=CC=CC=C53)C6=CC=NC7=CC=CC=C67.[Br-]>O=C1[C@]2(CN2C(=O)OCC2=CC=CC=C2)C[C@H](N1C(=O)OC(C)(C)C)C(=O)OCC1=CC=CC=C1.O=C1[C@@]2(CN2C(=O)OCC2=CC=CC=C2)C[C@H](N1C(=O)OC(C)(C)C)C(=O)OCC1=CC=CC=C1",
+      "molecules": [
+        {
+          "role": "reactant",
+          "smiles": "C=C1C[C@H](N(C1=O)C(=O)OC(C)(C)C)C(=O)OCC1=CC=CC=C1",
+          "name": "2-Benzyl 1-(tert-butyl) (S)-4-methylene-5-oxopyrrolidine-1,2-dicarboxylate"
+        },
+        {
+          "role": "reactant",
+          "smiles": "ClNC(OCC1=CC=CC=C1)=O.[Na]",
+          "name": "sodium O-benzyl N-(chloro)carbamate"
+        },
+        {
+          "role": "solvent",
+          "smiles": "ClCCl",
+          "name": "dichloromethane"
+        },
+        {
+          "role": "phase-transfer catalyst",
+          "smiles": "C=CCO[C@@H]([C@@H]1C[C@@H]2CC[N+]1(C[C@@H]2C=C)CC3=C4C=CC=CC4=CC5=CC=CC=C53)C6=CC=NC7=CC=CC=C67.[Br-]",
+          "name": "O-allyl-N-(9-anthracenylmethyl)cinchonidinium bromide"
+        },
+        {
+          "role": "product",
+          "smiles": "O=C1[C@]2(CN2C(=O)OCC2=CC=CC=C2)C[C@H](N1C(=O)OC(C)(C)C)C(=O)OCC1=CC=CC=C1",
+          "name": "1,6-Dibenzyl 5-(tert-butyl) (3R,6S)-4-oxo-1,5-diazaspiro[2.4]heptane-1,5,6-tricarboxylate"
+        },
+        {
+          "role": "product",
+          "smiles": "O=C1[C@@]2(CN2C(=O)OCC2=CC=CC=C2)C[C@H](N1C(=O)OC(C)(C)C)C(=O)OCC1=CC=CC=C1",
+          "name": "1,6-Dibenzyl 5-(tert-butyl) (3S,6S)-4-oxo-1,5-diazaspiro[2.4]heptane-1,5,6-tricarboxylate"
+        }
+      ]
+    },
+    {
+      "reaction_page_link": "https://kmt.vander-lingen.nl/data/reaction/profile/af191301f54739e4b8e1677bd5e12669",
+      "reaction_smiles": "C(C1=CC=CC=C1)OC(=O)N[C@@H](CS)C(=O)OCC1=CC=CC=C1.O=C1[C@]2(CN2C(=O)OCC2=CC=CC=C2)C[C@H](N1C(=O)OCC1=CC=CC=C1)C(=O)OCC1=CC=CC=C1>C(C)OCC.[Cl-].[In+3].[Cl-].[Cl-]>C(C1=CC=CC=C1)OC([C@H](CSC[C@@]1(C[C@H](N(C1=O)C(=O)OCC1=CC=CC=C1)C(=O)OCC1=CC=CC=C1)NC(=O)OCC1=CC=CC=C1)NC(=O)OCC1=CC=CC=C1)=O",
+      "molecules": [
+        {
+          "role": "reactant",
+          "smiles": "C(C1=CC=CC=C1)OC(=O)N[C@@H](CS)C(=O)OCC1=CC=CC=C1",
+          "name": "Benzyl ((benzyloxy)carbonyl)-L-cysteinate"
+        },
+        {
+          "role": "reactant",
+          "smiles": "O=C1[C@]2(CN2C(=O)OCC2=CC=CC=C2)C[C@H](N1C(=O)OCC1=CC=CC=C1)C(=O)OCC1=CC=CC=C1",
+          "name": "Tribenzyl (3R,6S)-4-oxo-1,5-diazaspiro[2.4]heptane-1,5,6-tricarboxylate"
+        },
+        {
+          "role": "solvent",
+          "smiles": "C(C)OCC",
+          "name": "diethyl ether"
+        },
+        {
+          "role": "Lewis acid",
+          "smiles": "[Cl-].[In+3].[Cl-].[Cl-]",
+          "name": "indium(III) chloride"
+        },
+        {
+          "role": "product",
+          "smiles": "C(C1=CC=CC=C1)OC([C@H](CSC[C@@]1(C[C@H](N(C1=O)C(=O)OCC1=CC=CC=C1)C(=O)OCC1=CC=CC=C1)NC(=O)OCC1=CC=CC=C1)NC(=O)OCC1=CC=CC=C1)=O",
+          "name": "Dibenzyl (2S,4S)-4-((((R)-3-(benzyloxy)-2-(((benzyloxy)carbonyl)amino)-3-oxopropyl)thio)methyl)-4-(((benzyloxy)carbonyl)amino)-5-oxopyrrolidine-1,2-dicarboxylate"
+        }
+      ]
+    }
+  ],
+  "https://kmt.vander-lingen.nl/data/reaction/doi/10.1021/acs.orglett.5c00715/start/0": [
+    {
+      "reaction_page_link": "https://kmt.vander-lingen.nl/data/reaction/profile/0b9e199cac6aa1eb91175fff46af680e",
+      "reaction_smiles": "NCCC1=CNC2=CC=CC=C12.CC1(OC(=CC(O1)=O)C)C>CC1=CC=C(C)C=C1>N1C=C(C2=CC=CC=C12)CCNC(CC(C)=O)=O",
+      "molecules": [
+        {
+          "role": "reactant",
+          "smiles": "NCCC1=CNC2=CC=CC=C12",
+          "name": "tryptamine"
+        },
+        {
+          "role": "reactant",
+          "smiles": "CC1(OC(=CC(O1)=O)C)C",
+          "name": "2,2,6-trimethyl-1,3-dioxin-4-one"
+        },
+        {
+          "role": "solvent",
+          "smiles": "CC1=CC=C(C)C=C1",
+          "name": "p-xylene"
+        },
+        {
+          "role": "product",
+          "smiles": "N1C=C(C2=CC=CC=C12)CCNC(CC(C)=O)=O",
+          "name": "N-(2-(1H-indol-3-yl)ethyl)-3-oxobutanamide"
+        }
+      ]
+    },
+    {
+      "reaction_page_link": "https://kmt.vander-lingen.nl/data/reaction/profile/c8b9b99f2325b595d1c612d31ecb5af3",
+      "reaction_smiles": "C(\\C=C\\C)=O.C(CC=C)O>ClCCl.CC1=CC(=C(C(=C1)C)N2CCN([CH-]2)C3=C(C=C(C=C3C)C)C)C.C1CCC(CC1)[PH+](C2CCCCC2)C3CCCCC3.C1=CC=C(C=C1)C=[Ru](Cl)Cl>OCC/C=C/C=O",
+      "molecules": [
+        {
+          "role": "reactant",
+          "smiles": "C(\\C=C\\C)=O",
+          "name": "crotonaldehyde"
+        },
+        {
+          "role": "reactant",
+          "smiles": "C(CC=C)O",
+          "name": "3-buten-1-ol"
+        },
+        {
+          "role": "solvent",
+          "smiles": "ClCCl",
+          "name": "dichloromethane"
+        },
+        {
+          "role": "catalyst",
+          "smiles": "CC1=CC(=C(C(=C1)C)N2CCN([CH-]2)C3=C(C=C(C=C3C)C)C)C.C1CCC(CC1)[PH+](C2CCCCC2)C3CCCCC3.C1=CC=C(C=C1)C=[Ru](Cl)Cl",
+          "name": "tricyclohexylphosphine [1,3-bis(2,4,6-trimethylphenyl)-4,5-dihydroimidazol-2-ylidene] [benzylidene] ruthenium(IV) dichloride"
+        },
+        {
+          "role": "product",
+          "smiles": "OCC/C=C/C=O",
+          "name": "(E)-5-Hydroxypent-2-enal"
+        }
+      ]
+    },
+    {
+      "reaction_page_link": "https://kmt.vander-lingen.nl/data/reaction/profile/160e75f501c6d37ccdee901fa9ae127c",
+      "reaction_smiles": "C(C)(=O)Cl.OCC/C=C/C=O.N1C=C(C2=CC=CC=C12)CCNC(CC(C)=O)=O>ClCCl.C1(=CC=CC=C1)C([C@@H]1NCCC1)(O[Si](C)(C)C)C1=CC=CC=C1>CC=1OCC[C@@H]2C1C(N1CCC3=C([C@@H]1C2)NC2=CC=CC=C23)=O",
+      "molecules": [
+        {
+          "role": "C2 synthon",
+          "smiles": "C(C)(=O)Cl",
+          "name": "acetyl chloride"
+        },
+        {
+          "role": "reactant",
+          "smiles": "OCC/C=C/C=O",
+          "name": "(E)-5-Hydroxypent-2-enal"
+        },
+        {
+          "role": "reactant",
+          "smiles": "N1C=C(C2=CC=CC=C12)CCNC(CC(C)=O)=O",
+          "name": "N-(2-(1H-indol-3-yl)ethyl)-3-oxobutanamide"
+        },
+        {
+          "role": "solvent",
+          "smiles": "ClCCl",
+          "name": "dichloromethane"
+        },
+        {
+          "role": "catalyst",
+          "smiles": "C1(=CC=CC=C1)C([C@@H]1NCCC1)(O[Si](C)(C)C)C1=CC=CC=C1",
+          "name": "(2R)-2-[diphenyl[(trimethylsilyl)oxy]methyl]pyrrolidine"
+        },
+        {
+          "role": "product",
+          "smiles": "CC=1OCC[C@@H]2C1C(N1CCC3=C([C@@H]1C2)NC2=CC=CC=C23)=O",
+          "name": "(13bS,14aR)-4-methyl-1,2,7,8,13,13b,14,14a-octahydro-5H-indolo[2,3-a]pyrano[3,4-g]quinolizin-5-one"
+        }
+      ]
+    },
+    {
+      "reaction_page_link": "https://kmt.vander-lingen.nl/data/reaction/profile/ed0c678cccf848bd837a7fbd8368545d",
+      "reaction_smiles": "ClC(=O)OCC1=CC=CC=C1.CC=1OCC[C@@H]2C1C(N1CCC3=C([C@@H]1C2)NC2=CC=CC=C23)=O>N(C)(C)C=O.[H-].[Na+]>CC=1OCC[C@@H]2C1C(N1CCC3=C([C@@H]1C2)N(C2=CC=CC=C23)C(=O)OCC2=CC=CC=C2)=O",
+      "molecules": [
+        {
+          "role": "reactant",
+          "smiles": "CC=1OCC[C@@H]2C1C(N1CCC3=C([C@@H]1C2)NC2=CC=CC=C23)=O",
+          "name": "(13bS,14aR)-4-methyl-1,2,7,8,13,13b,14,14a-octahydro-5H-indolo[2,3-a]pyrano[3,4-g]quinolizin-5-one"
+        },
+        {
+          "role": "solvent",
+          "smiles": "N(C)(C)C=O",
+          "name": "dimethylformamide"
+        },
+        {
+          "role": "protective group reagent",
+          "smiles": "ClC(=O)OCC1=CC=CC=C1",
+          "name": "Benzyl chloroformate"
+        },
+        {
+          "role": "base",
+          "smiles": "[H-].[Na+]",
+          "name": "sodium hydride"
+        },
+        {
+          "role": "product",
+          "smiles": "CC=1OCC[C@@H]2C1C(N1CCC3=C([C@@H]1C2)N(C2=CC=CC=C23)C(=O)OCC2=CC=CC=C2)=O",
+          "name": "benzyl (13bS,14aR)-4-methyl-5-oxo-1,7,8,13b,14,14a-hexahydro-5H-indolo[2,3-a]pyrano[3,4-g]quinolizine-13(2H)-carboxylate"
+        }
+      ]
+    },
+    {
+      "reaction_page_link": "https://kmt.vander-lingen.nl/data/reaction/profile/84d4c1b2e2ead60cb4a3b7eb7e063d26",
+      "reaction_smiles": "F[B-](F)(F)F.C[O+](C)C.CC=1OCC[C@@H]2C1C(N1CCC3=C([C@@H]1C2)N(C2=CC=CC=C23)C(=O)OCC2=CC=CC=C2)=O>CO[H].ClCCl.[Na+].[BH4-].C(C)(C)(C)C1=NC(=CC=C1)C(C)(C)C>CC=1OCC[C@@H]2C1CN1CCC3=C([C@@H]1C2)N(C2=CC=CC=C23)C(=O)OCC2=CC=CC=C2",
+      "molecules": [
+        {
+          "role": "C1 synthon",
+          "smiles": "F[B-](F)(F)F.C[O+](C)C",
+          "name": "Trimethyloxonium tetrafluoroborate"
+        },
+        {
+          "role": "reactant",
+          "smiles": "CC=1OCC[C@@H]2C1C(N1CCC3=C([C@@H]1C2)N(C2=CC=CC=C23)C(=O)OCC2=CC=CC=C2)=O",
+          "name": "benzyl (13bS,14aR)-4-methyl-5-oxo-1,7,8,13b,14,14a-hexahydro-5H-indolo[2,3-a]pyrano[3,4-g]quinolizine-13(2H)-carboxylate"
+        },
+        {
+          "role": "solvent",
+          "smiles": "CO[H]",
+          "name": "methanol"
+        },
+        {
+          "role": "solvent",
+          "smiles": "ClCCl",
+          "name": "dichloromethane"
+        },
+        {
+          "role": "reducing agent",
+          "smiles": "[Na+].[BH4-]",
+          "name": "sodium borohydride"
+        },
+        {
+          "role": "desiccant",
+          "smiles": "*4A molsieves",
+          "name": "4A molsieves"
+        },
+        {
+          "role": "non-nucleophilic base",
+          "smiles": "C(C)(C)(C)C1=NC(=CC=C1)C(C)(C)C",
+          "name": "2,6-di-tert-butylpyridine"
+        },
+        {
+          "role": "product",
+          "smiles": "CC=1OCC[C@@H]2C1CN1CCC3=C([C@@H]1C2)N(C2=CC=CC=C23)C(=O)OCC2=CC=CC=C2",
+          "name": "benzyl (13bS,14aR)-4-methyl-1,7,8,13b,14,14a-hexahydro-5H-indolo[2,3-a]pyrano[3,4-g]quinolizine-13(2H)-carboxylate"
+        }
+      ]
+    },
+    {
+      "reaction_page_link": "https://kmt.vander-lingen.nl/data/reaction/profile/f57d3728defe70964ea6393fed89355a",
+      "reaction_smiles": "COC(OC)=O.C[C@@H]1OC(C[C@@H]2[C@@H]1CN1CCC3=C([C@@H]1C2)N(C2=CC=CC=C23)C(=O)OCC2=CC=CC=C2)=O>C1CCCO1.C[Si](C)(C)[N-][Si](C)(C)C.[Li+].C[O-].[Na+]>C[C@@H]1OC([C@@H]([C@@H]2[C@@H]1CN1CCC3=C([C@@H]1C2)NC2=CC=CC=C23)C(=O)OC)=O",
+      "molecules": [
+        {
+          "role": "reactant",
+          "smiles": "C[C@@H]1OC(C[C@@H]2[C@@H]1CN1CCC3=C([C@@H]1C2)N(C2=CC=CC=C23)C(=O)OCC2=CC=CC=C2)=O",
+          "name": "benzyl (4S,4aR,13bS,14aR)-4-methyl-2-oxo-1,4a,5,7,8,13b,14,14a-octahydro-4H-indolo[2,3-a]pyrano[3,4-g]quinolizine-13(2H)-carboxylate"
+        },
+        {
+          "role": "solvent",
+          "smiles": "C1CCCO1",
+          "name": "tetrahydrofuran"
+        },
+        {
+          "role": "non-nucleophilic base",
+          "smiles": "C[Si](C)(C)[N-][Si](C)(C)C.[Li+]",
+          "name": "lithium bis(trimethylsilyl)amide"
+        },
+        {
+          "role": "base",
+          "smiles": "C[O-].[Na+]",
+          "name": "sodium methoxide"
+        },
+        {
+          "role": "building block",
+          "smiles": "COC(OC)=O",
+          "name": "dimethyl carbonate"
+        },
+        {
+          "role": "product",
+          "smiles": "C[C@@H]1OC([C@@H]([C@@H]2[C@@H]1CN1CCC3=C([C@@H]1C2)NC2=CC=CC=C23)C(=O)OC)=O",
+          "name": "methyl (1S,4S,4aR,13bS,14aS)-4-methyl-2-oxo-1,2,4a,5,7,8,13,13b,14,14a-decahydro-4H-indolo[2,3-a]pyrano[3,4-g]quinolizine-1-carboxylate"
+        }
+      ]
+    },
+    {
+      "reaction_page_link": "https://kmt.vander-lingen.nl/data/reaction/profile/3d25e44b24cd943ced8036d428241bf1",
+      "reaction_smiles": "C[C@@H]1OC([C@@H]([C@@H]2[C@@H]1CN1CCC3=C([C@@H]1C2)NC2=CC=CC=C23)C(=O)OC)=O>CO[H].ClCCl.[Na+].[BH4-].C([O-])([O-])=O.[Na+].[Na+]>C[C@@H]1OC([C@H]([C@@H]2[C@@H]1CN1CCC3=C([C@@H]1C2)NC2=CC=CC=C23)C(=O)OC)O",
+      "molecules": [
+        {
+          "role": "reactant",
+          "smiles": "C[C@@H]1OC([C@@H]([C@@H]2[C@@H]1CN1CCC3=C([C@@H]1C2)NC2=CC=CC=C23)C(=O)OC)=O",
+          "name": "methyl (1S,4S,4aR,13bS,14aS)-4-methyl-2-oxo-1,2,4a,5,7,8,13,13b,14,14a-decahydro-4H-indolo[2,3-a]pyrano[3,4-g]quinolizine-1-carboxylate"
+        },
+        {
+          "role": "solvent",
+          "smiles": "CO[H]",
+          "name": "methanol"
+        },
+        {
+          "role": "solvent",
+          "smiles": "ClCCl",
+          "name": "dichloromethane"
+        },
+        {
+          "role": "reducing agent",
+          "smiles": "[Na+].[BH4-]",
+          "name": "sodium borohydride"
+        },
+        {
+          "role": "quench",
+          "smiles": "C([O-])([O-])=O.[Na+].[Na+]",
+          "name": "sodium carbonate"
+        },
+        {
+          "role": "product",
+          "smiles": "C[C@@H]1OC([C@H]([C@@H]2[C@@H]1CN1CCC3=C([C@@H]1C2)NC2=CC=CC=C23)C(=O)OC)O",
+          "name": "Methyl (1S,4S,4aR,13bS,14aS)-4-methyl-2-hydroxy-1,2,4a,5,7,8,13,13b,14,14a-decahydro-4H-indolo[2,3-a]pyrano[3,4-g]quinolizine-1-carboxylate"
+        }
+      ]
+    },
+    {
+      "reaction_page_link": "https://kmt.vander-lingen.nl/data/reaction/profile/86160f1aa00556ef74d55549c7d51ed7",
+      "reaction_smiles": "CC=1OCC[C@@H]2C1CN1CCC3=C([C@@H]1C2)N(C2=CC=CC=C23)C(=O)OCC2=CC=CC=C2>C1CCCO1.Cl>CC1(OCC[C@@H]3C1CN2CCC4=C([C@@H]2C3)[N](C5=CC=CC=C45)C(=O)OCC6=CC=CC=C6)O",
+      "molecules": [
+        {
+          "role": "reactant",
+          "smiles": "CC=1OCC[C@@H]2C1CN1CCC3=C([C@@H]1C2)N(C2=CC=CC=C23)C(=O)OCC2=CC=CC=C2",
+          "name": "benzyl (13bS,14aR)-4-methyl-1,7,8,13b,14,14a-hexahydro-5H-indolo[2,3-a]pyrano[3,4-g]quinolizine-13(2H)-carboxylate"
+        },
+        {
+          "role": "solvent",
+          "smiles": "C1CCCO1",
+          "name": "tetrahydrofuran"
+        },
+        {
+          "role": "acid",
+          "smiles": "Cl",
+          "name": "hydrogen chloride"
+        },
+        {
+          "role": "product",
+          "smiles": "CC1(OCC[C@@H]3C1CN2CCC4=C([C@@H]2C3)[N](C5=CC=CC=C45)C(=O)OCC6=CC=CC=C6)O",
+          "name": "JZQDBOXHPYMHOE-MLIXRXGYSA-N"
+        }
+      ]
+    },
+    {
+      "reaction_page_link": "https://kmt.vander-lingen.nl/data/reaction/profile/7d242265879ef90f8a5d2574587de7e2",
+      "reaction_smiles": "CC1(OCC[C@@H]3C1CN2CCC4=C([C@@H]2C3)[N](C5=CC=CC=C45)C(=O)OCC6=CC=CC=C6)O>CO[H].[Na+].[BH4-]>OC(C)[C@H]1CN2CCC3=C([C@@H]2C[C@@H]1CCO)N(C1=CC=CC=C13)C(=O)OCC1=CC=CC=C1",
+      "molecules": [
+        {
+          "role": "reactant",
+          "smiles": "CC1(OCC[C@@H]3C1CN2CCC4=C([C@@H]2C3)[N](C5=CC=CC=C45)C(=O)OCC6=CC=CC=C6)O",
+          "name": "JZQDBOXHPYMHOE-MLIXRXGYSA-N"
+        },
+        {
+          "role": "solvent",
+          "smiles": "CO[H]",
+          "name": "methanol"
+        },
+        {
+          "role": "reducing agent",
+          "smiles": "[Na+].[BH4-]",
+          "name": "sodium borohydride"
+        },
+        {
+          "role": "product",
+          "smiles": "OC(C)[C@H]1CN2CCC3=C([C@@H]2C[C@@H]1CCO)N(C1=CC=CC=C13)C(=O)OCC1=CC=CC=C1",
+          "name": "benzyl (2R,3R,12bS)-3-(1-hydroxyethyl)-2-(2-hydroxyethyl)-1,3,4,6,7,12b-hexahydroindolo[2,3-a]quinolizine-12(2H)-carboxylate"
+        }
+      ]
+    },
+    {
+      "reaction_page_link": "https://kmt.vander-lingen.nl/data/reaction/profile/e9af63d53bfab4024064e4c5fb8d30a9",
+      "reaction_smiles": "OC(C)[C@H]1CN2CCC3=C([C@@H]2C[C@@H]1CCO)N(C1=CC=CC=C13)C(=O)OCC1=CC=CC=C1>ClCCl.C[N+]1(CCOCC1)[O-].[Ru](=O)(=O)(=O)[O-].C(CC)[N+](CCC)(CCC)CCC>C[C@@H]1OC(C[C@@H]2[C@@H]1CN1CCC3=C([C@@H]1C2)N(C2=CC=CC=C23)C(=O)OCC2=CC=CC=C2)=O.C[C@H]1OC(C[C@@H]2[C@@H]1CN1CCC3=C([C@@H]1C2)N(C2=CC=CC=C23)C(=O)OCC2=CC=CC=C2)=O",
+      "molecules": [
+        {
+          "role": "reactant",
+          "smiles": "OC(C)[C@H]1CN2CCC3=C([C@@H]2C[C@@H]1CCO)N(C1=CC=CC=C13)C(=O)OCC1=CC=CC=C1",
+          "name": "benzyl (2R,3R,12bS)-3-(1-hydroxyethyl)-2-(2-hydroxyethyl)-1,3,4,6,7,12b-hexahydroindolo[2,3-a]quinolizine-12(2H)-carboxylate"
+        },
+        {
+          "role": "solvent",
+          "smiles": "ClCCl",
+          "name": "dichloromethane"
+        },
+        {
+          "role": "oxidizing agent",
+          "smiles": "C[N+]1(CCOCC1)[O-]",
+          "name": "N-Methylmorpholine N-oxide"
+        },
+        {
+          "role": "oxidizing agent",
+          "smiles": "[Ru](=O)(=O)(=O)[O-].C(CC)[N+](CCC)(CCC)CCC",
+          "name": "tetrapropylammonium perruthenate"
+        },
+        {
+          "role": "product",
+          "smiles": "C[C@@H]1OC(C[C@@H]2[C@@H]1CN1CCC3=C([C@@H]1C2)N(C2=CC=CC=C23)C(=O)OCC2=CC=CC=C2)=O",
+          "name": "benzyl (4S,4aR,13bS,14aR)-4-methyl-2-oxo-1,4a,5,7,8,13b,14,14a-octahydro-4H-indolo[2,3-a]pyrano[3,4-g]quinolizine-13(2H)-carboxylate"
+        },
+        {
+          "role": "product",
+          "smiles": "C[C@H]1OC(C[C@@H]2[C@@H]1CN1CCC3=C([C@@H]1C2)N(C2=CC=CC=C23)C(=O)OCC2=CC=CC=C2)=O",
+          "name": "benzyl (4R,4aR,13bS,14aR)-4-methyl-2-oxo-1,4a,5,7,8,13b,14,14a-octahydro-4H-indolo[2,3-a]pyrano[3,4-g]quinolizine-13(2H)-carboxylate"
+        }
+      ]
+    },
+    {
+      "reaction_page_link": "https://kmt.vander-lingen.nl/data/reaction/profile/1e37fb7a084f8a4f92251e7b5e56bbcc",
+      "reaction_smiles": "C[C@@H]1OC([C@H]([C@@H]2[C@@H]1CN1CCC3=C([C@@H]1C2)NC2=CC=CC=C23)C(=O)OC)O>ClCCl.O.C1(=CC=C(C=C1)S(=O)(=O)O)C.C([O-])([O-])=O.[Na+].[Na+]>C[C@@H]1OC=C([C@@H]3[C@@H]1CN2CCC4=C([C@@H]2C3)[N]C5=CC=CC=C45)C(=O)OC",
+      "molecules": [
+        {
+          "role": "reactant",
+          "smiles": "C[C@@H]1OC([C@H]([C@@H]2[C@@H]1CN1CCC3=C([C@@H]1C2)NC2=CC=CC=C23)C(=O)OC)O",
+          "name": "Methyl (1S,4S,4aR,13bS,14aS)-4-methyl-2-hydroxy-1,2,4a,5,7,8,13,13b,14,14a-decahydro-4H-indolo[2,3-a]pyrano[3,4-g]quinolizine-1-carboxylate"
+        },
+        {
+          "role": "solvent",
+          "smiles": "ClCCl",
+          "name": "dichloromethane"
+        },
+        {
+          "role": "catalyst",
+          "smiles": "O.C1(=CC=C(C=C1)S(=O)(=O)O)C",
+          "name": "p-toluenesulfonic acid monohydrate"
+        },
+        {
+          "role": "quench",
+          "smiles": "C([O-])([O-])=O.[Na+].[Na+]",
+          "name": "sodium carbonate"
+        },
+        {
+          "role": "product",
+          "smiles": "C[C@@H]1OC=C([C@@H]3[C@@H]1CN2CCC4=C([C@@H]2C3)[N]C5=CC=CC=C45)C(=O)OC",
+          "name": "(-)-Ajmalicine"
+        }
+      ]
+    }
+  ],
+  "https://kmt.vander-lingen.nl/data/reaction/doi/10.1002/anie.202507638/start/0": [
+    {
+      "reaction_page_link": "https://kmt.vander-lingen.nl/data/reaction/profile/8f8d42bf57c28c44cb1f479235f2663f",
+      "reaction_smiles": "Cl.CNOC.CC(=CC=C(C(=O)O)C)C(=O)O>C1(=CC=NC=C1)N(C)C.ClCCl.CCN(CC)CC.Cl.CN(CCCN=C=NCC)C>CON(C(\\C(=C\\C=C(\\C(=O)N(C)OC)/C)\\C)=O)C",
+      "molecules": [
+        {
+          "role": "reactant",
+          "smiles": "CC(=CC=C(C(=O)O)C)C(=O)O",
+          "name": "1,4-dimethyl-butadiene-1,4-dicarboxylic acid"
+        },
+        {
+          "role": "catalyst",
+          "smiles": "C1(=CC=NC=C1)N(C)C",
+          "name": "4-dimethylaminopyridine"
+        },
+        {
+          "role": "solvent",
+          "smiles": "ClCCl",
+          "name": "dichloromethane"
+        },
+        {
+          "role": "base",
+          "smiles": "CCN(CC)CC",
+          "name": "triethylamine"
+        },
+        {
+          "role": "building block",
+          "smiles": "Cl.CNOC",
+          "name": "N,O-dimethylhydroxylamine hydrochloride"
+        },
+        {
+          "role": "coupling reagent",
+          "smiles": "Cl.CN(CCCN=C=NCC)C",
+          "name": "1-(3-dimethylaminopropyl)-3-ethylcarbodiimide hydrochloride"
+        },
+        {
+          "role": "product",
+          "smiles": "CON(C(\\C(=C\\C=C(\\C(=O)N(C)OC)/C)\\C)=O)C",
+          "name": "(2E,4E)-N1,N6-dimethoxy-N1,N6,2,5-tetramethylhexa-2,4-dienediamide"
+        }
+      ]
+    },
+    {
+      "reaction_page_link": "https://kmt.vander-lingen.nl/data/reaction/profile/db739659bb4f46b37dbf813f0ec57f29",
+      "reaction_smiles": "O=C1N[C@]2(C[C@H]2CO1)C(=O)OCC>ClCCl.[HH].FC(C(C(F)(F)F)O)(F)F.[Rh+].C1CC=CCCC=C1.C2CC=CCCC=C2.FC(F)(F)c3cc(cc(c3)C(F)(F)F)[B-](c4cc(cc(c4)C(F)(F)F)C(F)(F)F)(c5cc(cc(c5)C(F)(F)F)C(F)(F)F)c6cc(cc(c6)C(F)(F)F)C(F)(F)F.C1=CC=C(C7=C1O[C@@H]([C@@H]6OC2=C(C(=CC=C2)C3=C5C(=CC4=C3C=CC=C4)C=CC=C5)P6C(C)(C)C)P7C(C)(C)C)C8=C%10C(=CC9=C8C=CC=C9)C=CC=C%10>CON(C([C@H](CC[C@@H](C(=O)N(C)OC)C)C)=O)C",
+      "molecules": [
+        {
+          "role": "reactant",
+          "smiles": "O=C1N[C@]2(C[C@H]2CO1)C(=O)OCC",
+          "name": "ethyl (1SR,6RS)-3-oxo-4-oxa-2-azabicyclo[4.1.0]heptane-1-carboxylate"
+        },
+        {
+          "role": "solvent",
+          "smiles": "ClCCl",
+          "name": "dichloromethane"
+        },
+        {
+          "role": "reducing agent",
+          "smiles": "[HH]",
+          "name": "dihydrogen"
+        },
+        {
+          "role": "solvent",
+          "smiles": "FC(C(C(F)(F)F)O)(F)F",
+          "name": "hexafluoroisopropanol"
+        },
+        {
+          "role": "catalyst",
+          "smiles": "[Rh+].C1CC=CCCC=C1.C2CC=CCCC=C2.FC(F)(F)c3cc(cc(c3)C(F)(F)F)[B-](c4cc(cc(c4)C(F)(F)F)C(F)(F)F)(c5cc(cc(c5)C(F)(F)F)C(F)(F)F)c6cc(cc(c6)C(F)(F)F)C(F)(F)F",
+          "name": "Bis(1,5-cyclooctadiene)rhodium(I) tetrakis[bis(3,5-trifluoromethyl)phenyl]borate"
+        },
+        {
+          "role": "ligand",
+          "smiles": "C1=CC=C(C7=C1O[C@@H]([C@@H]6OC2=C(C(=CC=C2)C3=C5C(=CC4=C3C=CC=C4)C=CC=C5)P6C(C)(C)C)P7C(C)(C)C)C8=C%10C(=CC9=C8C=CC=C9)C=CC=C%10",
+          "name": "HDNWNMANFZGXKV-KHNZDHPSSA-N"
+        },
+        {
+          "role": "product",
+          "smiles": "CON(C([C@H](CC[C@@H](C(=O)N(C)OC)C)C)=O)C",
+          "name": "(2S,5S)-N1,N6-dimethoxy-N1,N6,2,5-tetramethylhexanediamide"
+        }
+      ]
+    },
+    {
+      "reaction_page_link": "https://kmt.vander-lingen.nl/data/reaction/profile/35fb3a73f89d1509ce7e524787cf31e2",
+      "reaction_smiles": "CON(C([C@H](CC[C@@H](C(=O)N(C)OC)C)C)=O)C>C1CCCO1.C[Li]>CON(C([C@H](CC[C@@H](C(C)=O)C)C)=O)C",
+      "molecules": [
+        {
+          "role": "reactant",
+          "smiles": "CON(C([C@H](CC[C@@H](C(=O)N(C)OC)C)C)=O)C",
+          "name": "(2S,5S)-N1,N6-dimethoxy-N1,N6,2,5-tetramethylhexanediamide"
+        },
+        {
+          "role": "solvent",
+          "smiles": "C1CCCO1",
+          "name": "tetrahydrofuran"
+        },
+        {
+          "role": "reagent",
+          "smiles": "C[Li]",
+          "name": "methyllithium"
+        },
+        {
+          "role": "product",
+          "smiles": "CON(C([C@H](CC[C@@H](C(C)=O)C)C)=O)C",
+          "name": "(2S,5S)-N-methoxy-N,2,5-trimethyl-6-oxoheptanamide"
+        }
+      ]
+    },
+    {
+      "reaction_page_link": "https://kmt.vander-lingen.nl/data/reaction/profile/e73f2578516d5ad3766181ead2b6d1d1",
+      "reaction_smiles": "CON(C([C@H](CC[C@@H](C(C)=O)C)C)=O)C>C1CCCO1.C[Si](C)(C)[N-][Si](C)(C)C.[K+].C1=CC=C(C=C1)N(S(=O)(=O)C(F)(F)F)S(=O)(=O)C(F)(F)F>FC(S(=O)(=O)OC(=C)[C@H](CC[C@@H](C(=O)N(C)OC)C)C)(F)F",
+      "molecules": [
+        {
+          "role": "reactant",
+          "smiles": "CON(C([C@H](CC[C@@H](C(C)=O)C)C)=O)C",
+          "name": "(2S,5S)-N-methoxy-N,2,5-trimethyl-6-oxoheptanamide"
+        },
+        {
+          "role": "solvent",
+          "smiles": "C1CCCO1",
+          "name": "tetrahydrofuran"
+        },
+        {
+          "role": "non-nucleophilic base",
+          "smiles": "C[Si](C)(C)[N-][Si](C)(C)C.[K+]",
+          "name": "potassium bis(trimethylsilyl)amide"
+        },
+        {
+          "role": "reagent",
+          "smiles": "C1=CC=C(C=C1)N(S(=O)(=O)C(F)(F)F)S(=O)(=O)C(F)(F)F",
+          "name": "N-phenyl-bis(trifluoromethanesulfonimide)"
+        },
+        {
+          "role": "product",
+          "smiles": "FC(S(=O)(=O)OC(=C)[C@H](CC[C@@H](C(=O)N(C)OC)C)C)(F)F",
+          "name": "(3S,6S)-7-(methoxy(methyl)amino)-3,6-dimethyl-7-oxohept-1-en-2-yl trifluoromethanesulfonate"
+        }
+      ]
+    },
+    {
+      "reaction_page_link": "https://kmt.vander-lingen.nl/data/reaction/profile/279b350cf73e6bff5a6d38886fbda662",
+      "reaction_smiles": "FC(S(=O)(=O)OC(=C)[C@H](CC[C@@H](C(=O)N(C)OC)C)C)(F)F.[Br-].COC1=C(C(=C(C=C1)OC)Br)C[Zn+]>C1CCCO1.c1ccc(cc1)[P](c2ccccc2)(c3ccccc3)[Pd]([P](c4ccccc4)(c5ccccc5)c6ccccc6)([P](c7ccccc7)(c8ccccc8)c9ccccc9)[P](c1ccccc1)(c1ccccc1)c1ccccc1>BrC1=C(CC([C@H](CC[C@@H](C(=O)N(C)OC)C)C)=C)C(=CC=C1OC)OC",
+      "molecules": [
+        {
+          "role": "reactant",
+          "smiles": "FC(S(=O)(=O)OC(=C)[C@H](CC[C@@H](C(=O)N(C)OC)C)C)(F)F",
+          "name": "(3S,6S)-7-(methoxy(methyl)amino)-3,6-dimethyl-7-oxohept-1-en-2-yl trifluoromethanesulfonate"
+        },
+        {
+          "role": "reactant",
+          "smiles": "[Br-].COC1=C(C(=C(C=C1)OC)Br)C[Zn+]",
+          "name": "((2,5-dimethoxy-6-bromo-phenyl)methyl)zincbromide"
+        },
+        {
+          "role": "solvent",
+          "smiles": "C1CCCO1",
+          "name": "tetrahydrofuran"
+        },
+        {
+          "role": "catalyst",
+          "smiles": "c1ccc(cc1)[P](c2ccccc2)(c3ccccc3)[Pd]([P](c4ccccc4)(c5ccccc5)c6ccccc6)([P](c7ccccc7)(c8ccccc8)c9ccccc9)[P](c1ccccc1)(c1ccccc1)c1ccccc1",
+          "name": "tetrakis(triphenylphosphine)palladium(0)"
+        },
+        {
+          "role": "product",
+          "smiles": "BrC1=C(CC([C@H](CC[C@@H](C(=O)N(C)OC)C)C)=C)C(=CC=C1OC)OC",
+          "name": "(2S,5S)-6-(2-bromo-3,6-dimethoxybenzyl)-N-methoxy-N,2,5-trimethylhept-6-enamide"
+        }
+      ]
+    },
+    {
+      "reaction_page_link": "https://kmt.vander-lingen.nl/data/reaction/profile/9c5aae4aeb4b8d2170a55d10395d23ef",
+      "reaction_smiles": "BrC1=C(CC([C@H](CC[C@@H](C(=O)N(C)OC)C)C)=C)C(=CC=C1OC)OC>C1(=CC=CC=C1)C.C1CCCO1.CC(C)C[AlH]CC(C)C>BrC1=C(CC([C@H](CC[C@H](C=O)C)C)=C)C(=CC=C1OC)OC",
+      "molecules": [
+        {
+          "role": "reactant",
+          "smiles": "BrC1=C(CC([C@H](CC[C@@H](C(=O)N(C)OC)C)C)=C)C(=CC=C1OC)OC",
+          "name": "(2S,5S)-6-(2-bromo-3,6-dimethoxybenzyl)-N-methoxy-N,2,5-trimethylhept-6-enamide"
+        },
+        {
+          "role": "solvent",
+          "smiles": "C1(=CC=CC=C1)C",
+          "name": "toluene"
+        },
+        {
+          "role": "solvent",
+          "smiles": "C1CCCO1",
+          "name": "tetrahydrofuran"
+        },
+        {
+          "role": "reducing agent",
+          "smiles": "CC(C)C[AlH]CC(C)C",
+          "name": "diisobutylaluminium hydride"
+        },
+        {
+          "role": "product",
+          "smiles": "BrC1=C(CC([C@H](CC[C@H](C=O)C)C)=C)C(=CC=C1OC)OC",
+          "name": "(R)-1-((S)-4-(2-bromo-3,6-dimethoxybenzyl)-3-methylpent-4-en-1-yl)-1-methyl-ethan-2-al"
+        }
+      ]
+    },
+    {
+      "reaction_page_link": "https://kmt.vander-lingen.nl/data/reaction/profile/33496fa15fd8f01e52f54fd7dfdb9dce",
+      "reaction_smiles": "C(=C)C(=O)C.BrC1=C(CC([C@H](CC[C@H](C=O)C)C)=C)C(=CC=C1OC)OC>CC#N.CCO[H].C(=O)([O-])[O-].[Cs+].[Cs+]>BrC1=C(CC([C@H](CC[C@]2(C=CC(CC2)=O)C)C)=C)C(=CC=C1OC)OC",
+      "molecules": [
+        {
+          "role": "reactant",
+          "smiles": "C(=C)C(=O)C",
+          "name": "methyl vinyl ketone"
+        },
+        {
+          "role": "reactant",
+          "smiles": "BrC1=C(CC([C@H](CC[C@H](C=O)C)C)=C)C(=CC=C1OC)OC",
+          "name": "(R)-1-((S)-4-(2-bromo-3,6-dimethoxybenzyl)-3-methylpent-4-en-1-yl)-1-methyl-ethan-2-al"
+        },
+        {
+          "role": "solvent",
+          "smiles": "CC#N",
+          "name": "acetonitrile"
+        },
+        {
+          "role": "solvent",
+          "smiles": "CCO[H]",
+          "name": "ethanol"
+        },
+        {
+          "role": "base",
+          "smiles": "C(=O)([O-])[O-].[Cs+].[Cs+]",
+          "name": "caesium carbonate"
+        },
+        {
+          "role": "product",
+          "smiles": "BrC1=C(CC([C@H](CC[C@]2(C=CC(CC2)=O)C)C)=C)C(=CC=C1OC)OC",
+          "name": "(R)-4-((S)-4-(2-bromo-3,6-dimethoxybenzyl)-3-methylpent-4-en-1-yl)-4-methylcyclohex-2-en-1-one"
+        }
+      ]
+    },
+    {
+      "reaction_page_link": "https://kmt.vander-lingen.nl/data/reaction/profile/dfb140bc46e4a622d8dbf7510087a953",
+      "reaction_smiles": "BrC1=C(CC([C@H](CC[C@]2(C=CC(CC2)=O)C)C)=C)C(=CC=C1OC)OC>C1CCCO1.C[Si](C)(C)[N-][Si](C)(C)C.[Li+].C(C)(C)(C)N=S(C1=CC=CC=C1)Cl>BrC1=C(CC([C@H](CCC2(C=CC(C=C2)=O)C)C)=C)C(=CC=C1OC)OC",
+      "molecules": [
+        {
+          "role": "reactant",
+          "smiles": "BrC1=C(CC([C@H](CC[C@]2(C=CC(CC2)=O)C)C)=C)C(=CC=C1OC)OC",
+          "name": "(R)-4-((S)-4-(2-bromo-3,6-dimethoxybenzyl)-3-methylpent-4-en-1-yl)-4-methylcyclohex-2-en-1-one"
+        },
+        {
+          "role": "solvent",
+          "smiles": "C1CCCO1",
+          "name": "tetrahydrofuran"
+        },
+        {
+          "role": "non-nucleophilic base",
+          "smiles": "C[Si](C)(C)[N-][Si](C)(C)C.[Li+]",
+          "name": "lithium bis(trimethylsilyl)amide"
+        },
+        {
+          "role": "oxidizing agent",
+          "smiles": "C(C)(C)(C)N=S(C1=CC=CC=C1)Cl",
+          "name": "N-tert-butylphenylsulfinimidoyl chloride"
+        },
+        {
+          "role": "product",
+          "smiles": "BrC1=C(CC([C@H](CCC2(C=CC(C=C2)=O)C)C)=C)C(=CC=C1OC)OC",
+          "name": "(S)-4-(4-(2-bromo-3,6-dimethoxybenzyl)-3-methylpent-4-en-1-yl)-4-methylcyclohexa-2,5-dien-1-one"
+        }
+      ]
+    },
+    {
+      "reaction_page_link": "https://kmt.vander-lingen.nl/data/reaction/profile/d156a3fdd4f2e06aab4e46ea0beba84e",
+      "reaction_smiles": "BrC1=C(CC([C@H](CCC2(C=CC(C=C2)=O)C)C)=C)C(=CC=C1OC)OC>CCO[H].Cc(c[c-](C)o1)o[Fe+3]123(oc(c[c-](C)o2)C)oc(c[c-](C)o3)C.C1(=CC=CC=C1)[SiH3]>BrC1=C(C[C@@]2([C@H](CC[C@]3(C=CC(C[C@@H]23)=O)C)C)C)C(=CC=C1OC)OC",
+      "molecules": [
+        {
+          "role": "reactant",
+          "smiles": "BrC1=C(CC([C@H](CCC2(C=CC(C=C2)=O)C)C)=C)C(=CC=C1OC)OC",
+          "name": "(S)-4-(4-(2-bromo-3,6-dimethoxybenzyl)-3-methylpent-4-en-1-yl)-4-methylcyclohexa-2,5-dien-1-one"
+        },
+        {
+          "role": "solvent",
+          "smiles": "CCO[H]",
+          "name": "ethanol"
+        },
+        {
+          "role": "catalyst",
+          "smiles": "Cc(c[c-](C)o1)o[Fe+3]123(oc(c[c-](C)o2)C)oc(c[c-](C)o3)C",
+          "name": "Tris(acetylacetonato)iron(III)"
+        },
+        {
+          "role": "reducing agent",
+          "smiles": "C1(=CC=CC=C1)[SiH3]",
+          "name": "phenylsilane"
+        },
+        {
+          "role": "product",
+          "smiles": "BrC1=C(C[C@@]2([C@H](CC[C@]3(C=CC(C[C@@H]23)=O)C)C)C)C(=CC=C1OC)OC",
+          "name": "(4aS,7S,8R,8aS)-8-(2-bromo-3,6-dimethoxybenzyl)-4a,7,8-trimethyl-4a,5,6,7,8,8a-hexahydronaphthalen-2(1H)-one"
+        }
+      ]
+    },
+    {
+      "reaction_page_link": "https://kmt.vander-lingen.nl/data/reaction/profile/a3faf4d17254457c05a111548cd56c36",
+      "reaction_smiles": "BrC1=C(C[C@@]2([C@H](CC[C@]3(C=CC(C[C@@H]23)=O)C)C)C)C(=CC=C1OC)OC>[Se](=O)=O.CC(C)(C)O>BrC1=C(C[C@@]2([C@H](CC[C@]3(C=CC(C=C23)=O)C)C)C)C(=CC=C1OC)OC",
+      "molecules": [
+        {
+          "role": "reactant",
+          "smiles": "BrC1=C(C[C@@]2([C@H](CC[C@]3(C=CC(C[C@@H]23)=O)C)C)C)C(=CC=C1OC)OC",
+          "name": "(4aS,7S,8R,8aS)-8-(2-bromo-3,6-dimethoxybenzyl)-4a,7,8-trimethyl-4a,5,6,7,8,8a-hexahydronaphthalen-2(1H)-one"
+        },
+        {
+          "role": "reagent",
+          "smiles": "[Se](=O)=O",
+          "name": "selenium dioxide"
+        },
+        {
+          "role": "solvent",
+          "smiles": "CC(C)(C)O",
+          "name": "tert-Butyl alcohol"
+        },
+        {
+          "role": "product",
+          "smiles": "BrC1=C(C[C@@]2([C@H](CC[C@]3(C=CC(C=C23)=O)C)C)C)C(=CC=C1OC)OC",
+          "name": "(4aS,7S,8R)-8-(2-bromo-3,6-dimethoxybenzyl)-4a,7,8-trimethyl-5,6,7,8-tetrahydronaphthalen-2(4aH)-one"
+        }
+      ]
+    },
+    {
+      "reaction_page_link": "https://kmt.vander-lingen.nl/data/reaction/profile/c12fa2f79529b666d11588d88786a158",
+      "reaction_smiles": "C1(=CC=CC=C1)[Si](C1(C[C@@]23[C@@](CC[C@@H]([C@]3(CC=3C(=CC=C(C23)OC)OC)C)C)(C=C1)C)O)(C)C>CC#N.O.C(=O)(C(F)(F)F)O>C1(=CC=CC=C1)[Si](C2=C[C@H]([C@]3([C@@]4(C2)[C@@]([C@H](CC3)C)(CC5=C4C(=CC=C5OC)OC)C)C)O)(C)C",
+      "molecules": [
+        {
+          "role": "reactant",
+          "smiles": "C1(=CC=CC=C1)[Si](C1(C[C@@]23[C@@](CC[C@@H]([C@]3(CC=3C(=CC=C(C23)OC)OC)C)C)(C=C1)C)O)(C)C",
+          "name": "(4aS,7S,7aR,12bR)-2-(phenyldimethylsilyl)-2-hydroxy-9,12-dimethoxy-4a,7,7a-trimethyl-4a,5,6,7,7a,8-hexahydrobenzo[d]fluorene"
+        },
+        {
+          "role": "solvent",
+          "smiles": "CC#N",
+          "name": "acetonitrile"
+        },
+        {
+          "role": "solvent",
+          "smiles": "O",
+          "name": "water"
+        },
+        {
+          "role": "acid",
+          "smiles": "C(=O)(C(F)(F)F)O",
+          "name": "trifluoroacetic acid"
+        },
+        {
+          "role": "product",
+          "smiles": "C1(=CC=CC=C1)[Si](C2=C[C@H]([C@]3([C@@]4(C2)[C@@]([C@H](CC3)C)(CC5=C4C(=CC=C5OC)OC)C)C)O)(C)C",
+          "name": "(4R,4aR,7S,7aR,12bR)-2-(dimethylphenylsilyl)-9,12-dimethoxy-4a,7,7a-trimethyl-1,4,4a,5,6,7,7a,8-octahydrobenzo[d]fluoren-4-ol"
+        }
+      ]
+    },
+    {
+      "reaction_page_link": "https://kmt.vander-lingen.nl/data/reaction/profile/2ce76b55dbc6d3d22fcf91765a89ad45",
+      "reaction_smiles": "C1(=CC=CC=C1)[Si](C2=C[C@H]([C@]3([C@@]4(C2)[C@@]([C@H](CC3)C)(CC5=C4C(=CC=C5OC)OC)C)C)O)(C)C>C1CCCO1.[OH-].[K+].[F-].C(CCC)[N+](CCCC)(CCCC)CCCC>COC1=CC=C(C=2[C@@]34[C@@](CC[C@@H]([C@]3(CC12)C)C)([C@@H](C=CC4)O)C)OC",
+      "molecules": [
+        {
+          "role": "reactant",
+          "smiles": "C1(=CC=CC=C1)[Si](C2=C[C@H]([C@]3([C@@]4(C2)[C@@]([C@H](CC3)C)(CC5=C4C(=CC=C5OC)OC)C)C)O)(C)C",
+          "name": "(4R,4aR,7S,7aR,12bR)-2-(dimethylphenylsilyl)-9,12-dimethoxy-4a,7,7a-trimethyl-1,4,4a,5,6,7,7a,8-octahydrobenzo[d]fluoren-4-ol"
+        },
+        {
+          "role": "solvent",
+          "smiles": "C1CCCO1",
+          "name": "tetrahydrofuran"
+        },
+        {
+          "role": "base",
+          "smiles": "[OH-].[K+]",
+          "name": "potassium hydroxide"
+        },
+        {
+          "role": "reagent",
+          "smiles": "[F-].C(CCC)[N+](CCCC)(CCCC)CCCC",
+          "name": "Tetra-n-butylammonium fluoride"
+        },
+        {
+          "role": "product",
+          "smiles": "COC1=CC=C(C=2[C@@]34[C@@](CC[C@@H]([C@]3(CC12)C)C)([C@@H](C=CC4)O)C)OC",
+          "name": "(4R,4aR,7S,7aR,12bR)-9,12-dimethoxy-4a,7,7a-trimethyl-1,4,4a,5,6,7,7a,8-octahydrobenzo[d]fluoren-4-ol"
+        }
+      ]
+    },
+    {
+      "reaction_page_link": "https://kmt.vander-lingen.nl/data/reaction/profile/eb74ae32a7b1245404f02a431d15e2a7",
+      "reaction_smiles": "COC1=CC=C(C=2[C@@]34[C@@](CC[C@@H]([C@]3(CC12)C)C)([C@@H](C=CC4)O)C)OC>C1(=CC=CC=C1)C.C(=O)([O-])[O-].[Cs+].[Cs+].C=1C=CC(=CC1)P(C=2C=CC=CC2)C3=CC=C4C=CC=CC4=C3C5=C6C=CC=CC6=CC=C5P(C=7C=CC=CC7)C=8C=CC=CC8.[B](F)(F)(F)F.C1CC=CCCC=C1.C1CC=CCCC=C1.[Rh]>COC1=CC=C(C=2[C@@]34[C@@](CC[C@@H]([C@]3(CC12)C)C)(C(CCC4)=O)C)OC",
+      "molecules": [
+        {
+          "role": "reactant",
+          "smiles": "COC1=CC=C(C=2[C@@]34[C@@](CC[C@@H]([C@]3(CC12)C)C)([C@@H](C=CC4)O)C)OC",
+          "name": "(4R,4aR,7S,7aR,12bR)-9,12-dimethoxy-4a,7,7a-trimethyl-1,4,4a,5,6,7,7a,8-octahydrobenzo[d]fluoren-4-ol"
+        },
+        {
+          "role": "solvent",
+          "smiles": "C1(=CC=CC=C1)C",
+          "name": "toluene"
+        },
+        {
+          "role": "base",
+          "smiles": "C(=O)([O-])[O-].[Cs+].[Cs+]",
+          "name": "caesium carbonate"
+        },
+        {
+          "role": "ligand",
+          "smiles": "C=1C=CC(=CC1)P(C=2C=CC=CC2)C3=CC=C4C=CC=CC4=C3C5=C6C=CC=CC6=CC=C5P(C=7C=CC=CC7)C=8C=CC=CC8",
+          "name": "(2,2′-bis(diphenylphosphino)-1,1′-binaphthyl)"
+        },
+        {
+          "role": "catalyst",
+          "smiles": "[B](F)(F)(F)F.C1CC=CCCC=C1.C1CC=CCCC=C1.[Rh]",
+          "name": "bis(1,5-cyclooctadiene)rhodium(I) tetrafluoroborate"
+        },
+        {
+          "role": "product",
+          "smiles": "COC1=CC=C(C=2[C@@]34[C@@](CC[C@@H]([C@]3(CC12)C)C)(C(CCC4)=O)C)OC",
+          "name": "(4aR,7S,7aR,12bS)-9,12-dimethoxy-4a,7,7a-trimethyl-2,3,4a,5,6,7,7a,8-octahydrobenzo[d]fluoren-4(1H)-one"
+        }
+      ]
+    },
+    {
+      "reaction_page_link": "https://kmt.vander-lingen.nl/data/reaction/profile/1e375d95e95617f88796f3677b535ba4",
+      "reaction_smiles": "COC1=CC=C(C=2[C@@]34[C@@](CC[C@@H]([C@]3(CC12)C)C)(C(CCC4)=O)C)OC>ClCCl.FC(S(=O)(=O)OS(=O)(=O)C(F)(F)F)(F)F.C(C)(C)(C)C1=NC(=CC(=C1)C)C(C)(C)C>FC(S(=O)(=O)OC1=CCC[C@@]23[C@]1(CC[C@@H]([C@]3(CC=3C(=CC=C(C23)OC)OC)C)C)C)(F)F",
+      "molecules": [
+        {
+          "role": "reactant",
+          "smiles": "COC1=CC=C(C=2[C@@]34[C@@](CC[C@@H]([C@]3(CC12)C)C)(C(CCC4)=O)C)OC",
+          "name": "(4aR,7S,7aR,12bS)-9,12-dimethoxy-4a,7,7a-trimethyl-2,3,4a,5,6,7,7a,8-octahydrobenzo[d]fluoren-4(1H)-one"
+        },
+        {
+          "role": "solvent",
+          "smiles": "ClCCl",
+          "name": "dichloromethane"
+        },
+        {
+          "role": "reagent",
+          "smiles": "FC(S(=O)(=O)OS(=O)(=O)C(F)(F)F)(F)F",
+          "name": "Trifluoromethanesulfonic anhydride"
+        },
+        {
+          "role": "non-nucleophilic base",
+          "smiles": "C(C)(C)(C)C1=NC(=CC(=C1)C)C(C)(C)C",
+          "name": "2,6-di-t-butyl-4-methylpyridine"
+        },
+        {
+          "role": "product",
+          "smiles": "FC(S(=O)(=O)OC1=CCC[C@@]23[C@]1(CC[C@@H]([C@]3(CC=3C(=CC=C(C23)OC)OC)C)C)C)(F)F",
+          "name": "(4aR,7S,7aR,12bR)-9,12-dimethoxy-4a,7,7a-trimethyl-1,2,4a,5,6,7,7a,8-octahydrobenzo[d]fluoren-4-yl trifluoromethanesulfonate"
+        }
+      ]
+    },
+    {
+      "reaction_page_link": "https://kmt.vander-lingen.nl/data/reaction/profile/4ba039c4684156bccbfe513d59f3b274",
+      "reaction_smiles": "C(CCC)[Sn](CCCC)(CCCC)CO.FC(S(=O)(=O)OC1=CCC[C@@]23[C@]1(CC[C@@H]([C@]3(CC=3C(=CC=C(C23)OC)OC)C)C)C)(F)F>C1CCCO1.[Cl-].[Li+].c1ccc(cc1)[P](c2ccccc2)(c3ccccc3)[Pd]([P](c4ccccc4)(c5ccccc5)c6ccccc6)([P](c7ccccc7)(c8ccccc8)c9ccccc9)[P](c1ccccc1)(c1ccccc1)c1ccccc1>COC1=CC=C(C=2[C@@]34[C@@](CC[C@@H]([C@]3(CC12)C)C)(C(=CCC4)CO)C)OC",
+      "molecules": [
+        {
+          "role": "reactant",
+          "smiles": "C(CCC)[Sn](CCCC)(CCCC)CO",
+          "name": "Tributylstannyl-methanol"
+        },
+        {
+          "role": "reactant",
+          "smiles": "FC(S(=O)(=O)OC1=CCC[C@@]23[C@]1(CC[C@@H]([C@]3(CC=3C(=CC=C(C23)OC)OC)C)C)C)(F)F",
+          "name": "(4aR,7S,7aR,12bR)-9,12-dimethoxy-4a,7,7a-trimethyl-1,2,4a,5,6,7,7a,8-octahydrobenzo[d]fluoren-4-yl trifluoromethanesulfonate"
+        },
+        {
+          "role": "solvent",
+          "smiles": "C1CCCO1",
+          "name": "tetrahydrofuran"
+        },
+        {
+          "role": "reagent",
+          "smiles": "[Cl-].[Li+]",
+          "name": "lithium chloride"
+        },
+        {
+          "role": "catalyst",
+          "smiles": "c1ccc(cc1)[P](c2ccccc2)(c3ccccc3)[Pd]([P](c4ccccc4)(c5ccccc5)c6ccccc6)([P](c7ccccc7)(c8ccccc8)c9ccccc9)[P](c1ccccc1)(c1ccccc1)c1ccccc1",
+          "name": "tetrakis(triphenylphosphine)palladium(0)"
+        },
+        {
+          "role": "product",
+          "smiles": "COC1=CC=C(C=2[C@@]34[C@@](CC[C@@H]([C@]3(CC12)C)C)(C(=CCC4)CO)C)OC",
+          "name": "((4aR,7S,7aR,12bR)-9,12-dimethoxy-4a,7,7a-trimethyl-1,2,4a,5,6,7,7a,8-octahydrobenzo[d]fluoren-4-yl)methanol"
+        }
+      ]
+    },
+    {
+      "reaction_page_link": "https://kmt.vander-lingen.nl/data/reaction/profile/e66f6f6f5927f2ef1fb27870e0eefa1a",
+      "reaction_smiles": "COC1=CC=C(C=2[C@@]34[C@@](CC[C@@H]([C@]3(CC12)C)C)(C(=CCC4)CO)C)OC>[HH].ClCCCl.C1CCC(CC1)P(C2CCCCC2)C3CCCCC3.C1/C=C\\CC/C=C\\C1.C1=CC=NC=C1.F[P-](F)(F)(F)(F)F.[Ir+]>COC1=CC=C(C2=C1C[C@@]3([C@H](CC[C@@]4([C@]23CCCC4CO)C)C)C)OC",
+      "molecules": [
+        {
+          "role": "reactant",
+          "smiles": "COC1=CC=C(C=2[C@@]34[C@@](CC[C@@H]([C@]3(CC12)C)C)(C(=CCC4)CO)C)OC",
+          "name": "((4aR,7S,7aR,12bR)-9,12-dimethoxy-4a,7,7a-trimethyl-1,2,4a,5,6,7,7a,8-octahydrobenzo[d]fluoren-4-yl)methanol"
+        },
+        {
+          "role": "reducing agent",
+          "smiles": "[HH]",
+          "name": "dihydrogen"
+        },
+        {
+          "role": "solvent",
+          "smiles": "ClCCCl",
+          "name": "1,2-dichloroethane"
+        },
+        {
+          "role": "catalyst",
+          "smiles": "C1CCC(CC1)P(C2CCCCC2)C3CCCCC3.C1/C=C\\CC/C=C\\C1.C1=CC=NC=C1.F[P-](F)(F)(F)(F)F.[Ir+]",
+          "name": "(SP-4)-(η2,η2-Cycloocta-1,5-diene)(pyridine)(tricyclohexylphosphane)iridium(1+) hexafluoridophosphate(1−)"
+        },
+        {
+          "role": "product",
+          "smiles": "COC1=CC=C(C2=C1C[C@@]3([C@H](CC[C@@]4([C@]23CCCC4CO)C)C)C)OC",
+          "name": "NSMMOKGXXFNCBT-BQPWVZHQSA-N"
+        }
+      ]
+    },
+    {
+      "reaction_page_link": "https://kmt.vander-lingen.nl/data/reaction/profile/645b4de547379f2ca2a93de844ac6709",
+      "reaction_smiles": "COC1=CC=C(C2=C1C[C@@]3([C@H](CC[C@@]4([C@]23CCCC4CO)C)C)C)OC>O(O[H])[H].C1CCCO1.C(O)([O-])=O.[Na+].C(CCC)P(CCCC)CCCC.[N+](=O)([O-])C1=C(C=CC=C1)[Se]C#N>COC1=CC=C(C=2[C@@]34[C@@](CC[C@@H]([C@]3(CC12)C)C)(C(CCC4)=C)C)OC",
+      "molecules": [
+        {
+          "role": "reactant",
+          "smiles": "COC1=CC=C(C2=C1C[C@@]3([C@H](CC[C@@]4([C@]23CCCC4CO)C)C)C)OC",
+          "name": "NSMMOKGXXFNCBT-BQPWVZHQSA-N"
+        },
+        {
+          "role": "oxidizing agent",
+          "smiles": "O(O[H])[H]",
+          "name": "hydrogen peroxide"
+        },
+        {
+          "role": "solvent",
+          "smiles": "C1CCCO1",
+          "name": "tetrahydrofuran"
+        },
+        {
+          "role": "base",
+          "smiles": "C(O)([O-])=O.[Na+]",
+          "name": "sodium hydrogen carbonate"
+        },
+        {
+          "role": "reagent",
+          "smiles": "C(CCC)P(CCCC)CCCC",
+          "name": "tributylphosphine"
+        },
+        {
+          "role": "reagent",
+          "smiles": "[N+](=O)([O-])C1=C(C=CC=C1)[Se]C#N",
+          "name": "2-nitrophenyl selenocyanate"
+        },
+        {
+          "role": "product",
+          "smiles": "COC1=CC=C(C=2[C@@]34[C@@](CC[C@@H]([C@]3(CC12)C)C)(C(CCC4)=C)C)OC",
+          "name": "(4aS,7S,7aR,12bR)-9,12-dimethoxy-4a,7,7a-trimethyl-4-methylene-1,2,3,4,4a,5,6,7,7a,8-decahydrobenzo[d]fluorene"
+        }
+      ]
+    },
+    {
+      "reaction_page_link": "https://kmt.vander-lingen.nl/data/reaction/profile/96fe36f8171cd7e737351832e128e090",
+      "reaction_smiles": "NCCS(=O)(=O)O.C[C@@]12CC[C@@H]([C@]3(CC=4C(C=CC(C4[C@@]13CCCC2=C)=O)=O)C)C>CCO[H].C(O)([O-])=O.[Na+]>C[C@@]24CC[C@@H]([C@]3(CC1=C(C(C(=CC1=O)NCC[S](=O)(=O)O)=O)[C@@]23CCCC4=C)C)C",
+      "molecules": [
+        {
+          "role": "reactant",
+          "smiles": "NCCS(=O)(=O)O",
+          "name": "taurine"
+        },
+        {
+          "role": "reactant",
+          "smiles": "C[C@@]12CC[C@@H]([C@]3(CC=4C(C=CC(C4[C@@]13CCCC2=C)=O)=O)C)C",
+          "name": "(4aS,7S,7aR,12bR)-4a,7,7a-trimethyl-4-methylene-1,2,3,4,4a,5,6,7,7a,8-decahydrobenzo[d]fluorene-9,12-dione"
+        },
+        {
+          "role": "solvent",
+          "smiles": "CCO[H]",
+          "name": "ethanol"
+        },
+        {
+          "role": "base",
+          "smiles": "C(O)([O-])=O.[Na+]",
+          "name": "sodium hydrogen carbonate"
+        },
+        {
+          "role": "product",
+          "smiles": "C[C@@]24CC[C@@H]([C@]3(CC1=C(C(C(=CC1=O)NCC[S](=O)(=O)O)=O)[C@@]23CCCC4=C)C)C",
+          "name": "(+)-cycloaurenone A"
+        }
+      ]
+    },
+    {
+      "reaction_page_link": "https://kmt.vander-lingen.nl/data/reaction/profile/78c35fbd68dac0a490680e9095ddee10",
+      "reaction_smiles": "FC(S(=O)(=O)OC1=CCC[C@@]23[C@]1(CC[C@@H]([C@]3(CC=3C(=CC=C(C23)OC)OC)C)C)C)(F)F>N(C)(C)C=O.[Cl-].[Li+].c1ccc(cc1)[P](c2ccccc2)(c3ccccc3)[Pd]([P](c4ccccc4)(c5ccccc5)c6ccccc6)([P](c7ccccc7)(c8ccccc8)c9ccccc9)[P](c1ccccc1)(c1ccccc1)c1ccccc1.[Cl-].[NH4+].C[Sn]([Sn](C)(C)C)(C)C>COC1=CC=C(C=2[C@@]34[C@@](CC[C@@H]([C@]3(CC12)C)C)(C(=CCC4)C)C)OC",
+      "molecules": [
+        {
+          "role": "reactant",
+          "smiles": "FC(S(=O)(=O)OC1=CCC[C@@]23[C@]1(CC[C@@H]([C@]3(CC=3C(=CC=C(C23)OC)OC)C)C)C)(F)F",
+          "name": "(4aR,7S,7aR,12bR)-9,12-dimethoxy-4a,7,7a-trimethyl-1,2,4a,5,6,7,7a,8-octahydrobenzo[d]fluoren-4-yl trifluoromethanesulfonate"
+        },
+        {
+          "role": "solvent",
+          "smiles": "N(C)(C)C=O",
+          "name": "dimethylformamide"
+        },
+        {
+          "role": "reagent",
+          "smiles": "[Cl-].[Li+]",
+          "name": "lithium chloride"
+        },
+        {
+          "role": "catalyst",
+          "smiles": "c1ccc(cc1)[P](c2ccccc2)(c3ccccc3)[Pd]([P](c4ccccc4)(c5ccccc5)c6ccccc6)([P](c7ccccc7)(c8ccccc8)c9ccccc9)[P](c1ccccc1)(c1ccccc1)c1ccccc1",
+          "name": "tetrakis(triphenylphosphine)palladium(0)"
+        },
+        {
+          "role": "quench",
+          "smiles": "[Cl-].[NH4+]",
+          "name": "ammonium chloride"
+        },
+        {
+          "role": "reagent",
+          "smiles": "C[Sn]([Sn](C)(C)C)(C)C",
+          "name": "hexamethyldistannane"
+        },
+        {
+          "role": "product",
+          "smiles": "COC1=CC=C(C=2[C@@]34[C@@](CC[C@@H]([C@]3(CC12)C)C)(C(=CCC4)C)C)OC",
+          "name": "(4aS,7S,7aR,12bR)-9,12-dimethoxy-4,4a,7,7a-tetramethyl-1,2,4a,5,6,7,7a,8-octahydrobenzo[d]fluorene"
+        }
+      ]
+    },
+    {
+      "reaction_page_link": "https://kmt.vander-lingen.nl/data/reaction/profile/5d0e5e05b1c9fd9918b7f1bb21fbdcd4",
+      "reaction_smiles": "BrC1=C(CC([C@H](CCC2(C=CC(C=C2)=O)C)C)=C)C(=CC=C1OC)OC>C1CCCO1.C(C)(=O)[O-].[Cu+2].C(C)(=O)[O-].[Cl-].[NH4+].C[Al](C)C.C1=C8C(=C2C(=C1)O[P](OC3=CC=C4C(=C23)C=CC=C4)N5C(CCC5C6=CC=CC=C6)C7=CC=CC=C7)C=CC=C8>BrC1=C(CC([C@H](CC[C@]2(C=CC(C[C@@H]2C)=O)C)C)=C)C(=CC=C1OC)OC",
+      "molecules": [
+        {
+          "role": "reactant",
+          "smiles": "BrC1=C(CC([C@H](CCC2(C=CC(C=C2)=O)C)C)=C)C(=CC=C1OC)OC",
+          "name": "(S)-4-(4-(2-bromo-3,6-dimethoxybenzyl)-3-methylpent-4-en-1-yl)-4-methylcyclohexa-2,5-dien-1-one"
+        },
+        {
+          "role": "solvent",
+          "smiles": "C1CCCO1",
+          "name": "tetrahydrofuran"
+        },
+        {
+          "role": "reagent",
+          "smiles": "C(C)(=O)[O-].[Cu+2].C(C)(=O)[O-]",
+          "name": "copper(II) acetate"
+        },
+        {
+          "role": "quench",
+          "smiles": "[Cl-].[NH4+]",
+          "name": "ammonium chloride"
+        },
+        {
+          "role": "reagent",
+          "smiles": "C[Al](C)C",
+          "name": "trimethylaluminum"
+        },
+        {
+          "role": "ligand",
+          "smiles": "C1=C8C(=C2C(=C1)O[P](OC3=CC=C4C(=C23)C=CC=C4)N5C(CCC5C6=CC=CC=C6)C7=CC=CC=C7)C=CC=C8",
+          "name": "SQEYSQAZYNQDSV-UHFFFAOYSA-N"
+        },
+        {
+          "role": "product",
+          "smiles": "BrC1=C(CC([C@H](CC[C@]2(C=CC(C[C@@H]2C)=O)C)C)=C)C(=CC=C1OC)OC",
+          "name": "(4R,5S)-4-((S)-4-(2-bromo-3,6-dimethoxybenzyl)-3-methylpent-4-en-1-yl)-4,5-dimethylcyclohex-2-en-1-one"
+        }
+      ]
+    },
+    {
+      "reaction_page_link": "https://kmt.vander-lingen.nl/data/reaction/profile/80b1c6d58c24a0418f424b594423c37f",
+      "reaction_smiles": "BrC1=C(CC([C@H](CC[C@]2(C=CC(C[C@@H]2C)=O)C)C)=C)C(=CC=C1OC)OC>CCO[H].Cc(c[c-](C)o1)o[Fe+3]123(oc(c[c-](C)o2)C)oc(c[c-](C)o3)C.C1(=CC=CC=C1)[SiH3]>BrC1=C(C[C@@]2([C@H](CC[C@@]3([C@H](CC(C[C@H]23)=O)C)C)C)C)C(=CC=C1OC)OC",
+      "molecules": [
+        {
+          "role": "reactant",
+          "smiles": "BrC1=C(CC([C@H](CC[C@]2(C=CC(C[C@@H]2C)=O)C)C)=C)C(=CC=C1OC)OC",
+          "name": "(4R,5S)-4-((S)-4-(2-bromo-3,6-dimethoxybenzyl)-3-methylpent-4-en-1-yl)-4,5-dimethylcyclohex-2-en-1-one"
+        },
+        {
+          "role": "solvent",
+          "smiles": "CCO[H]",
+          "name": "ethanol"
+        },
+        {
+          "role": "catalyst",
+          "smiles": "Cc(c[c-](C)o1)o[Fe+3]123(oc(c[c-](C)o2)C)oc(c[c-](C)o3)C",
+          "name": "Tris(acetylacetonato)iron(III)"
+        },
+        {
+          "role": "reducing agent",
+          "smiles": "C1(=CC=CC=C1)[SiH3]",
+          "name": "phenylsilane"
+        },
+        {
+          "role": "product",
+          "smiles": "BrC1=C(C[C@@]2([C@H](CC[C@@]3([C@H](CC(C[C@H]23)=O)C)C)C)C)C(=CC=C1OC)OC",
+          "name": "(4S,4aR,7S,8R,8aS)-8-(2-bromo-3,6-dimethoxybenzyl)-4,4a,7,8-tetramethyloctahydronaphthalen-2(1H)-one"
+        }
+      ]
+    },
+    {
+      "reaction_page_link": "https://kmt.vander-lingen.nl/data/reaction/profile/3b2cfe55cc4925388f11f1c2107c6241",
+      "reaction_smiles": "BrC1=C(C[C@@]2([C@H](CC[C@@]3([C@H](CC(C[C@H]23)=O)C)C)C)C)C(=CC=C1OC)OC>CS(=O)C.I(=O)(=O)C1=C(C(=O)O)C=CC=C1>BrC1=C(C[C@@]2([C@H](CC[C@@]3(C(=CC(C=C23)=O)C)C)C)C)C(=CC=C1OC)OC",
+      "molecules": [
+        {
+          "role": "reactant",
+          "smiles": "BrC1=C(C[C@@]2([C@H](CC[C@@]3([C@H](CC(C[C@H]23)=O)C)C)C)C)C(=CC=C1OC)OC",
+          "name": "(4S,4aR,7S,8R,8aS)-8-(2-bromo-3,6-dimethoxybenzyl)-4,4a,7,8-tetramethyloctahydronaphthalen-2(1H)-one"
+        },
+        {
+          "role": "solvent",
+          "smiles": "CS(=O)C",
+          "name": "dimethyl sulfoxide"
+        },
+        {
+          "role": "oxidizing agent",
+          "smiles": "I(=O)(=O)C1=C(C(=O)O)C=CC=C1",
+          "name": "2-Iodoxybenzoic acid"
+        },
+        {
+          "role": "by-product",
+          "smiles": "BrC1=C(C[C@@]2([C@H](CC[C@@]3([C@H](CC(C=C23)=O)C)C)C)C)C(=CC=C1OC)OC",
+          "name": "(4S,4aR,7S,8R)-8-(2-bromo-3,6-dimethoxybenzyl)-4,4a,7,8-tetramethyl-4,4a,5,6,7,8-hexahydronaphthalen-2(3H)-one"
+        },
+        {
+          "role": "product",
+          "smiles": "BrC1=C(C[C@@]2([C@H](CC[C@@]3(C(=CC(C=C23)=O)C)C)C)C)C(=CC=C1OC)OC",
+          "name": "(4aR,7S,8R)-8-(2-bromo-3,6-dimethoxybenzyl)-4,4a,7,8-tetramethyl-5,6,7,8-tetrahydronaphthalen-2(4aH)-one"
+        }
+      ]
+    },
+    {
+      "reaction_page_link": "https://kmt.vander-lingen.nl/data/reaction/profile/003f41f91bd49fe6186e798a6417c219",
+      "reaction_smiles": "BrC1=C(C[C@@]2([C@H](CC[C@@]3([C@H](CC(C=C23)=O)C)C)C)C)C(=CC=C1OC)OC>CS(=O)C.I(=O)(=O)C1=C(C(=O)O)C=CC=C1>BrC1=C(C[C@@]2([C@H](CC[C@@]3(C(=CC(C=C23)=O)C)C)C)C)C(=CC=C1OC)OC",
+      "molecules": [
+        {
+          "role": "reactant",
+          "smiles": "BrC1=C(C[C@@]2([C@H](CC[C@@]3([C@H](CC(C=C23)=O)C)C)C)C)C(=CC=C1OC)OC",
+          "name": "(4S,4aR,7S,8R)-8-(2-bromo-3,6-dimethoxybenzyl)-4,4a,7,8-tetramethyl-4,4a,5,6,7,8-hexahydronaphthalen-2(3H)-one"
+        },
+        {
+          "role": "solvent",
+          "smiles": "CS(=O)C",
+          "name": "dimethyl sulfoxide"
+        },
+        {
+          "role": "oxidizing agent",
+          "smiles": "I(=O)(=O)C1=C(C(=O)O)C=CC=C1",
+          "name": "2-Iodoxybenzoic acid"
+        },
+        {
+          "role": "product",
+          "smiles": "BrC1=C(C[C@@]2([C@H](CC[C@@]3(C(=CC(C=C23)=O)C)C)C)C)C(=CC=C1OC)OC",
+          "name": "(4aR,7S,8R)-8-(2-bromo-3,6-dimethoxybenzyl)-4,4a,7,8-tetramethyl-5,6,7,8-tetrahydronaphthalen-2(4aH)-one"
+        }
+      ]
+    },
+    {
+      "reaction_page_link": "https://kmt.vander-lingen.nl/data/reaction/profile/204dc5b0fedb5357c86b3fb3388127f3",
+      "reaction_smiles": "S(=O)(=O)(C1=CC=C(C)C=C1)NN.COC1=CC=C(C=2[C@@]34[C@](CC[C@@H]([C@]3(CC12)C)C)(C(=CC(C4)=O)C)C)OC>CO[H]>COC1=CC=C(C=2[C@@]34[C@](CC[C@@H]([C@]3(CC12)C)C)(C(=C\\C(\\C4)=N\\NS(=O)(=O)C4=CC=C(C=C4)C)C)C)OC",
+      "molecules": [
+        {
+          "role": "reactant",
+          "smiles": "S(=O)(=O)(C1=CC=C(C)C=C1)NN",
+          "name": "tosyl hydrazine"
+        },
+        {
+          "role": "reactant",
+          "smiles": "COC1=CC=C(C=2[C@@]34[C@](CC[C@@H]([C@]3(CC12)C)C)(C(=CC(C4)=O)C)C)OC",
+          "name": "(4aR,7S,7aR,12bR)-9,12-dimethoxy-4,4a,7,7a-tetramethyl-4a,5,6,7,7a,8-hexahydrobenzo[d]fluoren-2(1H)-one"
+        },
+        {
+          "role": "solvent",
+          "smiles": "CO[H]",
+          "name": "methanol"
+        },
+        {
+          "role": "product",
+          "smiles": "COC1=CC=C(C=2[C@@]34[C@](CC[C@@H]([C@]3(CC12)C)C)(C(=C\\C(\\C4)=N\\NS(=O)(=O)C4=CC=C(C=C4)C)C)C)OC",
+          "name": "N'-((4aR,7S,7aR,12bR,E)-9,12-dimethoxy-4,4a,7,7a-tetramethyl-4a,5,6,7,7a,8-hexahydrobenzo[d]fluoren-2(1H)-ylidene)-4-methylbenzenesulfonohydrazide"
+        }
+      ]
+    },
+    {
+      "reaction_page_link": "https://kmt.vander-lingen.nl/data/reaction/profile/3e3da1401b15b4e8812b4a11ff131a40",
+      "reaction_smiles": "COC1=CC=C(C=2[C@@]34[C@](CC[C@@H]([C@]3(CC12)C)C)(C(=CC(C4)=O)C)C)OC>O.C1CCCO1.C(C)[BH-](CC)CC.[Li+]>COC1=CC=C(C=2[C@@]34[C@](CC[C@@H]([C@]3(CC12)C)C)(C(=C[C@@H](C4)O)C)C)OC",
+      "molecules": [
+        {
+          "role": "reactant",
+          "smiles": "COC1=CC=C(C=2[C@@]34[C@](CC[C@@H]([C@]3(CC12)C)C)(C(=CC(C4)=O)C)C)OC",
+          "name": "(4aR,7S,7aR,12bR)-9,12-dimethoxy-4,4a,7,7a-tetramethyl-4a,5,6,7,7a,8-hexahydrobenzo[d]fluoren-2(1H)-one"
+        },
+        {
+          "role": "quench",
+          "smiles": "O",
+          "name": "water"
+        },
+        {
+          "role": "solvent",
+          "smiles": "C1CCCO1",
+          "name": "tetrahydrofuran"
+        },
+        {
+          "role": "reducing agent",
+          "smiles": "C(C)[BH-](CC)CC.[Li+]",
+          "name": "lithium triethylborohydride"
+        },
+        {
+          "role": "product",
+          "smiles": "COC1=CC=C(C=2[C@@]34[C@](CC[C@@H]([C@]3(CC12)C)C)(C(=C[C@@H](C4)O)C)C)OC",
+          "name": "(2R,4aR,7S,7aR,12bR)-9,12-dimethoxy-4,4a,7,7a-tetramethyl-1,2,4a,5,6,7,7a,8-octahydrobenzo[d]fluoren-2-ol"
+        }
+      ]
+    },
+    {
+      "reaction_page_link": "https://kmt.vander-lingen.nl/data/reaction/profile/3db7aa0c4b47693f2a088ddbc277d410",
+      "reaction_smiles": "COC1=CC=C(C=2[C@@]34[C@](CC[C@@H]([C@]3(CC12)C)C)(C(=C[C@@H](C4)O)C)C)OC>C1(=CC=CC=C1)C.O.[I-].[Mg+2].[I-]>COC1=CC=C2C=3[C@@]45[C@](CC[C@@H]([C@]4(CC13)C)C)(C(C=CC5)(O2)C)C",
+      "molecules": [
+        {
+          "role": "reactant",
+          "smiles": "COC1=CC=C(C=2[C@@]34[C@](CC[C@@H]([C@]3(CC12)C)C)(C(=C[C@@H](C4)O)C)C)OC",
+          "name": "(2R,4aR,7S,7aR,12bR)-9,12-dimethoxy-4,4a,7,7a-tetramethyl-1,2,4a,5,6,7,7a,8-octahydrobenzo[d]fluoren-2-ol"
+        },
+        {
+          "role": "solvent",
+          "smiles": "C1(=CC=CC=C1)C",
+          "name": "toluene"
+        },
+        {
+          "role": "quench",
+          "smiles": "O",
+          "name": "water"
+        },
+        {
+          "role": "halogenation reagent",
+          "smiles": "[I-].[Mg+2].[I-]",
+          "name": "magnesium iodide"
+        },
+        {
+          "role": "product",
+          "smiles": "COC1=CC=C2C=3[C@@]45[C@](CC[C@@H]([C@]4(CC13)C)C)(C(C=CC5)(O2)C)C",
+          "name": "(4aS,7S,7aR,12bR)-9-methoxy-4,4a,7,7a-tetramethyl-1,4,4a,5,6,7,7a,8-octahydro-4,12-epoxybenzo[d]fluorene"
+        }
+      ]
+    },
+    {
+      "reaction_page_link": "https://kmt.vander-lingen.nl/data/reaction/profile/8a892ef5530dfb36ad5ffd0de2f59670",
+      "reaction_smiles": "OC1=CC=C2C=3[C@@]45[C@](CC[C@@H]([C@]4(CC13)C)C)(C(C=CC5)(O2)C)C>CO[H].[HH].[Pd]C>OC1=CC=C5C2=C1C[C@@]3([C@H](CC[C@]4([C@]23CCCC4(O5)C)C)C)C",
+      "molecules": [
+        {
+          "role": "reactant",
+          "smiles": "OC1=CC=C2C=3[C@@]45[C@](CC[C@@H]([C@]4(CC13)C)C)(C(C=CC5)(O2)C)C",
+          "name": "(4aS,7S,7aR,12bR)-9-hydroxy-4,4a,7,7a-tetramethyl-1,4,4a,5,6,7,7a,8-octahydro-4,12-epoxybenzo[d]fluorene"
+        },
+        {
+          "role": "solvent",
+          "smiles": "CO[H]",
+          "name": "methanol"
+        },
+        {
+          "role": "reducing agent",
+          "smiles": "[HH]",
+          "name": "dihydrogen"
+        },
+        {
+          "role": "catalyst",
+          "smiles": "[Pd]C",
+          "name": "palladium on carbon"
+        },
+        {
+          "role": "product",
+          "smiles": "OC1=CC=C5C2=C1C[C@@]3([C@H](CC[C@]4([C@]23CCCC4(O5)C)C)C)C",
+          "name": "(+)-dysiherbol A"
+        }
+      ]
+    },
+    {
+      "reaction_page_link": "https://kmt.vander-lingen.nl/data/reaction/profile/50d8f56153ab3d7e54baecbe086ae0de",
+      "reaction_smiles": "COC1=CC=C(C=2[C@@]34[C@](CC[C@@H]([C@]3(CC12)C)C)(C(=CC(C4)=O)C)C)OC>O.CO[H].[Na+].[BH4-].Cl.O.O.O.O.O.O.O.[Cl-].[Ce+3].[Cl-].[Cl-]>COC1=CC=C(C=2[C@@]34[C@](CC[C@@H]([C@]3(CC12)C)C)(C(=CC=C4)C)C)OC",
+      "molecules": [
+        {
+          "role": "reactant",
+          "smiles": "COC1=CC=C(C=2[C@@]34[C@](CC[C@@H]([C@]3(CC12)C)C)(C(=CC(C4)=O)C)C)OC",
+          "name": "(4aR,7S,7aR,12bR)-9,12-dimethoxy-4,4a,7,7a-tetramethyl-4a,5,6,7,7a,8-hexahydrobenzo[d]fluoren-2(1H)-one"
+        },
+        {
+          "role": "quench",
+          "smiles": "O",
+          "name": "water"
+        },
+        {
+          "role": "solvent",
+          "smiles": "CO[H]",
+          "name": "methanol"
+        },
+        {
+          "role": "reducing agent",
+          "smiles": "[Na+].[BH4-]",
+          "name": "sodium borohydride"
+        },
+        {
+          "role": "acid",
+          "smiles": "Cl",
+          "name": "hydrogen chloride"
+        },
+        {
+          "role": "catalyst",
+          "smiles": "O.O.O.O.O.O.O.[Cl-].[Ce+3].[Cl-].[Cl-]",
+          "name": "Cerium(III) chloride heptahydrate"
+        },
+        {
+          "role": "product",
+          "smiles": "COC1=CC=C(C=2[C@@]34[C@](CC[C@@H]([C@]3(CC12)C)C)(C(=CC=C4)C)C)OC",
+          "name": "(4aR,7S,7aR,12bR)-9,12-dimethoxy-4,4a,7,7a-tetramethyl-4a,5,6,7,7a,8-hexahydrobenzo[d]fluorene"
+        }
+      ]
+    },
+    {
+      "reaction_page_link": "https://kmt.vander-lingen.nl/data/reaction/profile/2a3e4bea5a44d474b546c67fc920110f",
+      "reaction_smiles": "COC1=CC=C(C=2[C@@]34[C@](CC[C@@H]([C@]3(CC12)C)C)(C(=CC=C4)C)C)OC>CO[H].[HH].[Pd]C>COC1=CC=C(C=2[C@@]34[C@](CC[C@@H]([C@]3(CC12)C)C)(C(=CCC4)C)C)OC",
+      "molecules": [
+        {
+          "role": "reactant",
+          "smiles": "COC1=CC=C(C=2[C@@]34[C@](CC[C@@H]([C@]3(CC12)C)C)(C(=CC=C4)C)C)OC",
+          "name": "(4aR,7S,7aR,12bR)-9,12-dimethoxy-4,4a,7,7a-tetramethyl-4a,5,6,7,7a,8-hexahydrobenzo[d]fluorene"
+        },
+        {
+          "role": "solvent",
+          "smiles": "CO[H]",
+          "name": "methanol"
+        },
+        {
+          "role": "reducing agent",
+          "smiles": "[HH]",
+          "name": "dihydrogen"
+        },
+        {
+          "role": "catalyst",
+          "smiles": "[Pd]C",
+          "name": "palladium on carbon"
+        },
+        {
+          "role": "product",
+          "smiles": "COC1=CC=C(C=2[C@@]34[C@](CC[C@@H]([C@]3(CC12)C)C)(C(=CCC4)C)C)OC",
+          "name": "(4aR,7S,7aR,12bR)-9,12-dimethoxy-4,4a,7,7a-tetramethyl-1,2,4a,5,6,7,7a,8-octahydrobenzo[d]fluorene"
+        }
+      ]
+    },
+    {
+      "reaction_page_link": "https://kmt.vander-lingen.nl/data/reaction/profile/d151f4f544e97ddca3307a0fe9fa41dc",
+      "reaction_smiles": "CC1(C=CC(C=C1)=O)CCC=C(C)C>C1CCCO1.C(C)(=O)[O-].[Cu+2].C(C)(=O)[O-].C[Al](C)C.C1=C8C(=C2C(=C1)O[P](OC3=CC=C4C(=C23)C=CC=C4)N5C(CCC5C6=CC=CC=C6)C7=CC=CC=C7)C=CC=C8>C[C@@]1(C=CC(C[C@@H]1C)=O)CCC=C(C)C",
+      "molecules": [
+        {
+          "role": "reactant",
+          "smiles": "CC1(C=CC(C=C1)=O)CCC=C(C)C",
+          "name": "4-methyl-4-(4-methylpent-3-en-1-yl)cyclohex-2,5-dien-1-one"
+        },
+        {
+          "role": "solvent",
+          "smiles": "C1CCCO1",
+          "name": "tetrahydrofuran"
+        },
+        {
+          "role": "reagent",
+          "smiles": "C(C)(=O)[O-].[Cu+2].C(C)(=O)[O-]",
+          "name": "copper(II) acetate"
+        },
+        {
+          "role": "reagent",
+          "smiles": "C[Al](C)C",
+          "name": "trimethylaluminum"
+        },
+        {
+          "role": "ligand",
+          "smiles": "C1=C8C(=C2C(=C1)O[P](OC3=CC=C4C(=C23)C=CC=C4)N5C(CCC5C6=CC=CC=C6)C7=CC=CC=C7)C=CC=C8",
+          "name": "SQEYSQAZYNQDSV-UHFFFAOYSA-N"
+        },
+        {
+          "role": "product",
+          "smiles": "C[C@@]1(C=CC(C[C@@H]1C)=O)CCC=C(C)C",
+          "name": "(4R,5S)-4,5-dimethyl-4-(4-methylpent-3-en-1-yl)cyclohex-2-en-1-one"
+        }
+      ]
+    },
+    {
+      "reaction_page_link": "https://kmt.vander-lingen.nl/data/reaction/profile/3d0b1af7a6ef422d77f3d18957c051af",
+      "reaction_smiles": "C[C@]1(C=CC(CC1)=O)CCC=C(C)C>[Cu]I.C(C)OCC.C[Li].C(C)(C)(C)N=S(C1=CC=CC=C1)Cl>CC1=CC(CC[C@@]1(CCC=C(C)C)C)=O",
+      "molecules": [
+        {
+          "role": "reactant",
+          "smiles": "C[C@]1(C=CC(CC1)=O)CCC=C(C)C",
+          "name": "(S)-4-methyl-4-(4-methylpent-3-en-1-yl)cyclohex-2-en-1-one"
+        },
+        {
+          "role": "catalyst",
+          "smiles": "[Cu]I",
+          "name": "copper(I) iodide"
+        },
+        {
+          "role": "solvent",
+          "smiles": "C(C)OCC",
+          "name": "diethyl ether"
+        },
+        {
+          "role": "reagent",
+          "smiles": "C[Li]",
+          "name": "methyllithium"
+        },
+        {
+          "role": "oxidizing agent",
+          "smiles": "C(C)(C)(C)N=S(C1=CC=CC=C1)Cl",
+          "name": "N-tert-butylphenylsulfinimidoyl chloride"
+        },
+        {
+          "role": "product",
+          "smiles": "CC1=CC(CC[C@@]1(CCC=C(C)C)C)=O",
+          "name": "(S)-3,4-dimethyl-4-(4-methylpent-3-en-1-yl)cyclohex-2-en-1-one"
+        }
+      ]
+    },
+    {
+      "reaction_page_link": "https://kmt.vander-lingen.nl/data/reaction/profile/a1124502b5bb110ba7e9fdb154a5809e",
+      "reaction_smiles": "C[C@@]1(C=CC(C[C@@H]1C)=O)CCC=C(C)C>C1CCCO1.C[Si](C)(C)[N-][Si](C)(C)C.[Li+].[Cl-].[NH4+].C(C)(C)(C)N=S(C1=CC=CC=C1)Cl>CC1=CC(C=C[C@@]1(CCC=C(C)C)C)=O",
+      "molecules": [
+        {
+          "role": "reactant",
+          "smiles": "C[C@@]1(C=CC(C[C@@H]1C)=O)CCC=C(C)C",
+          "name": "(4R,5S)-4,5-dimethyl-4-(4-methylpent-3-en-1-yl)cyclohex-2-en-1-one"
+        },
+        {
+          "role": "solvent",
+          "smiles": "C1CCCO1",
+          "name": "tetrahydrofuran"
+        },
+        {
+          "role": "non-nucleophilic base",
+          "smiles": "C[Si](C)(C)[N-][Si](C)(C)C.[Li+]",
+          "name": "lithium bis(trimethylsilyl)amide"
+        },
+        {
+          "role": "quench",
+          "smiles": "[Cl-].[NH4+]",
+          "name": "ammonium chloride"
+        },
+        {
+          "role": "oxidizing agent",
+          "smiles": "C(C)(C)(C)N=S(C1=CC=CC=C1)Cl",
+          "name": "N-tert-butylphenylsulfinimidoyl chloride"
+        },
+        {
+          "role": "product",
+          "smiles": "CC1=CC(C=C[C@@]1(CCC=C(C)C)C)=O",
+          "name": "(S)-3,4-dimethyl-4-(4-methylpent-3-en-1-yl)cyclohexa-2,5-dien-1-one"
+        }
+      ]
+    },
+    {
+      "reaction_page_link": "https://kmt.vander-lingen.nl/data/reaction/profile/163f82de5035f2cdbbbba611cbf86a1e",
+      "reaction_smiles": "BrC1=C(C[C@@]2([C@H](CC[C@]3(C=CC(C=C23)=O)C)C)C)C(=CC=C1OC)OC>N(C)(C)C=O.CCN(CC)CC.c1ccc(cc1)[P](c2ccccc2)(c3ccccc3)[Pd]([P](c4ccccc4)(c5ccccc5)c6ccccc6)([P](c7ccccc7)(c8ccccc8)c9ccccc9)[P](c1ccccc1)(c1ccccc1)c1ccccc1>COC1=CC=C(C=2[C@@]34[C@@](CC[C@@H]([C@]3(CC12)C)C)(C=CC(C4)=O)C)OC",
+      "molecules": [
+        {
+          "role": "reactant",
+          "smiles": "BrC1=C(C[C@@]2([C@H](CC[C@]3(C=CC(C=C23)=O)C)C)C)C(=CC=C1OC)OC",
+          "name": "(4aS,7S,8R)-8-(2-bromo-3,6-dimethoxybenzyl)-4a,7,8-trimethyl-5,6,7,8-tetrahydronaphthalen-2(4aH)-one"
+        },
+        {
+          "role": "solvent",
+          "smiles": "N(C)(C)C=O",
+          "name": "dimethylformamide"
+        },
+        {
+          "role": "base",
+          "smiles": "CCN(CC)CC",
+          "name": "triethylamine"
+        },
+        {
+          "role": "catalyst",
+          "smiles": "c1ccc(cc1)[P](c2ccccc2)(c3ccccc3)[Pd]([P](c4ccccc4)(c5ccccc5)c6ccccc6)([P](c7ccccc7)(c8ccccc8)c9ccccc9)[P](c1ccccc1)(c1ccccc1)c1ccccc1",
+          "name": "tetrakis(triphenylphosphine)palladium(0)"
+        },
+        {
+          "role": "product",
+          "smiles": "COC1=CC=C(C=2[C@@]34[C@@](CC[C@@H]([C@]3(CC12)C)C)(C=CC(C4)=O)C)OC",
+          "name": "(4aS,7S,7aR,12bR)-9,12-dimethoxy-4a,7,7a-trimethyl-4a,5,6,7,7a,8-hexahydrobenzo[d]fluoren-2(1H)-one"
+        }
+      ]
+    },
+    {
+      "reaction_page_link": "https://kmt.vander-lingen.nl/data/reaction/profile/5ab9a30063bb5315448240c08ea0a8ec",
+      "reaction_smiles": "C1(=CC=CC=C1)[Si](C)(C)[Li].COC1=CC=C(C=2[C@@]34[C@@](CC[C@@H]([C@]3(CC12)C)C)(C=CC(C4)=O)C)OC>C1CCCO1.[Cl-].[NH4+]>C1(=CC=CC=C1)[Si](C1(C[C@@]23[C@@](CC[C@@H]([C@]3(CC=3C(=CC=C(C23)OC)OC)C)C)(C=C1)C)O)(C)C",
+      "molecules": [
+        {
+          "role": "reactant",
+          "smiles": "C1(=CC=CC=C1)[Si](C)(C)[Li]",
+          "name": "phenyldimethylsilyllithium"
+        },
+        {
+          "role": "reactant",
+          "smiles": "COC1=CC=C(C=2[C@@]34[C@@](CC[C@@H]([C@]3(CC12)C)C)(C=CC(C4)=O)C)OC",
+          "name": "(4aS,7S,7aR,12bR)-9,12-dimethoxy-4a,7,7a-trimethyl-4a,5,6,7,7a,8-hexahydrobenzo[d]fluoren-2(1H)-one"
+        },
+        {
+          "role": "solvent",
+          "smiles": "C1CCCO1",
+          "name": "tetrahydrofuran"
+        },
+        {
+          "role": "quench",
+          "smiles": "[Cl-].[NH4+]",
+          "name": "ammonium chloride"
+        },
+        {
+          "role": "product",
+          "smiles": "C1(=CC=CC=C1)[Si](C1(C[C@@]23[C@@](CC[C@@H]([C@]3(CC=3C(=CC=C(C23)OC)OC)C)C)(C=C1)C)O)(C)C",
+          "name": "(4aS,7S,7aR,12bR)-2-(phenyldimethylsilyl)-2-hydroxy-9,12-dimethoxy-4a,7,7a-trimethyl-4a,5,6,7,7a,8-hexahydrobenzo[d]fluorene"
+        }
+      ]
+    },
+    {
+      "reaction_page_link": "https://kmt.vander-lingen.nl/data/reaction/profile/2bfb1f61bfa0ba35c9284c83d922fc28",
+      "reaction_smiles": "COC1=CC=C(C=2[C@@]34[C@@](CC[C@@H]([C@]3(CC12)C)C)(C(CCC4)=C)C)OC>O.[N+](=O)(O)[O-].O1CCOCC1.[O-2].[Ag+2]>C[C@@]12CC[C@@H]([C@]3(CC=4C(C=CC(C4[C@@]13CCCC2=C)=O)=O)C)C",
+      "molecules": [
+        {
+          "role": "reactant",
+          "smiles": "COC1=CC=C(C=2[C@@]34[C@@](CC[C@@H]([C@]3(CC12)C)C)(C(CCC4)=C)C)OC",
+          "name": "(4aS,7S,7aR,12bR)-9,12-dimethoxy-4a,7,7a-trimethyl-4-methylene-1,2,3,4,4a,5,6,7,7a,8-decahydrobenzo[d]fluorene"
+        },
+        {
+          "role": "quench",
+          "smiles": "O",
+          "name": "water"
+        },
+        {
+          "role": "acid",
+          "smiles": "[N+](=O)(O)[O-]",
+          "name": "nitric acid"
+        },
+        {
+          "role": "solvent",
+          "smiles": "O1CCOCC1",
+          "name": "dioxane"
+        },
+        {
+          "role": "catalyst",
+          "smiles": "[O-2].[Ag+2]",
+          "name": "silver(II) oxide"
+        },
+        {
+          "role": "product",
+          "smiles": "C[C@@]12CC[C@@H]([C@]3(CC=4C(C=CC(C4[C@@]13CCCC2=C)=O)=O)C)C",
+          "name": "(4aS,7S,7aR,12bR)-4a,7,7a-trimethyl-4-methylene-1,2,3,4,4a,5,6,7,7a,8-decahydrobenzo[d]fluorene-9,12-dione"
+        }
+      ]
+    },
+    {
+      "reaction_page_link": "https://kmt.vander-lingen.nl/data/reaction/profile/18b42c7743784f081383e83dac01c99a",
+      "reaction_smiles": "C[C@@]12CC[C@@H]([C@]3(CC=4C(C=CC(C4[C@@]13CCCC2=C)=O)=O)C)C>O.CO[H].C([O-])([O-])=O.[K+].[K+].[O]>C[C@@]24CC[C@@H]([C@]3(CC1=C(C(C(=CC1=O)OC)=O)[C@@]23CCCC4=C)C)C",
+      "molecules": [
+        {
+          "role": "reactant",
+          "smiles": "C[C@@]12CC[C@@H]([C@]3(CC=4C(C=CC(C4[C@@]13CCCC2=C)=O)=O)C)C",
+          "name": "(4aS,7S,7aR,12bR)-4a,7,7a-trimethyl-4-methylene-1,2,3,4,4a,5,6,7,7a,8-decahydrobenzo[d]fluorene-9,12-dione"
+        },
+        {
+          "role": "quench",
+          "smiles": "O",
+          "name": "water"
+        },
+        {
+          "role": "solvent",
+          "smiles": "CO[H]",
+          "name": "methanol"
+        },
+        {
+          "role": "base",
+          "smiles": "C([O-])([O-])=O.[K+].[K+]",
+          "name": "potassium carbonate"
+        },
+        {
+          "role": "oxidizing agent",
+          "smiles": "[O]",
+          "name": "oxygen"
+        },
+        {
+          "role": "product",
+          "smiles": "C[C@@]24CC[C@@H]([C@]3(CC1=C(C(C(=CC1=O)OC)=O)[C@@]23CCCC4=C)C)C",
+          "name": "(+)-cycloaurenone C"
+        }
+      ]
+    },
+    {
+      "reaction_page_link": "https://kmt.vander-lingen.nl/data/reaction/profile/f40069503b42fd24d9d9417910169130",
+      "reaction_smiles": "C[C@@]12CC[C@@H]([C@]3(CC=4C(C=CC(C4[C@@]13CCCC2=C)=O)=O)C)C>O.CO[H].[O].C(C)(=O)[O-].[Co+2].C(C)(=O)[O-]>C[C@@]24CC[C@@H]([C@]3(CC1=C(C(C(=CC1=O)OC)=O)[C@@]23CCCC4=C)C)C",
+      "molecules": [
+        {
+          "role": "reactant",
+          "smiles": "C[C@@]12CC[C@@H]([C@]3(CC=4C(C=CC(C4[C@@]13CCCC2=C)=O)=O)C)C",
+          "name": "(4aS,7S,7aR,12bR)-4a,7,7a-trimethyl-4-methylene-1,2,3,4,4a,5,6,7,7a,8-decahydrobenzo[d]fluorene-9,12-dione"
+        },
+        {
+          "role": "quench",
+          "smiles": "O",
+          "name": "water"
+        },
+        {
+          "role": "solvent",
+          "smiles": "CO[H]",
+          "name": "methanol"
+        },
+        {
+          "role": "oxidizing agent",
+          "smiles": "[O]",
+          "name": "oxygen"
+        },
+        {
+          "role": "catalyst",
+          "smiles": "C(C)(=O)[O-].[Co+2].C(C)(=O)[O-]",
+          "name": "cobalt(II) acetate"
+        },
+        {
+          "role": "product",
+          "smiles": "C[C@@]24CC[C@@H]([C@]3(CC1=C(C(C(=CC1=O)OC)=O)[C@@]23CCCC4=C)C)C",
+          "name": "(+)-cycloaurenone C"
+        }
+      ]
+    },
+    {
+      "reaction_page_link": "https://kmt.vander-lingen.nl/data/reaction/profile/3b75dfff3f0681a1b82e2ff5d0344148",
+      "reaction_smiles": "CN.CC1=CCC[C@@]23[C@]1(CC[C@@H]([C@]3(CC=3C(C=CC(C23)=O)=O)C)C)C>CCO[H]>CC1=CCC[C@]23[C@]1(CC[C@@H]([C@]2(CC4=C3C(C(=CC4=O)NC)=O)C)C)C",
+      "molecules": [
+        {
+          "role": "C1 synthon",
+          "smiles": "CN",
+          "name": "methylamine"
+        },
+        {
+          "role": "reactant",
+          "smiles": "CC1=CCC[C@@]23[C@]1(CC[C@@H]([C@]3(CC=3C(C=CC(C23)=O)=O)C)C)C",
+          "name": "(4aS,7S,7aR,12bR)-4,4a,7,7a-tetramethyl-1,2,4a,5,6,7,7a,8-octahydrobenzo[d]fluorene-9,12-dione"
+        },
+        {
+          "role": "solvent",
+          "smiles": "CCO[H]",
+          "name": "ethanol"
+        },
+        {
+          "role": "product",
+          "smiles": "CC1=CCC[C@]23[C@]1(CC[C@@H]([C@]2(CC4=C3C(C(=CC4=O)NC)=O)C)C)C",
+          "name": "(+)-cycloaurenone B"
+        }
+      ]
+    },
+    {
+      "reaction_page_link": "https://kmt.vander-lingen.nl/data/reaction/profile/a20323ce1494f8d33da491fc30d7339c",
+      "reaction_smiles": "BrC1=C(C[C@@]2([C@H](CC[C@@]3(C(=CC(C=C23)=O)C)C)C)C)C(=CC=C1OC)OC>C1CCCO1.C(CCC)[Li].CN(P(=O)(N(C)C)N(C)C)C>COC1=CC=C(C=2[C@@]34[C@](CC[C@@H]([C@]3(CC12)C)C)(C(=CC(C4)=O)C)C)OC",
+      "molecules": [
+        {
+          "role": "reactant",
+          "smiles": "BrC1=C(C[C@@]2([C@H](CC[C@@]3(C(=CC(C=C23)=O)C)C)C)C)C(=CC=C1OC)OC",
+          "name": "(4aR,7S,8R)-8-(2-bromo-3,6-dimethoxybenzyl)-4,4a,7,8-tetramethyl-5,6,7,8-tetrahydronaphthalen-2(4aH)-one"
+        },
+        {
+          "role": "solvent",
+          "smiles": "C1CCCO1",
+          "name": "tetrahydrofuran"
+        },
+        {
+          "role": "base",
+          "smiles": "C(CCC)[Li]",
+          "name": "n-Butyllithium"
+        },
+        {
+          "role": "reagent",
+          "smiles": "CN(P(=O)(N(C)C)N(C)C)C",
+          "name": "Hexamethylphosphoramide"
+        },
+        {
+          "role": "product",
+          "smiles": "COC1=CC=C(C=2[C@@]34[C@](CC[C@@H]([C@]3(CC12)C)C)(C(=CC(C4)=O)C)C)OC",
+          "name": "(4aR,7S,7aR,12bR)-9,12-dimethoxy-4,4a,7,7a-tetramethyl-4a,5,6,7,7a,8-hexahydrobenzo[d]fluoren-2(1H)-one"
+        }
+      ]
+    }
+  ]
+}
